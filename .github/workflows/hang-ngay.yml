@@ -34,6 +34,7 @@ jobs:
         env:
           SITE_URL: ${{ vars.SITE_URL || 'https://tanseven102.github.io/clickaffiliate' }}
           CNAME: ${{ vars.CNAME }}
+          GSC: ${{ vars.GSC }}
         run: python build.py --dang ${{ github.event_name == 'push' && '0' || '4' }}
       - name: Luu so trang thai
         run: |

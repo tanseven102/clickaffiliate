@@ -16,6 +16,8 @@ GOC = os.path.dirname(os.path.abspath(__file__))
 SITE_URL = os.environ.get("SITE_URL", "https://tanseven102.github.io/clickaffiliate").rstrip("/")
 P = urlparse(SITE_URL).path.rstrip("/")          # tiền tố đường dẫn ("" khi có tên miền riêng)
 TEN = "ClickAffiliate"
+# mã xác minh Google Search Console (biến GSC trong repo) — có thì gắn thẻ meta
+GSC = f'<meta name="google-site-verification" content="{os.environ["GSC"]}">' if os.environ.get("GSC") else ""
 HOM_NAY = dt.date.fromisoformat(os.environ.get("NGAY", dt.date.today().isoformat()))
 REPO = "https://github.com/tanseven102/clickaffiliate"
 NGUON_DL = "https://github.com/Affitor/open-affiliate"
@@ -209,7 +211,7 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(full)}</title>
 <meta name="description" content="{e(mo_ta)}">
-<link rel="canonical" href="{e(can)}">
+<link rel="canonical" href="{e(can)}">{GSC}
 <meta property="og:type" content="{og_type}"><meta property="og:site_name" content="{TEN}">
 <meta property="og:title" content="{e(full)}"><meta property="og:description" content="{e(mo_ta)}">
 <meta property="og:url" content="{e(can)}"><meta property="og:image" content="{SITE_URL}/{anh_og}">
