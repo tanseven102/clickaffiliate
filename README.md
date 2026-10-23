@@ -1,6 +1,6 @@
 # ClickAffiliate
 
-Danh bạ chương trình affiliate kiểu openaffiliate.dev — tự xếp hạng và tự viết bài SEO mỗi ngày.
+Trang: https://clickaffiliate.net — Danh bạ chương trình affiliate kiểu openaffiliate.dev — tự xếp hạng và tự viết bài SEO mỗi ngày.
 
 - **Mỗi ngày 08:00 (giờ VN)** GitHub Actions (`.github/workflows/hang-ngay.yml`) tự chạy:
   kéo dữ liệu mới từ OpenAffiliate (MIT) → chấm ClickScore → xếp hạng lại (có mũi tên lên/xuống so hôm qua)
