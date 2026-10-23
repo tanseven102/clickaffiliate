@@ -228,16 +228,17 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <header class="top"><div class="wrap">
 <a class="brand" href="{u()}"><img src="{u('assets/logo.svg')}" alt="{TEN} logo" width="34" height="34"><b>Click<span>Affiliate</span></b></a>
 <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('mo')">☰</button>
-<nav class="nav">{nav_html}</nav>
+<nav class="nav">{nav_html}<a class="btn chinh" style="color:#fff;padding:7px 13px" href="{u('subscribe/')}">Subscribe</a></nav>
 </div></header>
 <main>{than}</main>
 <footer><div class="wrap">
 <div><a class="brand" href="{u()}"><img src="{u('assets/logo.svg')}" alt="" width="30" height="30"><b>Click<span>Affiliate</span></b></a>
 <p>The affiliate program directory that ranks programs by real terms — commission, cookie, payout and approval — and updates every day. Rankings are never paid.</p></div>
 <div><h4>Directory</h4><a href="{u('rankings/')}">Top rankings</a><a href="{u('programs/')}">All programs</a><a href="{u('categories/')}">Categories</a><a href="{u('new/')}">New programs</a></div>
-<div><h4>Read</h4><a href="{u('blog/')}">Blog</a><a href="{u('about/')}#clickscore">How ClickScore works</a><a href="{u('feed.xml')}">RSS feed</a></div>
+<div><h4>Read</h4><a href="{u('subscribe/')}">Weekly newsletter</a><a href="{u('blog/')}">Blog</a><a href="{u('about/')}#clickscore">How ClickScore works</a><a href="{u('feed.xml')}">RSS feed</a></div>
 <div><h4>Project</h4><a href="{u('about/')}">About</a><a href="{u('about/')}#submit">Submit a program</a><a href="{u('about/')}#disclosure">Disclosure</a></div>
 </div><div class="wrap duoi">© {HOM_NAY.year} {TEN} · Updated {HOM_NAY.strftime('%B %-d, %Y')} · Program data from <a href="{NGUON_DL}" rel="noopener">OpenAffiliate</a> (MIT License)</div></footer>
+<script src="{u('assets/dangky.js')}?v={HOM_NAY.isoformat()}" defer></script>
 </body></html>"""
 
 
@@ -275,6 +276,20 @@ def vun(*phan):
     """BreadcrumbList cho JSON-LD."""
     return {"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
         {"@type": "ListItem", "position": i + 1, "name": t, "item": f"{SITE_URL}/{d}"} for i, (t, d) in enumerate(phan)]}
+
+
+DM_CHINH = ["AI", "Marketing", "Productivity", "Developer Tools", "Sales", "Design", "E-Commerce", "Finance"]
+
+
+def hop_dk(src, tieu="Get the best new affiliate programs every week",
+           mo="One short email every Monday: newly added programs, biggest ranking movers and the highest-paying recurring offers. Free, no spam.",
+           chon_dm=False, id_=""):
+    """Khối đăng ký bản tin — dùng ở trang chủ, cuối bài, trang /subscribe/."""
+    chon = ('<div class="dk-chon">' + "".join(f'<label><input type="checkbox" name="interest" value="{e(c)}">{e(c)}</label>' for c in DM_CHINH) + "</div>") if chon_dm else ""
+    return f"""<div class="card dk"{f' id="{id_}"' if id_ else ''}><div><h2>{tieu}</h2><p>{mo}</p></div>
+<form class="dk-form" data-src="{e(src)}" novalidate>{chon}<div class="dk-hang"><input type="email" name="email" placeholder="you@example.com" autocomplete="email" required aria-label="Email address">
+<button class="btn chinh" type="submit">Subscribe</button></div><input class="bay" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+<div class="dk-tb">Unsubscribe anytime. We never share your email.</div></form></div>"""
 
 
 def bang_xep(ds, bat_dau=1, di_chuyen=None, co_dm=True):
@@ -611,6 +626,7 @@ def dung(nguon, ra, so_dang):
 <section class="khoi"><div class="khoi-dau"><div><h2>Just added</h2><p>The newest programs in the directory.</p></div><a href="{u('new/')}">All new →</a></div>
 <div class="luoi">{''.join(the_ct(p, f'<span class="pill vang">added {p["seen"]:%b %-d}</span>') for p in moi[:6])}</div></section>
 <section class="khoi"><div class="khoi-dau"><div><h2>Categories</h2><p>{len(dms)} niches, ranked inside each one.</p></div></div><div class="danh-muc">{dm_html}</div></section>
+<section class="khoi">{hop_dk("home")}</section>
 <section class="khoi"><div class="khoi-dau"><div><h2>From the blog</h2><p>New guides, reviews and comparisons every day.</p></div><a href="{u('blog/')}">All articles →</a></div>
 <div class="bai-list">{''.join(bai_item(b) for b in bai[:5])}</div></section>
 </div>"""
@@ -692,6 +708,7 @@ def dung(nguon, ra, so_dang):
 {('<h2>Who it suits</h2><ul>' + ''.join(f'<li>{e(x)}</li>' for x in p['use_cases']) + '</ul>') if p['use_cases'] else ''}
 {faq_html(faq)}
 <h2>Similar {e(p['cat'])} programs</h2></div><div class="luoi">{''.join(the_ct(x) for x in cung)}</div>
+<div style="margin-top:20px">{hop_dk("program:" + p["slug"], tieu=f"Get alerts on {e(p['cat'])} programs", mo=f"New {e(p['cat'])} affiliate programs and term changes, once a week. Free.")}</div>
 <p class="note vang" style="margin-top:20px">Terms change. Always confirm commission and rules on the official affiliate page before promoting. Data source: <a href="{NGUON_DL}">OpenAffiliate</a>.</p></div>"""
         mota = f"{p['name']} affiliate program: {p['nhan']}" + (f", {int(p['cookie'])}-day cookie" if p["cookie"] else "") + f". ClickScore {p['diem']}/100. Payout, approval and rules."
         ghi(ra, f"programs/{p['slug']}", khung(f"{p['name']} Affiliate Program — {p['nhan']}", mota, f"programs/{p['slug']}/", than, ld=ld, nav="programs/", md=True))
@@ -741,6 +758,7 @@ def dung(nguon, ra, so_dang):
 <p class="note vang" style="margin-top:16px">Disclosure: some links on {TEN} may be affiliate links. Rankings are computed from program terms and are never paid.</p>
 {f'<div class="note" style="margin-top:12px"><b>Short answer:</b> {b["faq"][0][1]}</div>' if b['faq'] else ''}
 {b['than']}
+<div style="margin:30px 0 6px">{hop_dk("blog:" + b["slug"], tieu="Liked this? Get one like it every week")}</div>
 <h2>Keep reading</h2><div class="bai-list">{''.join(bai_item(x) for x in lien)}</div></article></div>"""
         ghi(ra, f"blog/{b['slug']}", khung(b["tieu"], b["mota"], f"blog/{b['slug']}/", than, ld=ld, nav="blog/", og_type="article", md=True))
         ghi(ra, f"blog/{b['slug']}/index.md", f"# {b['tieu']}\n\nPublished {b['date']} · Data updated {HOM_NAY} · {SITE_URL}/blog/{b['slug']}/\n\n"
@@ -763,13 +781,26 @@ def dung(nguon, ra, so_dang):
 </article></div>"""
     ghi(ra, "about", khung(f"About {TEN} & How ClickScore Works", "How ClickAffiliate ranks affiliate programs every day, where the data comes from and our disclosure policy.", "about/", than, nav="about/"))
 
+    # đăng ký bản tin
+    than = f"""<div class="wrap"><div class="doc" style="max-width:820px">
+<span class="pill xanh">Free · every Monday</span><h1>ClickAffiliate Weekly</h1>
+<p class="lead" style="color:var(--mo);font-size:18px">The affiliate programs worth promoting this week — in one short email.</p>
+<ul class="loi-ich"><li><b>New programs</b> added to the directory, best-scoring first ({len(moi_tuan)} this week).</li>
+<li><b>Biggest movers</b> in the ClickScore rankings — who raised commission, who got paused.</li>
+<li><b>Top recurring offers</b> by category, so you earn every month, not once.</li>
+<li><b>One practical tip</b> to get more clicks from the content you already have.</li></ul>
+{hop_dk("subscribe", tieu="Join free", mo="Pick the niches you care about (optional).", chon_dm=True, id_="dang-ky")}
+<p class="crumb" style="margin-top:14px">We store only your email and chosen niches, use them only to send this newsletter, and delete them when you unsubscribe.</p>
+</div></div>"""
+    ghi(ra, "subscribe", khung("ClickAffiliate Weekly — Free Affiliate Program Newsletter", "Free weekly email: the newest high-paying affiliate programs, ranking movers and top recurring offers. Every Monday.", "subscribe/", than))
+
     # 404
     ghi(ra, "404.html", khung("Page not found", "This page does not exist.", "404.html",
         f'<div class="wrap"><div class="doc"><h1>Page not found</h1><p>The program may have been renamed or removed.</p><a class="btn chinh" href="{u("programs/")}">Search the directory</a></div></div>'))
 
     # sitemap, robots, rss, llms
     urls = [("", "daily", "1.0"), ("rankings/", "daily", "0.9"), ("programs/", "daily", "0.9"), ("new/", "daily", "0.7"), ("blog/", "daily", "0.8"),
-            ("categories/", "weekly", "0.6"), ("about/", "monthly", "0.4")]
+            ("categories/", "weekly", "0.6"), ("about/", "monthly", "0.4"), ("subscribe/", "monthly", "0.5")]
     urls += [(f"categories/{slugify(c)}/", "daily", "0.7") for c, _ in dms]
     urls += [(f"blog/{b['slug']}/", "weekly", "0.7") for b in bai]
     urls += [(f"programs/{p['slug']}/", "weekly", "0.6") for p in ds]

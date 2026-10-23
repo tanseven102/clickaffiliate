@@ -156,3 +156,24 @@ footer a { display: block; color: var(--chu); font-size: 14px; padding: 3px 0; }
 footer p { color: var(--mo); font-size: 13.5px; margin: 8px 0 0; }
 .duoi { border-top: 1px solid var(--vien); color: var(--mo); font-size: 13px; padding: 14px 0 22px; }
 @media (max-width: 760px) { footer .wrap { grid-template-columns: 1fr 1fr; } }
+
+/* đăng ký bản tin */
+.dk { padding: 26px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 22px; align-items: center; background: linear-gradient(135deg, #EEF3FF, #FFFFFF 70%); }
+.dk h2 { margin: 0 0 6px; font-size: 22px; letter-spacing: -.4px; }
+.dk p { margin: 0; color: var(--mo); }
+.dk-form { display: flex; flex-direction: column; gap: 8px; }
+.dk-hang { display: flex; gap: 8px; }
+.dk-hang input[type=email] { flex: 1; min-width: 0; border: 1px solid var(--vien); border-radius: 10px; padding: 10px 13px; background: #fff; outline: none; }
+.dk-hang input[type=email]:focus { border-color: var(--acc); box-shadow: 0 0 0 3px var(--acc-soft); }
+.dk-tb { font-size: 13px; color: var(--mo); min-height: 18px; }
+.dk-tb.loi { color: var(--do); }
+.dk-xong { padding: 12px 14px; border-radius: 10px; background: var(--ok-soft); color: var(--ok); font-weight: 600; }
+.dk-chon { display: flex; flex-wrap: wrap; gap: 6px; }
+.dk-chon label { display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px; border: 1px solid var(--vien); border-radius: 999px; background: #fff; font-size: 13px; cursor: pointer; }
+.dk-chon input { accent-color: var(--acc); }
+.bay { position: absolute; left: -9999px; }
+.loi-ich { display: grid; gap: 10px; margin: 18px 0; padding: 0; list-style: none; }
+.loi-ich li { padding-left: 28px; position: relative; }
+.loi-ich li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 6px; background: var(--ok-soft); color: var(--ok); display: grid; place-items: center; font-size: 12px; font-weight: 800; }
+@media (max-width: 760px) { .dk { grid-template-columns: 1fr; padding: 20px; } .dk-hang { flex-direction: column; } }
+footer .wrap.duoi { display: block; padding-top: 14px; } .duoi a { display: inline; color: var(--acc); font-size: 13px; }
