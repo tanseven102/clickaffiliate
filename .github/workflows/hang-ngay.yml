@@ -48,3 +48,19 @@ jobs:
           path: site
       - id: dang
         uses: actions/deploy-pages@v4
+      - name: Bao IndexNow (Bing, Copilot, ChatGPT search) trang moi hom nay
+        if: github.event_name != 'push'
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import json, urllib.request, urllib.parse, os
+          urls = json.load(open("site/data/urls-hom-nay.json"))
+          goc = urls[0].rstrip("/") if urls else ""
+          import glob
+          kf = [f for f in glob.glob("site/*.txt") if len(os.path.basename(f)) == 36][0]
+          key = open(kf).read().strip()
+          host = urllib.parse.urlparse(goc).netloc
+          body = json.dumps({"host": host, "key": key, "keyLocation": f"{goc}/{key}.txt", "urlList": urls[:10000]}).encode()
+          r = urllib.request.urlopen(urllib.request.Request("https://api.indexnow.org/indexnow", body, {"Content-Type": "application/json; charset=utf-8"}), timeout=30)
+          print("IndexNow", r.status, len(urls), "URL")
+          PY

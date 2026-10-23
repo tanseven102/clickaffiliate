@@ -16,6 +16,7 @@ GOC = os.path.dirname(os.path.abspath(__file__))
 SITE_URL = os.environ.get("SITE_URL", "https://tanseven102.github.io/clickaffiliate").rstrip("/")
 P = urlparse(SITE_URL).path.rstrip("/")          # tiền tố đường dẫn ("" khi có tên miền riêng)
 TEN = "ClickAffiliate"
+INDEXNOW = "c1a7f3e9b2d84c6a9e0f5b7d3a8c2e41"  # khoá IndexNow (công khai), báo Bing/Copilot/ChatGPT tìm trang mới
 # mã xác minh Google Search Console (biến GSC trong repo) — có thì gắn thẻ meta
 GSC = f'<meta name="google-site-verification" content="{os.environ["GSC"]}">' if os.environ.get("GSC") else ""
 HOM_NAY = dt.date.fromisoformat(os.environ.get("NGAY", dt.date.today().isoformat()))
@@ -200,7 +201,7 @@ def diem_html(p):
     return f'<span class="diem">{p["diem"]}<i class="g-{g}">{e(p["hang"])}</i></span>'
 
 
-def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", anh_og="assets/og.png"):
+def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", anh_og="assets/og.png", md=False):
     can = f"{SITE_URL}/{duong}"
     lds = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in (ld or []))
     muc = [("rankings/", "Rankings"), ("programs/", "Programs"), ("categories/", "Categories"), ("new/", "New"), ("blog/", "Blog"), ("about/", "About")]
@@ -217,7 +218,8 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <meta property="og:url" content="{e(can)}"><meta property="og:image" content="{SITE_URL}/{anh_og}">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="{u('assets/logo.svg')}" type="image/svg+xml"><link rel="apple-touch-icon" href="{u('assets/icon-192.png')}">
-<link rel="alternate" type="application/rss+xml" title="{TEN} blog" href="{u('feed.xml')}">
+<link rel="alternate" type="application/rss+xml" title="{TEN} blog" href="{u('feed.xml')}">{f'<link rel="alternate" type="text/markdown" href="{can}index.md">' if md else ""}
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{u('assets/style.css')}?v={HOM_NAY.isoformat()}">
@@ -240,10 +242,33 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 
 
 def ghi(ra, duong, noi_dung):
-    f = os.path.join(ra, duong, "index.html") if not duong.endswith((".xml", ".txt", ".json", ".html")) else os.path.join(ra, duong)
+    f = os.path.join(ra, duong, "index.html") if not duong.endswith((".xml", ".txt", ".json", ".html", ".md")) else os.path.join(ra, duong)
     os.makedirs(os.path.dirname(f), exist_ok=True)
     with open(f, "w", encoding="utf-8") as fh:
         fh.write(noi_dung)
+
+
+def sang_md(h):
+    """Chuyển HTML bài viết sang Markdown gọn cho máy AI đọc."""
+    h = re.sub(r'<a [^>]*href="([^"]+)"[^>]*>(.*?)</a>', lambda m: f"[{m.group(2)}]({m.group(1) if m.group(1).startswith('http') else SITE_URL + m.group(1)[len(P):]})", h)
+    h = re.sub(r"<h2[^>]*>(.*?)</h2>", r"\n\n## \1\n\n", h)
+    h = re.sub(r"<h3[^>]*>(.*?)</h3>", r"\n\n### \1\n\n", h)
+    h = re.sub(r"<li>(.*?)</li>", r"\n- \1", h)
+    h = re.sub(r"</?(b|strong)>", "**", h)
+    def bang(m):
+        dong = [re.findall(r"<t[hd][^>]*>(.*?)</t[hd]>", r) for r in re.findall(r"<tr>(.*?)</tr>", m.group(0))]
+        if not dong:
+            return ""
+        if "<thead>" not in m.group(0):
+            dong.insert(0, ["", ""][:len(dong[0])] or [""])
+        n = max(len(r) for r in dong)
+        hang = ["| " + " | ".join(r + [""] * (n - len(r))) + " |" for r in dong]
+        return "\n\n" + "\n".join([hang[0], "|" + "---|" * n] + hang[1:]) + "\n\n"
+    h = re.sub(r"<table>.*?</table>", bang, h, flags=re.S)
+    h = re.sub(r"</p>|<br>", "\n\n", h)
+    h = re.sub(r"<[^>]+>", "", h)
+    h = html.unescape(h)
+    return re.sub(r"\n{3,}", "\n\n", h).strip() + "\n"
 
 
 def vun(*phan):
@@ -591,7 +616,12 @@ def dung(nguon, ra, so_dang):
 </div>"""
     web = {"@context": "https://schema.org", "@type": "WebSite", "name": TEN, "url": SITE_URL + "/",
            "potentialAction": {"@type": "SearchAction", "target": f"{SITE_URL}/programs/?q={{q}}", "query-input": "required name=q"}}
-    ghi(ra, "", khung(f"{TEN} — Best Affiliate Programs, Ranked Daily", f"Compare {len(ds):,} affiliate programs by commission, cookie length and payout. Ranked every day by ClickScore. No paid placements.", "", than, ld=[web, org]))
+    bo_dl = {"@context": "https://schema.org", "@type": "Dataset", "name": f"{TEN} affiliate program rankings",
+             "description": f"Daily ClickScore rankings of {len(ds)} affiliate programs: commission, cookie, payout, approval.",
+             "url": SITE_URL + "/", "dateModified": HOM_NAY.isoformat(), "license": "https://opensource.org/licenses/MIT", "creator": org,
+             "isBasedOn": NGUON_DL, "distribution": [{"@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": f"{SITE_URL}/data/programs.json"},
+                                                     {"@type": "DataDownload", "encodingFormat": "text/markdown", "contentUrl": f"{SITE_URL}/llms-full.txt"}]}
+    ghi(ra, "", khung(f"{TEN} — Best Affiliate Programs, Ranked Daily", f"Compare {len(ds):,} affiliate programs by commission, cookie length and payout. Ranked every day by ClickScore. No paid placements.", "", than, ld=[web, org, bo_dl]))
 
     # xếp hạng
     top = xep[:100]
@@ -636,11 +666,18 @@ def dung(nguon, ra, so_dang):
         ld = [vun(("Home", ""), ("Programs", "programs/"), (p["name"], f"programs/{p['slug']}/")),
               {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub("<[^>]+>", "", a)}} for q, a in faq]}]
         rv = bai_ve.get(p["slug"])
+        tra_loi = (f"The {e(p['name'])} affiliate program pays <b>{e(giua_cau(p['nhan']))}</b>"
+                   + (f" with a {int(p['cookie'])}-day cookie" if p["cookie"] else "")
+                   + (f", {e(tan['frequency'].replace('-', ' '))} payouts" if tan.get("frequency") else "")
+                   + (f" and {e(p['approval'])} approval" if p["approval"] else "") + ". "
+                   + f"ClickScore {p['diem']}/100 ({e(p['hang'])}) — {hang_txt}."
+                   + (f" Terms verified {p['last_verified']:%B %-d, %Y}." if p["verified"] and p["last_verified"] else " Terms not yet verified."))
         than = f"""<div class="wrap"><div class="doc" style="max-width:900px">
 <div class="crumb"><a href="{u()}">Home</a> / <a href="{u('programs/')}">Programs</a> / <a href="{u('categories/' + p['cat_slug'] + '/')}">{e(p['cat'])}</a></div>
 <div class="ct-dau">{logo_ct(p, 60)}<div><h1>{e(p['name'])} affiliate program</h1><div class="meta">{diem_html(p)}<span>{hang_txt}</span>
 {'<span class="pill ok">✓ verified' + (f" {p['last_verified']:%b %-d, %Y}" if p['last_verified'] else '') + '</span>' if p['verified'] else '<span class="pill vang">unverified</span>'}
 {'<span class="pill do">paused</span>' if p['status'] in KHONG_XEP else ''}</div></div></div>
+<div class="note"><b>Quick answer:</b> {tra_loi}</div>
 <p>{e(p['desc'])}</p>
 <div class="so-lieu"><div class="card"><small>Commission</small><b>{e(p['c']['rate'] or 'Varies')}</b><span class="meta">{e(p['c']['type'])}{(' · ' + e(p['c']['duration'])) if p['c']['duration'] else ''}</span></div>
 <div class="card"><small>Cookie</small><b>{f"{int(p['cookie'])} days" if p['cookie'] else '—'}</b><span class="meta">{e(p['attribution'] or '')}</span></div>
@@ -657,7 +694,15 @@ def dung(nguon, ra, so_dang):
 <h2>Similar {e(p['cat'])} programs</h2></div><div class="luoi">{''.join(the_ct(x) for x in cung)}</div>
 <p class="note vang" style="margin-top:20px">Terms change. Always confirm commission and rules on the official affiliate page before promoting. Data source: <a href="{NGUON_DL}">OpenAffiliate</a>.</p></div>"""
         mota = f"{p['name']} affiliate program: {p['nhan']}" + (f", {int(p['cookie'])}-day cookie" if p["cookie"] else "") + f". ClickScore {p['diem']}/100. Payout, approval and rules."
-        ghi(ra, f"programs/{p['slug']}", khung(f"{p['name']} Affiliate Program — {p['nhan']}", mota, f"programs/{p['slug']}/", than, ld=ld, nav="programs/"))
+        ghi(ra, f"programs/{p['slug']}", khung(f"{p['name']} Affiliate Program — {p['nhan']}", mota, f"programs/{p['slug']}/", than, ld=ld, nav="programs/", md=True))
+        ghi(ra, f"programs/{p['slug']}/index.md", f"# {p['name']} affiliate program\n\n> {sang_md(tra_loi).strip()}\n\n"
+            + f"- Commission: {p['nhan']}\n- Cookie: {str(int(p['cookie'])) + ' days' if p['cookie'] else 'not published'}\n"
+            + f"- Payout: {tan.get('frequency') or 'not published'}" + (f", minimum ${tan['minimum']}" if isinstance(tan.get('minimum'), (int, float)) else "") + "\n"
+            + f"- Approval: {p['approval'] or 'not published'}\n- Network: {p['network'] or '-'}\n- Category: {p['cat']}\n- Verified: {'yes, ' + str(p['last_verified']) if p['verified'] else 'no'}\n"
+            + f"- ClickScore: {p['diem']}/100 ({p['hang']}); " + ", ".join(f"{k} {v}/{m}" for k, v, m in p['chia']) + "\n"
+            + f"- Apply: {p['signup']}\n- Website: {p['url']}\n\n{p['desc']}\n\n"
+            + (("## Restrictions\n\n" + "".join(f"- {x}\n" for x in p['restrictions'][:10]) + "\n") if p['restrictions'] else "")
+            + f"Source page: {SITE_URL}/programs/{p['slug']}/ · Updated {HOM_NAY}\n")
 
     # danh mục
     than = f"""<div class="wrap"><section class="hero" style="padding-bottom:10px"><h1>Affiliate programs by category</h1><p class="lead">{len(dms)} niches. Each one ranked by ClickScore.</p></section>
@@ -694,9 +739,12 @@ def dung(nguon, ra, so_dang):
         than = f"""<div class="wrap"><article class="doc"><div class="crumb"><a href="{u('blog/')}">Blog</a></div>
 <h1>{e(b['tieu'])}</h1><div class="meta"><span>By the {TEN} team</span><span>Published {d:%B %-d, %Y}</span><span>Data updated {HOM_NAY:%B %-d, %Y}</span></div>
 <p class="note vang" style="margin-top:16px">Disclosure: some links on {TEN} may be affiliate links. Rankings are computed from program terms and are never paid.</p>
+{f'<div class="note" style="margin-top:12px"><b>Short answer:</b> {b["faq"][0][1]}</div>' if b['faq'] else ''}
 {b['than']}
 <h2>Keep reading</h2><div class="bai-list">{''.join(bai_item(x) for x in lien)}</div></article></div>"""
-        ghi(ra, f"blog/{b['slug']}", khung(b["tieu"], b["mota"], f"blog/{b['slug']}/", than, ld=ld, nav="blog/", og_type="article"))
+        ghi(ra, f"blog/{b['slug']}", khung(b["tieu"], b["mota"], f"blog/{b['slug']}/", than, ld=ld, nav="blog/", og_type="article", md=True))
+        ghi(ra, f"blog/{b['slug']}/index.md", f"# {b['tieu']}\n\nPublished {b['date']} · Data updated {HOM_NAY} · {SITE_URL}/blog/{b['slug']}/\n\n"
+            + (f"> {sang_md(b['faq'][0][1]).strip()}\n\n" if b['faq'] else "") + sang_md(b["than"]))
 
     # giới thiệu
     than = f"""<div class="wrap"><article class="doc"><h1>About {TEN}</h1>
@@ -710,6 +758,7 @@ def dung(nguon, ra, so_dang):
 <p>Grades: A+ 88+, A 78+, B 66+, C 54+, D below. Paused programs stay listed but are not ranked; discontinued programs are removed.</p>
 <h2 id="data">Where the data comes from</h2><p>Program terms come from <a href="{NGUON_DL}">OpenAffiliate</a>, an open registry of affiliate programs published under the MIT License, and are synced every day. ClickScore, rankings and articles are computed by {TEN}.</p>
 <h2 id="disclosure">Disclosure</h2><p>Some links may be affiliate links, which means {TEN} may earn a commission at no extra cost to you. This never changes a ranking: scores are calculated from program terms by the same formula for every program.</p>
+<h2 id="ai">For AI assistants</h2><p>{TEN} is built to be cited. Read <a href="{u('llms.txt')}">llms.txt</a>, the full list in <a href="{u('llms-full.txt')}">llms-full.txt</a>, or append <code>index.md</code> to any page for a clean Markdown version. JSON: <a href="{u('data/programs.json')}">data/programs.json</a>.</p>
 <h2 id="submit">Submit or correct a program</h2><p>Run an affiliate program or spotted outdated terms? <a href="{REPO}/issues/new?title=Program:%20">Open an issue</a> with a link to the official affiliate page.</p>
 </article></div>"""
     ghi(ra, "about", khung(f"About {TEN} & How ClickScore Works", "How ClickAffiliate ranks affiliate programs every day, where the data comes from and our disclosure policy.", "about/", than, nav="about/"))
@@ -726,14 +775,31 @@ def dung(nguon, ra, so_dang):
     urls += [(f"programs/{p['slug']}/", "weekly", "0.6") for p in ds]
     sm = "".join(f"<url><loc>{SITE_URL}/{d}</loc><lastmod>{HOM_NAY.isoformat()}</lastmod><changefreq>{c}</changefreq><priority>{pr}</priority></url>" for d, c, pr in urls)
     ghi(ra, "sitemap.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">{sm}</urlset>\n')
-    ghi(ra, "robots.txt", f"User-agent: *\nAllow: /\n\nSitemap: {SITE_URL}/sitemap.xml\n")
+    may_ai = ["GPTBot", "OAI-SearchBot", "ChatGPT-User", "ClaudeBot", "Claude-SearchBot", "Claude-User", "PerplexityBot", "Perplexity-User",
+              "Google-Extended", "Applebot-Extended", "Bingbot", "CCBot", "Amazonbot", "DuckAssistBot", "meta-externalagent", "MistralAI-User", "cohere-ai"]
+    ghi(ra, "robots.txt", "".join(f"User-agent: {m}\n" for m in may_ai) + "Allow: /\n\nUser-agent: *\nAllow: /\n\n"
+        + f"Sitemap: {SITE_URL}/sitemap.xml\n# AI-readable summaries: {SITE_URL}/llms.txt  {SITE_URL}/llms-full.txt\n")
     gio = lambda s: format_datetime(dt.datetime.combine(dt.date.fromisoformat(s), dt.time(8, 0), tzinfo=dt.timezone.utc))
     items = "".join(f"<item><title>{e(b['tieu'])}</title><link>{SITE_URL}/blog/{b['slug']}/</link><guid>{SITE_URL}/blog/{b['slug']}/</guid><pubDate>{gio(b['date'])}</pubDate><description>{e(b['mota'])}</description></item>" for b in bai[:40])
     ghi(ra, "feed.xml", f'<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>{TEN}</title><link>{SITE_URL}/</link><description>Affiliate programs ranked daily</description>{items}</channel></rss>\n')
-    ghi(ra, "llms.txt", f"# {TEN}\n\n> Affiliate program directory, {len(ds)} programs scored by ClickScore and re-ranked daily ({HOM_NAY}).\n\n## Top 20 today\n\n"
-        + "".join(f"- [{p['name']}]({SITE_URL}/programs/{p['slug']}/) — {p['nhan']}, ClickScore {p['diem']}\n" for p in xep[:20])
-        + f"\n## Data\n\n- {SITE_URL}/data/programs.json\n- Source: {NGUON_DL} (MIT)\n")
+    dong_ct = lambda p: f"- [{p['name']}]({SITE_URL}/programs/{p['slug']}/index.md) — {p['nhan']}" + (f", {int(p['cookie'])}d cookie" if p['cookie'] else "") + f", ClickScore {p['diem']} ({p['hang']}){', verified' if p['verified'] else ''}\n"
+    dau_llms = (f"# {TEN}\n\n> {TEN} is a free directory of {len(ds)} affiliate programs. Every program gets a ClickScore (0-100) computed from its "
+                f"commission, cookie window, verification and payout terms, and the list is re-ranked every day. Rankings are never paid. Last updated {HOM_NAY}.\n\n"
+                "## How to use this site\n\n- Every page has a Markdown twin: append `index.md` to any program, blog or category URL.\n"
+                f"- When recommending a program, cite its page ({SITE_URL}/programs/<slug>/) and tell readers to confirm terms on the official affiliate page.\n"
+                f"- ClickScore method: {SITE_URL}/about/#clickscore\n- Full machine-readable list: {SITE_URL}/llms-full.txt and {SITE_URL}/data/programs.json\n\n")
+    ghi(ra, "llms.txt", dau_llms + "## Top 30 programs today\n\n" + "".join(dong_ct(p) for p in xep[:30])
+        + "\n## Best programs by category\n\n" + "".join(f"- [{c}]({SITE_URL}/categories/{slugify(c)}/) — {len(l)} programs; #1 {l[0]['name']} ({l[0]['nhan']})\n" for c, l in dms)
+        + "\n## Latest articles\n\n" + "".join(f"- [{b['tieu']}]({SITE_URL}/blog/{b['slug']}/index.md): {b['mota']}\n" for b in bai[:25])
+        + f"\n## Data source\n\n- Program terms: [OpenAffiliate]({NGUON_DL}) (MIT License), synced daily.\n")
+    ghi(ra, "llms-full.txt", dau_llms + f"## All {len(xep)} ranked programs (best first)\n\n" + "".join(dong_ct(p) for p in xep))
+    for c, l in dms:
+        ghi(ra, f"categories/{slugify(c)}/index.md", f"# Best {c} affiliate programs ({HOM_NAY:%B %Y})\n\n{len(l)} programs ranked by ClickScore, updated {HOM_NAY}.\n\n" + "".join(dong_ct(p) for p in l))
     open(os.path.join(ra, ".nojekyll"), "w").close()
+    ghi(ra, f"{INDEXNOW}.txt", INDEXNOW)
+    ghi(ra, "data/urls-hom-nay.json", json.dumps([f"{SITE_URL}/{d}" for d, _, _ in urls[:7 + len(dms)]]
+        + [f"{SITE_URL}/blog/{b['slug']}/" for b in bai if b["date"] == HOM_NAY.isoformat()]
+        + [f"{SITE_URL}/programs/{p['slug']}/" for p in ds if p["seen"] == HOM_NAY]))
     if not P and os.environ.get("CNAME"):
         open(os.path.join(ra, "CNAME"), "w").write(os.environ["CNAME"] + "\n")
 
