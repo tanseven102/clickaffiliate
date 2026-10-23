@@ -1,0 +1,49 @@
+# Mỗi ngày 08:00 giờ Việt Nam: kéo dữ liệu mới → chấm điểm → xếp hạng → đăng 4 bài → đưa lên GitHub Pages
+name: Cap nhat hang ngay
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths-ignore: ["state/**", "README.md"]
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  dung:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.dang.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml==6.0.2
+      - name: Keo du lieu chuong trinh (OpenAffiliate, MIT)
+        run: |
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/Affitor/open-affiliate.git .nguon
+          git -C .nguon sparse-checkout set programs
+      - name: Dung trang
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://tanseven102.github.io/clickaffiliate' }}
+          CNAME: ${{ vars.CNAME }}
+        run: python build.py --dang ${{ github.event_name == 'push' && '0' || '4' }}
+      - name: Luu so trang thai
+        run: |
+          git config user.name "clickaffiliate-bot"
+          git config user.email "clickaffiliate-bot@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet || (git commit -q -m "Cap nhat $(date -u +%F)" && git push -q)
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: dang
+        uses: actions/deploy-pages@v4
