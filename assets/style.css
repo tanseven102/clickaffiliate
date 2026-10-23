@@ -177,3 +177,6 @@ footer p { color: var(--mo); font-size: 13.5px; margin: 8px 0 0; }
 .loi-ich li::before { content: "✓"; position: absolute; left: 0; top: 0; width: 20px; height: 20px; border-radius: 6px; background: var(--ok-soft); color: var(--ok); display: grid; place-items: center; font-size: 12px; font-weight: 800; }
 @media (max-width: 760px) { .dk { grid-template-columns: 1fr; padding: 20px; } .dk-hang { flex-direction: column; } }
 footer .wrap.duoi { display: block; padding-top: 14px; } .duoi a { display: inline; color: var(--acc); font-size: 13px; }
+
+.nav a.lang { border: 1px solid var(--vien); background: var(--the); color: var(--chu); }
+.nav a.lang:hover { border-color: #BFD0F5; }

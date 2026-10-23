@@ -201,6 +201,12 @@ def diem_html(p):
     return f'<span class="diem">{p["diem"]}<i class="g-{g}">{e(p["hang"])}</i></span>'
 
 
+# nút Tiếng Việt: mở đúng trang hiện tại qua Google Dịch; đang ở bản dịch thì nút thành "English"
+NGON_NGU_JS = r"""<script>(function(){var a=document.getElementById("ngon-ngu"),h=location.hostname;
+if(h.endsWith(".translate.goog")){a.textContent="🇺🇸 English";a.title="Back to English";a.href=SITE+location.pathname+location.hash;}
+else{a.href="https://"+h.replace(/-/g,"--").replace(/\./g,"-")+".translate.goog"+location.pathname+"?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi"+location.hash;}})();</script>""".replace("SITE", json.dumps(SITE_URL))
+
+
 def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", anh_og="assets/og.png", md=False):
     can = f"{SITE_URL}/{duong}"
     lds = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in (ld or []))
@@ -228,7 +234,7 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <header class="top"><div class="wrap">
 <a class="brand" href="{u()}"><img src="{u('assets/logo.svg')}" alt="{TEN} logo" width="34" height="34"><b>Click<span>Affiliate</span></b></a>
 <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('mo')">☰</button>
-<nav class="nav">{nav_html}<a class="btn chinh" style="color:#fff;padding:7px 13px" href="{u('subscribe/')}">Subscribe</a></nav>
+<nav class="nav">{nav_html}<a class="lang" id="ngon-ngu" href="#" title="Đọc trang bằng tiếng Việt">🇻🇳 Tiếng Việt</a><a class="btn chinh" style="color:#fff;padding:7px 13px" href="{u('subscribe/')}">Subscribe</a></nav>
 </div></header>
 <main>{than}</main>
 <footer><div class="wrap">
@@ -237,7 +243,8 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <div><h4>Directory</h4><a href="{u('rankings/')}">Top rankings</a><a href="{u('programs/')}">All programs</a><a href="{u('categories/')}">Categories</a><a href="{u('new/')}">New programs</a></div>
 <div><h4>Read</h4><a href="{u('subscribe/')}">Weekly newsletter</a><a href="{u('blog/')}">Blog</a><a href="{u('about/')}#clickscore">How ClickScore works</a><a href="{u('feed.xml')}">RSS feed</a></div>
 <div><h4>Project</h4><a href="{u('about/')}">About</a><a href="{u('about/')}#submit">Submit a program</a><a href="{u('about/')}#disclosure">Disclosure</a></div>
-</div><div class="wrap duoi">© {HOM_NAY.year} {TEN} · Updated {HOM_NAY.strftime('%B %-d, %Y')} · Program data from <a href="{NGUON_DL}" rel="noopener">OpenAffiliate</a> (MIT License)</div></footer>
+</div><div class="wrap duoi">© {HOM_NAY.year} {TEN} by Tan-Seven · All rights reserved · Updated {HOM_NAY.strftime("%B %-d, %Y")}</div></footer>
+{NGON_NGU_JS}
 <script src="{u('assets/dangky.js')}?v={HOM_NAY.isoformat()}" defer></script>
 </body></html>"""
 
@@ -709,7 +716,7 @@ def dung(nguon, ra, so_dang):
 {faq_html(faq)}
 <h2>Similar {e(p['cat'])} programs</h2></div><div class="luoi">{''.join(the_ct(x) for x in cung)}</div>
 <div style="margin-top:20px">{hop_dk("program:" + p["slug"], tieu=f"Get alerts on {e(p['cat'])} programs", mo=f"New {e(p['cat'])} affiliate programs and term changes, once a week. Free.")}</div>
-<p class="note vang" style="margin-top:20px">Terms change. Always confirm commission and rules on the official affiliate page before promoting. Data source: <a href="{NGUON_DL}">OpenAffiliate</a>.</p></div>"""
+<p class="note vang" style="margin-top:20px">Terms change. Always confirm commission and rules on the official affiliate page before promoting.</p></div>"""
         mota = f"{p['name']} affiliate program: {p['nhan']}" + (f", {int(p['cookie'])}-day cookie" if p["cookie"] else "") + f". ClickScore {p['diem']}/100. Payout, approval and rules."
         ghi(ra, f"programs/{p['slug']}", khung(f"{p['name']} Affiliate Program — {p['nhan']}", mota, f"programs/{p['slug']}/", than, ld=ld, nav="programs/", md=True))
         ghi(ra, f"programs/{p['slug']}/index.md", f"# {p['name']} affiliate program\n\n> {sang_md(tra_loi).strip()}\n\n"
