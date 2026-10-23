@@ -1,0 +1,3402 @@
+{
+ "123formbuilder|luat0": {
+  "h": "8332f04d62",
+  "vi": "Không có website dựa trên coupon"
+ },
+ "123formbuilder|luat1": {
+  "h": "a22cbd7033",
+  "vi": "Không tự giới thiệu: tài khoản affiliate được tạo để tự mua gói cho chính mình là không được phép"
+ },
+ "123formbuilder|luat2": {
+  "h": "b03abae9eb",
+  "vi": "Không spam; affiliate bị báo cáo sẽ bị chấm dứt"
+ },
+ "123formbuilder|ngan": {
+  "h": "024e5a77fd",
+  "vi": "123FormBuilder là công cụ tạo biểu mẫu trực tuyến để tạo form bảo mật không cần mã: form đăng ký và nộp đơn, form đặt hàng và thanh toán, quiz và khảo sát."
+ },
+ "1of10|ngan": {
+  "h": "50429063cd",
+  "vi": "1of10 là công cụ AI cho tăng trưởng YouTube."
+ },
+ "accessibe|luat0": {
+  "h": "bf45a1c3a7",
+  "vi": "Khách hàng được giới thiệu phải là khách hàng mới của accessiBe và không phải công ty liên kết với bạn"
+ },
+ "accessibe|luat1": {
+  "h": "b828f99eee",
+  "vi": "Không spam, quảng cáo gây hiểu lầm, tài khoản giả hoặc ghi nhận gian lận"
+ },
+ "accessibe|luat2": {
+  "h": "b2aac82127",
+  "vi": "Không giới thiệu có thưởng hoặc nhấp chuột tự động, gian lận hoặc có thưởng"
+ },
+ "accessibe|ngan": {
+  "h": "4546c27720",
+  "vi": "accessiBe là nền tảng hỗ trợ khả năng truy cập web, kết hợp tự động hóa AI, công cụ dành cho nhà phát triển và dịch vụ chuyên gia để giúp doanh nghiệp hỗ trợ tuân thủ ADA và EAA phù hợp với WCAG."
+ },
+ "adcreative|luat0": {
+  "h": "60e8b31ae8",
+  "vi": "Lưu lượng paid search, display và paid social phải dẫn đến một trang giá trị do bạn kiểm soát trước khi nhấp tiếp; không được liên kết affiliate trả phí trực tiếp"
+ },
+ "adcreative|luat1": {
+  "h": "46a30d0afa",
+  "vi": "Không chèn toolbar hoặc coupon-overlay, nhồi cookie, chuyển hướng cưỡng bức, nhấp ẩn hoặc thao túng ghi nhận"
+ },
+ "adcreative|luat2": {
+  "h": "e62fbea269",
+  "vi": "Không dùng tên miền hoặc tài khoản gây hiểu lầm, mạo danh thương hiệu"
+ },
+ "adcreative|ngan": {
+  "h": "eca7dbe5fa",
+  "vi": "AdCreative.ai tạo quảng cáo sáng tạo, ảnh sản phẩm, video và nội dung marketing."
+ },
+ "adliked|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không được có traffic gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "adliked|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không được tự giới thiệu: không giới thiệu chính bạn hoặc tài khoản của riêng bạn"
+ },
+ "adliked|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không được đấu thầu các từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản của thương hiệu"
+ },
+ "adliked|ngan": {
+  "h": "9f2878e820",
+  "vi": "ADLiked là công cụ tạo media kit kỹ thuật số cho creator và influencer muốn trình bày số liệu khán giả, mức giá và case study qua một liên kết có thể chia sẻ thay vì một…"
+ },
+ "aiktp|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "aiktp|ngan": {
+  "h": "f57324b3a0",
+  "vi": "AIKTP là công cụ AI SEO và nội dung."
+ },
+ "albato|ngan": {
+  "h": "f004dc5aa0",
+  "vi": "Albato là nền tảng tự động hóa và tích hợp no-code kết nối hơn 1,000 ứng dụng."
+ },
+ "alohi|luat0": {
+  "h": "ab551ff134",
+  "vi": "PPC theo từ khóa thương hiệu cần được phê duyệt cụ thể; không được dùng link affiliate trực tiếp trong quảng cáo PPC, chuyển tiếp hoặc che giấu domain, hoặc SEO mũ đen"
+ },
+ "alohi|luat1": {
+  "h": "f9317691d9",
+  "vi": "Không spam hoặc nhồi cookie; nhắn tin hàng loạt phải có sự đồng ý opt-in"
+ },
+ "alohi|luat2": {
+  "h": "7cac0fd324",
+  "vi": "Pop-up và pop-under cần phê duyệt bằng văn bản cụ thể; người truy cập phải đến qua các cú nhấp thủ công, trực tiếp của người dùng"
+ },
+ "alohi|ngan": {
+  "h": "95931887c0",
+  "vi": "Alohi là công ty Thụy Sĩ đứng sau Fax.Plus và Sign.Plus."
+ },
+ "anara|luat0": {
+  "h": "e414f2ff2c",
+  "vi": "Không chạy quảng cáo trả phí (Google Ads, Facebook Ads và tương tự) dẫn trực tiếp hoặc gián tiếp đến URL affiliate của bạn"
+ },
+ "anara|luat1": {
+  "h": "19dc056335",
+  "vi": "Không quảng bá bằng mã giảm giá không được cấp cho bạn"
+ },
+ "anara|ngan": {
+  "h": "959d9b149e",
+  "vi": "Anara là trợ lý nghiên cứu AI dành cho khoa học."
+ },
+ "any-do|luat0": {
+  "h": "79056b6346",
+  "vi": "Chỉ được tính hoa hồng sau khi hết thời hạn hoàn tiền 30 ngày"
+ },
+ "any-do|luat1": {
+  "h": "f7956dac55",
+  "vi": "Không giới thiệu tài khoản của chính bạn"
+ },
+ "any-do|ngan": {
+  "h": "315673ad86",
+  "vi": "Any.do là ứng dụng danh sách việc cần làm, quản lý tác vụ và lịch cho cuộc sống cá nhân và đội nhóm."
+ },
+ "apiframe|luat0": {
+  "h": "3466ff9b72",
+  "vi": "Không được tự giới thiệu."
+ },
+ "apiframe|luat1": {
+  "h": "8b9f40e167",
+  "vi": "Không được mua quảng cáo tìm kiếm trên các từ khóa, domain, lỗi chính tả hoặc biến thể của thương hiệu Apiframe."
+ },
+ "apiframe|luat2": {
+  "h": "76216c3d60",
+  "vi": "Không được quảng bá qua các trang liệt kê coupon hoặc mã giảm giá."
+ },
+ "apiframe|ngan": {
+  "h": "d0945e057e",
+  "vi": "Apiframe cung cấp API cho việc tạo hình ảnh, video và nhạc bằng AI."
+ },
+ "appointlet|luat0": {
+  "h": "405a268e9b",
+  "vi": "Không gian lận."
+ },
+ "appointlet|luat1": {
+  "h": "e5909efa21",
+  "vi": "Không mua quảng cáo trên Appointlet hoặc các từ khóa chứa thương hiệu của họ, kể cả lỗi chính tả và biến thể tương tự."
+ },
+ "appointlet|ngan": {
+  "h": "fae744feca",
+  "vi": "Appointlet là phần mềm lên lịch cuộc hẹn để đặt lịch họp và quản lý thời gian rảnh."
+ },
+ "appshotter|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, nhấp giả hoặc nhồi cookie"
+ },
+ "appshotter|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "appshotter|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "appshotter|ngan": {
+  "h": "8d19e9bd98",
+  "vi": "AppShotter là công cụ ứng dụng AI giúp các nhà phát triển app và team tạo và bản địa hóa ảnh chụp màn hình App Store và Play Store nhanh chóng, hiệu quả."
+ },
+ "appy-ai|ngan": {
+  "h": "5ab018a521",
+  "vi": "Appy.ai cung cấp các tác nhân AI cho công việc marketing, bán hàng, tài chính và vận hành."
+ },
+ "automattic|ngan": {
+  "h": "fd3e4b5b5c",
+  "vi": "Automattic là công ty đứng sau WordPress.com, WooCommerce, Jetpack, Pressable và các sản phẩm WordPress khác."
+ },
+ "bankstatementtoexcel|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, cú nhấp giả hoặc nhồi cookie"
+ },
+ "bankstatementtoexcel|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính bạn hoặc tài khoản của chính bạn"
+ },
+ "bankstatementtoexcel|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa thương hiệu trong tìm kiếm trả phí nếu chưa có sự cho phép bằng văn bản"
+ },
+ "bankstatementtoexcel|ngan": {
+  "h": "8fb30e2241",
+  "vi": "Bank Statement to Excel Converter là công cụ web chuyển PDF sao kê ngân hàng thành file Excel hoặc CSV có thể chỉnh sửa, được thiết kế cho kế toán, chủ doanh nghiệp nhỏ…"
+ },
+ "base44|ngan": {
+  "h": "5253a05987",
+  "vi": "Base44 là nền tảng AI không cần code, tạo ứng dụng và website hoạt động được từ mô tả bằng ngôn ngữ tự nhiên, từ công cụ năng suất và hệ thống back-office đến cổng khách hàng…"
+ },
+ "basin|ngan": {
+  "h": "0fb46f4d2b",
+  "vi": "Basin là backend cho form."
+ },
+ "beaver-builder|luat0": {
+  "h": "afb23177d4",
+  "vi": "Không có coupon hoặc rebate không chính thức, và không đăng trên các site coupon và deal"
+ },
+ "beaver-builder|luat1": {
+  "h": "cb5379d4cf",
+  "vi": "Không dùng Beaver Builder trong tên miền hoặc thương hiệu cá nhân, hoặc trong từ khóa hay quảng cáo"
+ },
+ "beaver-builder|luat2": {
+  "h": "17f48e2668",
+  "vi": "Không chỉnh sửa logo Beaver Builder khi chưa được phép hoặc đưa ra các tuyên bố gây hiểu lầm"
+ },
+ "beaver-builder|ngan": {
+  "h": "74b1726ebd",
+  "vi": "Beaver Builder là trình tạo trang kéo-thả cho WordPress, được xây dựng cho freelancer và agency làm site cho khách hàng."
+ },
+ "beehiiv|ngan": {
+  "h": "e10b719c5a",
+  "vi": "beehiiv là nền tảng newsletter với mạng quảng cáo tích hợp, chương trình giới thiệu độc giả và công cụ kiếm tiền từ khán giả — được các nhà văn độc lập hàng đầu sử dụng."
+ },
+ "benchmark-email|luat0": {
+  "h": "95f88a8857",
+  "vi": "Không đấu giá hoặc dùng từ khóa thương hiệu Benchmark, biến thể sai chính tả hoặc từ khóa thương hiệu kèm từ bổ trợ trong bất kỳ kênh quảng cáo trả phí nào, và từ khóa thương hiệu phải được thêm vào danh sách phủ định"
+ },
+ "benchmark-email|luat1": {
+  "h": "30e4b8f75c",
+  "vi": "Không liên kết trực tiếp từ quảng cáo trả phí đến các miền Benchmark"
+ },
+ "benchmark-email|luat2": {
+  "h": "0ade79ec2e",
+  "vi": "Không gửi email không được yêu cầu; chỉ gửi email quảng bá cho người nhận đã chọn nhận"
+ },
+ "benchmark-email|ngan": {
+  "h": "cc875fcfec",
+  "vi": "Benchmark Email là phần mềm email marketing dành cho doanh nghiệp nhỏ."
+ },
+ "better-proposals|luat0": {
+  "h": "bbf0337484",
+  "vi": "Đăng ký với một đối tượng liên quan đã có sẵn, nội dung gốc, kinh nghiệm sử dụng nền tảng và đồng ý với điều khoản đối tác."
+ },
+ "better-proposals|luat1": {
+  "h": "5ed2bd78d5",
+  "vi": "Quảng bá dịch vụ một cách chủ động mà không cạnh tranh với nỗ lực marketing của thương hiệu, và tự chi trả chi phí quảng bá của bạn."
+ },
+ "better-proposals|luat2": {
+  "h": "8e660028ba",
+  "vi": "Không dùng Google Ads để mua từ khóa hoặc bất kỳ chiến dịch PPC hay tương tự nào."
+ },
+ "better-proposals|ngan": {
+  "h": "417901f331",
+  "vi": "Better Proposals giúp doanh nghiệp tạo đề xuất, báo giá và hợp đồng, theo dõi với khách hàng và thu thập chữ ký điện tử."
+ },
+ "bika-ai|ngan": {
+  "h": "b0a49cf3f3",
+  "vi": "Bika.ai kết hợp AI agents, automation, databases, dashboards và documents để tổ chức công việc."
+ },
+ "blogify|ngan": {
+  "h": "7f1f311be3",
+  "vi": "Blogify là công cụ viết blog bằng AI, chuyển đổi video YouTube, podcast, trang web, tài liệu và trang sản phẩm e-commerce thành bài blog tối ưu SEO với hình ảnh, bảng biểu và…"
+ },
+ "bonframe|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, nhấp giả hoặc nhồi cookie"
+ },
+ "bonframe|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "bonframe|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "bonframe|ngan": {
+  "h": "1d51673ee7",
+  "vi": "Bonframe là ứng dụng desktop cho Mac và Windows, dịch video cục bộ, lồng tiếng bằng giọng clone của người nói gốc và đồng bộ khẩu hình bằng AI, hỗ trợ hơn 200 ngôn ngữ."
+ },
+ "boomerang|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "boomerang|luat1": {
+  "h": "95ac1ae49c",
+  "vi": "Không nhồi cookie, pop-up hoặc liên kết gây hiểu lầm"
+ },
+ "boomerang|luat2": {
+  "h": "cd6c7ae5e3",
+  "vi": "Không quảng bá qua mạng lưới sub-affiliate nếu chưa được chấp thuận bằng văn bản"
+ },
+ "boomerang|ngan": {
+  "h": "694f53077d",
+  "vi": "Boomerang (Boomerangme) là nền tảng khách hàng thân thiết kỹ thuật số dành cho doanh nghiệp địa phương."
+ },
+ "botpress|luat0": {
+  "h": "463cc76650",
+  "vi": "Người tham gia phải từ mười tám tuổi trở lên."
+ },
+ "botpress|luat1": {
+  "h": "3a100e0f7d",
+  "vi": "Đăng ký link giới thiệu, nhận phê duyệt và hoàn tất gói onboarding được cung cấp."
+ },
+ "botpress|luat2": {
+  "h": "bc9daa969e",
+  "vi": "Phải có phê duyệt trước bằng văn bản cho các lượt giới thiệu theo gói có hỗ trợ bán hàng."
+ },
+ "botpress|ngan": {
+  "h": "8c898a1d71",
+  "vi": "Botpress cung cấp công cụ để xây dựng và triển khai AI agents và chatbot."
+ },
+ "brand24|ngan": {
+  "h": "b61414bd49",
+  "vi": "Khám phá sức mạnh của giám sát truyền thông."
+ },
+ "brevo|ngan": {
+  "h": "ab3f30cbf6",
+  "vi": "Brevo là nền tảng marketing tất cả trong một, được 600,000 doanh nghiệp tin dùng."
+ },
+ "browse-ai|luat0": {
+  "h": "0cb96ec355",
+  "vi": "Không quảng cáo trả phí hoặc mua media dẫn trực tiếp đến Browse AI, hoặc các chiến dịch trả phí cạnh tranh trực tiếp với Browse AI"
+ },
+ "browse-ai|luat1": {
+  "h": "339af1b043",
+  "vi": "Không dùng tên thương hiệu hoặc biến thể của nó trong domain quảng bá hoặc trang mạng xã hội; không bắt chước nội dung Browse AI hoặc mạo danh công ty"
+ },
+ "browse-ai|luat2": {
+  "h": "67eea00c80",
+  "vi": "Không đặt link affiliate trên các trang tổng hợp coupon, deal hoặc giảm giá"
+ },
+ "browse-ai|ngan": {
+  "h": "730dc5fe74",
+  "vi": "Browse AI là công cụ web scraping không cần code, cho phép bạn huấn luyện robot AI để trích xuất dữ liệu từ bất kỳ website nào."
+ },
+ "build-to-own-replay|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "build-to-own-replay|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính bạn hoặc tài khoản của chính bạn"
+ },
+ "build-to-own-replay|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "build-to-own-replay|ngan": {
+  "h": "ed9df9d2b2",
+  "vi": "Build to Own Replay là bản ghi của Build to Own, một chương trình xây dựng sản phẩm của riêng bạn với AI ngay cả khi bạn không phải là developer."
+ },
+ "burstyai|luat0": {
+  "h": "9809ba5e20",
+  "vi": "Không đăng ký qua liên kết giới thiệu của chính bạn; tự giới thiệu bị cấm."
+ },
+ "burstyai|ngan": {
+  "h": "8508fc84b0",
+  "vi": "BurstyAI cung cấp workflow AI, công cụ chatbot và template cho các tác vụ nội dung, nghiên cứu và marketing."
+ },
+ "calilio|luat0": {
+  "h": "28f97b4846",
+  "vi": "Đối tác phải từ 18 tuổi trở lên; nhân viên và cộng tác viên hiện tại không được tham gia; mỗi người hoặc pháp nhân chỉ được một tài khoản"
+ },
+ "calilio|luat1": {
+  "h": "ee12e481b3",
+  "vi": "Chỉ khách hàng mới trên gói Standard hoặc Premium trả phí mới đủ điều kiện; không áp dụng cho khách hàng hiện tại hoặc trước đây, hay khách hàng tiềm năng đang được theo dõi"
+ },
+ "calilio|luat2": {
+  "h": "5594c3abc1",
+  "vi": "Không tự giới thiệu: không giới thiệu cho chính mình, người sử dụng lao động của bạn, các pháp nhân do bạn kiểm soát hoặc người trong hộ gia đình trực hệ"
+ },
+ "calilio|ngan": {
+  "h": "d208797819",
+  "vi": "Calilio là hệ thống điện thoại chạy bằng AI và giải pháp call center đám mây được xây dựng cho doanh nghiệp đang phát triển."
+ },
+ "callhippo|luat0": {
+  "h": "02ef18314f",
+  "vi": "Không dùng từ khóa thương hiệu hoặc sản phẩm CallHippo, bao gồm Call Hippo và Callhippo pricing, trong quảng cáo trả phí"
+ },
+ "callhippo|luat1": {
+  "h": "4d08cf4e53",
+  "vi": "Không nhận hoa hồng từ tự giới thiệu, bao gồm mua cho chính bạn hoặc bạn bè; hãy dùng chương trình giới thiệu riêng cho bạn bè"
+ },
+ "callhippo|ngan": {
+  "h": "db7df3ee28",
+  "vi": "CallHippo là nền tảng tự động hóa liên lạc doanh nghiệp, hợp nhất cuộc gọi ảo, WhatsApp, email, chat và mạng xã hội trong một bảng điều khiển."
+ },
+ "capcut|luat0": {
+  "h": "57f1996fde",
+  "vi": "Hoa hồng chỉ áp dụng cho người đăng ký từ United States, United Kingdom, Germany và France"
+ },
+ "capcut|ngan": {
+  "h": "025b5a69b7",
+  "vi": "CapCut là trình chỉnh sửa video cho desktop, web và mobile với template, tự tạo phụ đề, chuyển văn bản thành giọng nói, xóa nền và tạo video, hình ảnh bằng AI."
+ },
+ "capte|luat0": {
+  "h": "3870533f77",
+  "vi": "Không quảng cáo trả phí bằng link affiliate (Google Ads, Meta Ads)"
+ },
+ "capte|ngan": {
+  "h": "12ad1d8f70",
+  "vi": "Capte là công cụ AI của Pháp dành cho người tạo video ngắn."
+ },
+ "castos|luat0": {
+  "h": "0197a89eb7",
+  "vi": "Không quảng cáo trả phí dưới bất kỳ hình thức nào trên các link giới thiệu"
+ },
+ "castos|luat1": {
+  "h": "32cfd89f63",
+  "vi": "Ứng viên phải tạo nội dung gốc như video, bài viết, tập podcast, khóa học hoặc bài đăng mạng xã hội"
+ },
+ "castos|ngan": {
+  "h": "2eea3a4771",
+  "vi": "Castos là nền tảng lưu trữ podcast cho nhà sáng tạo, doanh nghiệp và tổ chức."
+ },
+ "chatling|luat0": {
+  "h": "870b8895c8",
+  "vi": "Nhân viên, cộng tác viên và gia đình ruột thịt của họ không được tham gia."
+ },
+ "chatling|luat1": {
+  "h": "ee3d96a255",
+  "vi": "Không tự giới thiệu, không giới thiệu các tài khoản do bạn kiểm soát, người dùng hiện có hoặc người dùng đã được affiliate khác giới thiệu."
+ },
+ "chatling|luat2": {
+  "h": "d7739e3bc4",
+  "vi": "Không đưa ra các tuyên bố gây hiểu lầm hoặc phóng đại về sản phẩm, tính năng, giá cả hoặc hiệu suất."
+ },
+ "chatling|ngan": {
+  "h": "4438846ce1",
+  "vi": "Chatling cung cấp tác nhân AI và chatbot website cho tương tác với khách hàng."
+ },
+ "chromatic-ai|ngan": {
+  "h": "7579849bb9",
+  "vi": "Chromatic là nền tảng sáng tạo có agent AI tích hợp sẵn: bạn mô tả ý tưởng, agent làm việc với các mô hình hình ảnh, video và âm thanh hiện có trên một canvas, và bạn điều khiển…"
+ },
+ "citegraph|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, cú nhấp giả hoặc nhồi cookie"
+ },
+ "citegraph|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính bạn hoặc tài khoản của chính bạn"
+ },
+ "citegraph|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa thương hiệu trong tìm kiếm trả phí nếu chưa có sự cho phép bằng văn bản"
+ },
+ "citegraph|ngan": {
+  "h": "861d16b193",
+  "vi": "CiteGraph đo lường những sản phẩm nào các trợ lý AI thực sự đề xuất, và cho doanh nghiệp biết chính xác các điều chỉnh cần làm để giành được những câu trả lời mà họ đang bỏ lỡ."
+ },
+ "clico|ngan": {
+  "h": "563928df70",
+  "vi": "Clico là một studio sáng tạo AI đưa các mô hình AI bên thứ ba vào chung một không gian làm việc."
+ },
+ "clipto|ngan": {
+  "h": "0ab1cdb2a4",
+  "vi": "Clipto là nền tảng media AI biến video, âm thanh, tài liệu và hình ảnh thành một thư viện có thể tìm kiếm."
+ },
+ "cloudtalk|luat0": {
+  "h": "df024ab0e0",
+  "vi": "Dùng ít nhất một website có lưu lượng thật, kênh mạng xã hội phù hợp, bản tin email hoặc mạng lưới giới thiệu chuyên nghiệp tiếp cận đối tượng thực sự quan tâm đến CloudTalk"
+ },
+ "cloudtalk|luat1": {
+  "h": "9b330864d9",
+  "vi": "Quảng bá minh bạch và tuân theo hướng dẫn của chương trình affiliate; tài liệu hướng dẫn quảng bá có trong thư viện tài nguyên PartnerStack"
+ },
+ "cloudtalk|ngan": {
+  "h": "a7053feac4",
+  "vi": "CloudTalk là giải pháp gọi điện doanh nghiệp VoIP dùng AI, giúp đội chăm sóc khách hàng và bán hàng chuyển các cuộc hội thoại thành chuyển đổi trên toàn cầu."
+ },
+ "clozure|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có traffic gian lận: bot, script tự động, click giả hoặc nhồi cookie"
+ },
+ "clozure|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của mình"
+ },
+ "clozure|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa thương hiệu trong quảng cáo tìm kiếm trả phí nếu chưa có phép bằng văn bản"
+ },
+ "clozure|ngan": {
+  "h": "d3a7f088c4",
+  "vi": "Clozure là nền tảng lực lượng lao động AI, cung cấp cho doanh nghiệp các bộ phận AI tự chủ như sales, marketing, finance, operations và legal, làm việc cùng đội ngũ con người."
+ },
+ "colossyan|ngan": {
+  "h": "5429b3abf0",
+  "vi": "Colossyan Creator là công cụ tạo video AI cho video đào tạo và video giải thích."
+ },
+ "connecteam|luat0": {
+  "h": "64ea3efc9f",
+  "vi": "Đăng ký với PartnerStack và giữ tài khoản hoạt động; Connecteam có thể từ chối đơn đăng ký theo toàn quyền quyết định của mình"
+ },
+ "connecteam|luat1": {
+  "h": "705c66e786",
+  "vi": "Khách hàng phải đăng ký dịch vụ trả phí trong vòng 120 ngày qua liên kết giới thiệu chuyên dụng và không được đã được giới thiệu trước đó qua quảng cáo hoặc một affiliate khác"
+ },
+ "connecteam|luat2": {
+  "h": "70ebb64036",
+  "vi": "Không dùng liên kết affiliate trả phí hoặc quảng cáo, kể cả quảng cáo tìm kiếm hay quảng cáo được tài trợ; không dùng tên thương mại hoặc nhãn hiệu của Connecteam trong quảng cáo trả phí"
+ },
+ "connecteam|ngan": {
+  "h": "dfe7dc812e",
+  "vi": "Connecteam là ứng dụng doanh nghiệp tất cả trong một, nơi doanh nghiệp có thể giao tiếp, quản lý và đào tạo nhân viên không làm việc tại bàn."
+ },
+ "contabo|luat0": {
+  "h": "f6201d85bb",
+  "vi": "Đăng ký bằng website hoặc blog của riêng bạn và cung cấp URL cùng mô tả phù hợp về phương thức quảng bá của bạn."
+ },
+ "contabo|luat1": {
+  "h": "f201dd9a63",
+  "vi": "Sử dụng các link theo dõi do CJ cung cấp để các lượt giới thiệu được ghi nhận."
+ },
+ "contabo|luat2": {
+  "h": "a1f05ba3c2",
+  "vi": "Không đấu thầu từ khóa thương hiệu của Contabo."
+ },
+ "contabo|ngan": {
+  "h": "fe79926024",
+  "vi": "Contabo cung cấp VPS cloud, máy chủ chuyên dụng ảo, storage VPS và máy chủ chuyên dụng để lưu trữ ứng dụng và website."
+ },
+ "convertkit|luat0": {
+  "h": "845d36a7cb",
+  "vi": "Các lượt giới thiệu thực hiện qua phương thức trả phí như quảng cáo pay-per-click không được tính vào các cấp trạng thái"
+ },
+ "convertkit|ngan": {
+  "h": "93fd4bea7c",
+  "vi": "Kit (trước đây là ConvertKit) là nền tảng email marketing dành cho nhà sáng tạo — blogger, YouTuber, podcaster, nhà sáng tạo độc lập và người tạo khóa học."
+ },
+ "cookieyes|luat0": {
+  "h": "46cff2a927",
+  "vi": "Không được đấu thầu từ khóa CookieYes hoặc từ khóa của đối thủ nếu chưa có phê duyệt trước"
+ },
+ "cookieyes|luat1": {
+  "h": "19204cefd8",
+  "vi": "Nội dung về CookieYes phải kèm tuyên bố miễn trừ trách nhiệm không phải là tư vấn pháp lý"
+ },
+ "cookieyes|ngan": {
+  "h": "eb45265131",
+  "vi": "CookieYes là nền tảng quản lý sự đồng ý, thêm banner đồng ý cookie vào website và giúp tuân thủ GDPR, CCPA, CPRA và các luật riêng tư khác."
+ },
+ "copyspace-ai|ngan": {
+  "h": "8950231489",
+  "vi": "CopySpace.ai là công cụ AI cho viết blog SEO."
+ },
+ "craft|ngan": {
+  "h": "117db61da7",
+  "vi": "Craft là ứng dụng tài liệu và ghi chú cho Mac, Windows, iPhone, iPad, Android, Vision Pro và web."
+ },
+ "creative-fuel|luat0": {
+  "h": "491f5aaa6c",
+  "vi": "Không gửi spam hoặc email hàng loạt không được yêu cầu"
+ },
+ "creative-fuel|luat1": {
+  "h": "894e0035c3",
+  "vi": "Không sử dụng thương hiệu, nhãn hiệu hoặc từ khóa của Creative Fuel trong quảng cáo nếu không có sự cho phép bằng văn bản"
+ },
+ "creative-fuel|luat2": {
+  "h": "5a43a6cc37",
+  "vi": "Không có hoa hồng cho các giao dịch mua từ tài khoản của chính bạn"
+ },
+ "creative-fuel|ngan": {
+  "h": "7a99614bd9",
+  "vi": "Creative Fuel là bộ công cụ lên ý tưởng dành cho nhà sáng tạo YouTube, do những nhà sáng lập ban đầu của TubeBuddy xây dựng."
+ },
+ "credit-repair-cloud|luat0": {
+  "h": "5b27907cbf",
+  "vi": "Không tự giới thiệu, tài khoản giả, trả tiền cho tài khoản của người khác, hoàn tiền mặt hoặc ưu đãi tiền tệ"
+ },
+ "credit-repair-cloud|luat1": {
+  "h": "a657d8ea2e",
+  "vi": "Không spam, chiếm dụng quảng cáo hoặc cộng đồng của công ty, quảng bá phản cảm, tuyên bố sai hoặc tuyên bố thu nhập gây hiểu lầm"
+ },
+ "credit-repair-cloud|luat2": {
+  "h": "1241f86bf5",
+  "vi": "Không đấu thầu từ khóa thương hiệu hoặc sản phẩm, thuật ngữ dễ gây nhầm lẫn hoặc cách sử dụng bị cấm trong nội dung quảng cáo trả phí, URL hiển thị hoặc đích đến và thẻ meta"
+ },
+ "credit-repair-cloud|ngan": {
+  "h": "59c5e2b619",
+  "vi": "Chào mừng bạn đến với chương trình affiliate của Credit Repair Cloud!"
+ },
+ "css-hero|luat0": {
+  "h": "b478c24d6c",
+  "vi": "Không nhận hoa hồng từ các lần mua của chính bạn."
+ },
+ "css-hero|luat1": {
+  "h": "abf1274e3f",
+  "vi": "Coupon, giảm giá và ưu đãi cần được thương hiệu phê duyệt rõ ràng."
+ },
+ "css-hero|luat2": {
+  "h": "d6c752627f",
+  "vi": "Quảng cáo PPC cần được thương hiệu phê duyệt rõ ràng."
+ },
+ "css-hero|ngan": {
+  "h": "df8b4cc406",
+  "vi": "CSS Hero là plugin WordPress để chỉnh sửa CSS của site bằng giao diện trực quan."
+ },
+ "customgpt|luat0": {
+  "h": "ca2dfb7e75",
+  "vi": "Phải mô tả chính xác khả năng của sản phẩm"
+ },
+ "customgpt|ngan": {
+  "h": "6a52aaf920",
+  "vi": "CustomGPT cho phép doanh nghiệp tạo chatbot AI tùy chỉnh được huấn luyện trên dữ liệu riêng của họ — tài liệu, website, trung tâm trợ giúp và cơ sở tri thức."
+ },
+ "dashthis|luat0": {
+  "h": "48bf89400b",
+  "vi": "Không tự giới thiệu, giới thiệu người thân hoặc giới thiệu cho chủ lao động của bạn"
+ },
+ "dashthis|luat1": {
+  "h": "c52bbfe707",
+  "vi": "Không dùng media trả phí bằng link affiliate"
+ },
+ "dashthis|luat2": {
+  "h": "790bbf4a43",
+  "vi": "Không dùng tài liệu quảng bá, coupon hoặc ưu đãi chưa được phê duyệt"
+ },
+ "dashthis|ngan": {
+  "h": "fa9336b989",
+  "vi": "DashThis tạo dashboard và báo cáo marketing."
+ },
+ "dashword|ngan": {
+  "h": "5f4e770979",
+  "vi": "Dashword là công cụ nội dung SEO, nghiên cứu các trang đang xếp hạng cho một keyphrase và chuyển chúng thành bản brief nội dung: các thuật ngữ cần bao phủ, câu hỏi cần trả lời và mục tiêu…"
+ },
+ "databox|luat0": {
+  "h": "98bf4600e6",
+  "vi": "Không tự giới thiệu đến công ty do bạn sở hữu hoặc nơi bạn làm việc"
+ },
+ "databox|luat1": {
+  "h": "93e302aa4a",
+  "vi": "Không gian lận, làm sai lệch hoặc thổi phồng lượt giới thiệu, lượt mua hoặc hoa hồng"
+ },
+ "databox|luat2": {
+  "h": "b01cbc332c",
+  "vi": "Không chạy quảng cáo cạnh tranh với từ khóa thương hiệu Databox hoặc các biến thể tên thương hiệu và lỗi chính tả"
+ },
+ "databox|ngan": {
+  "h": "49dd146e64",
+  "vi": "Databox là nền tảng phân tích powered by AI được hơn 20,000+ đội nhóm và agency sử dụng."
+ },
+ "decktopus|luat0": {
+  "h": "a0a4a03409",
+  "vi": "Không spam hoặc gửi email thương mại không được yêu cầu (UCE)"
+ },
+ "decktopus|luat1": {
+  "h": "1090602d04",
+  "vi": "Không quảng cáo che giấu hoặc xuyên tạc danh tính, tên miền hoặc địa chỉ email trả lời của bạn"
+ },
+ "decktopus|luat2": {
+  "h": "9bbe7137af",
+  "vi": "Không đấu thầu PPC trên từ khóa thương hiệu Decktopus và các lỗi chính tả của nó trừ khi lưu lượng truy cập đi trước đến site của bạn; quảng cáo tìm kiếm cần từ khóa phủ định cho các thuật ngữ thương hiệu"
+ },
+ "decktopus|ngan": {
+  "h": "ae8a2c4950",
+  "vi": "Decktopus là công cụ tạo bài thuyết trình dùng AI, tạo các deck hoàn chỉnh từ prompt với thương hiệu tùy chỉnh, bố cục và ghi chú cho người thuyết trình."
+ },
+ "desktime|luat0": {
+  "h": "4f86ab0300",
+  "vi": "Không đấu thầu các từ khóa có chứa DeskTime, DeskTime.com hoặc bất kỳ biến thể nào, và không đặt quảng cáo phía trên quảng cáo của chính DeskTime"
+ },
+ "desktime|luat1": {
+  "h": "253fb4c358",
+  "vi": "Không quảng bá trên các site coupon"
+ },
+ "desktime|luat2": {
+  "h": "9efa01e520",
+  "vi": "Không dùng tên miền chứa thương hiệu DeskTime hoặc lỗi chính tả của thương hiệu này"
+ },
+ "desktime|ngan": {
+  "h": "2af0bd2e93",
+  "vi": "DeskTime là phần mềm theo dõi thời gian tự động cho đội nhóm."
+ },
+ "devs-ai|luat0": {
+  "h": "d673d2d7b0",
+  "vi": "Không spam, không mua danh sách hoặc quảng cáo, không dùng dữ liệu scrape, bot hoặc cookie stuffing"
+ },
+ "devs-ai|luat1": {
+  "h": "f7b3ad6ab4",
+  "vi": "Không khuyến khích đăng ký, lead giả hoặc chuyển hướng gây hiểu lầm"
+ },
+ "devs-ai|luat2": {
+  "h": "eac8ce4e05",
+  "vi": "Không đấu thầu nhãn hiệu trên các thuật ngữ thương hiệu Devs.ai"
+ },
+ "devs-ai|ngan": {
+  "h": "6239d530e0",
+  "vi": "Devs.ai là nền tảng AI nơi các nhóm xây dựng ứng dụng doanh nghiệp dùng AI và triển khai agent tùy chỉnh trên dữ liệu của chính họ, với cơ chế quản trị tích hợp ngay từ đầu."
+ },
+ "dext|ngan": {
+  "h": "3a9c77c4a4",
+  "vi": "Dext dành cho doanh nghiệp nhỏ và vừa để ghi nhận, tự động hóa và quản lý chi phí và hóa đơn."
+ },
+ "dokutrak|luat0": {
+  "h": "58429980e4",
+  "vi": "Bắt buộc có công bố affiliate bằng văn bản"
+ },
+ "dokutrak|luat1": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "dokutrak|luat2": {
+  "h": "dff8d8e754",
+  "vi": "Không được đấu thầu trên thương hiệu DokuTrak"
+ },
+ "dokutrak|ngan": {
+  "h": "9921786f7f",
+  "vi": "DokuTrak thu thập tài liệu khách hàng cho kế toán, bookkeeper, luật sư và các chuyên gia khác."
+ },
+ "domer|luat0": {
+  "h": "bfc2e19774",
+  "vi": "Không đấu thầu trên các cụm tìm kiếm mang thương hiệu Domer, lỗi chính tả hoặc biến thể tên miền"
+ },
+ "domer|luat1": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "domer|luat2": {
+  "h": "c993b6cd1a",
+  "vi": "Không spam, nhồi cookie, mạo danh hoặc dùng coupon trái phép"
+ },
+ "domer|ngan": {
+  "h": "916da3aace",
+  "vi": "Domer là studio sáng tạo AI dành cho người tạo nội dung."
+ },
+ "dreamhost|luat0": {
+  "h": "b3f50103f4",
+  "vi": "Không đấu thầu từ khóa thương hiệu DreamHost trên các công cụ tìm kiếm"
+ },
+ "dreamhost|luat1": {
+  "h": "3ed4ed6bcf",
+  "vi": "Không vượt lên trên quảng cáo tìm kiếm trả phí nội bộ của DreamHost với bất kỳ từ khóa nào"
+ },
+ "dreamhost|luat2": {
+  "h": "09a02ffc7e",
+  "vi": "Không liên kết trực tiếp đến dreamhost.com từ quảng cáo tìm kiếm trả phí, và không dùng dreamhost.com làm URL hiển thị"
+ },
+ "dreamhost|ngan": {
+  "h": "c462c1ac10",
+  "vi": "DreamHost là công ty hosting web độc lập, thuộc sở hữu nhân viên, với shared web hosting, managed WordPress hosting (DreamPress), VPS, dedicated server và Remixer, một AI…"
+ },
+ "dub|luat0": {
+  "h": "7cb530c2e1",
+  "vi": "Không đấu thầu thương hiệu trên các từ khóa 'Dub' hoặc 'dub.co' trong tìm kiếm trả phí"
+ },
+ "dub|luat1": {
+  "h": "2a0360731f",
+  "vi": "Tài khoản được giới thiệu phải là khách hàng Dub mới"
+ },
+ "dub|luat2": {
+  "h": "a848343d48",
+  "vi": "Không đưa ra tuyên bố gây hiểu lầm về tính năng hoặc giá"
+ },
+ "dub|ngan": {
+  "h": "827c6063be",
+  "vi": "Dub là hạ tầng quản lý liên kết mã nguồn mở cho các đội marketing hiện đại."
+ },
+ "dzine|luat0": {
+  "h": "623ce5e0a1",
+  "vi": "Không dùng liên kết affiliate của chính bạn cho mua sắm cá nhân, giảm giá hoặc lợi ích."
+ },
+ "dzine|luat1": {
+  "h": "a2b9dfd29c",
+  "vi": "Không đấu thầu các từ khóa có thương hiệu liên quan đến Dzine trong chiến dịch tìm kiếm trả phí."
+ },
+ "dzine|luat2": {
+  "h": "8fc8b64009",
+  "vi": "Không mạo danh Dzine hoặc gây hiểu lầm để người khác nghĩ rằng bạn là đại diện chính thức."
+ },
+ "dzine|ngan": {
+  "h": "6a083d69a4",
+  "vi": "Dzine cung cấp công cụ AI để tạo và chỉnh sửa hình ảnh, phát triển phong cách hình ảnh và tạo tài sản thiết kế đồ họa."
+ },
+ "easy-peasy-ai|luat0": {
+  "h": "44c6822a79",
+  "vi": "Không tự giới thiệu qua link của chính bạn"
+ },
+ "easy-peasy-ai|luat1": {
+  "h": "f4e3db4d54",
+  "vi": "Không dùng trang coupon, cashback hoặc bargain, và không tạo ra giảm giá giả"
+ },
+ "easy-peasy-ai|luat2": {
+  "h": "e3650fc9da",
+  "vi": "Không chạy quảng cáo tìm kiếm trên tên thương hiệu Easy-Peasy.AI và Easy Peasy AI"
+ },
+ "easy-peasy-ai|ngan": {
+  "h": "728ee98726",
+  "vi": "Easy-Peasy.AI là nền tảng AI tất cả trong một cho viết lách, hình ảnh, video và âm thanh."
+ },
+ "ehunt|luat0": {
+  "h": "2e5b31e67e",
+  "vi": "Người được giới thiệu phải đăng ký qua liên kết của bạn; một tài khoản đã tồn tại hoặc đăng ký của affiliate khác sẽ không được chuyển sang bởi một cú nhấp chuột mua hàng sau đó."
+ },
+ "ehunt|luat1": {
+  "h": "111c6148a6",
+  "vi": "Không tự giới thiệu; khoản thanh toán có thể bị hoãn cho đến khi có đăng ký từ hai người được giới thiệu khác nhau."
+ },
+ "ehunt|ngan": {
+  "h": "7297f7d749",
+  "vi": "EHunt, còn được gọi là EtsyHunt, cung cấp các công cụ nghiên cứu sản phẩm, từ khóa và shop cho người bán Etsy."
+ },
+ "elementor|luat0": {
+  "h": "47853275a5",
+  "vi": "Không có website coupon hoặc discount và không có mã giảm giá không chính thức"
+ },
+ "elementor|luat1": {
+  "h": "90c03399f6",
+  "vi": "Không có quảng cáo pay-per-click, bao gồm công cụ tìm kiếm, mạng xã hội và banner video"
+ },
+ "elementor|luat2": {
+  "h": "7416fda9e5",
+  "vi": "Không dùng link affiliate của chính bạn cho các lần mua của mình"
+ },
+ "elementor|ngan": {
+  "h": "a013d44cea",
+  "vi": "Elementor là công cụ tạo website kéo-thả cho WordPress, đang vận hành hơn 22 triệu website."
+ },
+ "emailoctopus|luat0": {
+  "h": "b570106e20",
+  "vi": "Không đấu thầu thuật ngữ thương hiệu đã đăng ký của EmailOctopus trong các chiến dịch trả phí."
+ },
+ "emailoctopus|ngan": {
+  "h": "41a7a6e96e",
+  "vi": "EmailOctopus cung cấp chiến dịch email marketing, newsletter, tự động hóa, form và trang đích."
+ },
+ "engage-ai|luat0": {
+  "h": "7f6eda1ec6",
+  "vi": "Quảng cáo trả phí dẫn traffic trực tiếp đến liên kết affiliate của bạn cần được chấp thuận trước"
+ },
+ "engage-ai|ngan": {
+  "h": "039d2cff1e",
+  "vi": "Engage AI là một cộng đồng tương tác trên LinkedIn dành cho các đội ngũ bán hàng B2B, nhà sáng lập, nhà sáng tạo và agency."
+ },
+ "engagebay|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "engagebay|luat1": {
+  "h": "938f07b6d4",
+  "vi": "Lạm dụng hoặc hành vi mờ ám sẽ khiến tài khoản bị cấm"
+ },
+ "engagebay|ngan": {
+  "h": "f4b44af46a",
+  "vi": "EngageBay là một nền tảng tất cả trong một về marketing, sales và chăm sóc khách hàng cho doanh nghiệp nhỏ."
+ },
+ "envato|ngan": {
+  "h": "72a1d11ea8",
+  "vi": "Envato là gói đăng ký sáng tạo với hơn 26 triệu tài nguyên: mẫu video, video stock, nhạc miễn phí bản quyền, đồ họa, mẫu thiết kế, ảnh, 3D, font và web…"
+ },
+ "eodly|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, click giả hoặc nhồi cookie"
+ },
+ "eodly|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "eodly|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không được đấu giá từ khóa thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "eodly|ngan": {
+  "h": "b3c33f83c0",
+  "vi": "Eodly gửi cho nhà sáng lập và trưởng nhóm một báo cáo buổi tối về việc nhóm của họ đã hoàn thành."
+ },
+ "fliki|luat0": {
+  "h": "aa9c4f6ac0",
+  "vi": "Không quảng cáo trả phí và không có website coupon hoặc giảm giá"
+ },
+ "fliki|luat1": {
+  "h": "d58fbe0f67",
+  "vi": "Không dùng tên miền có chứa Fliki"
+ },
+ "fliki|ngan": {
+  "h": "db447d1508",
+  "vi": "Fliki biến văn bản, kịch bản, ý tưởng và bài đăng blog thành video với giọng nói và avatar AI, cùng hơn 2,000 giọng nói bằng 80+ ngôn ngữ."
+ },
+ "flowlu|ngan": {
+  "h": "62e4c8ebe8",
+  "vi": "Flowlu kết hợp CRM, quản lý dự án và công việc, lập hóa đơn, công cụ tài chính và tự động hóa quy trình làm việc."
+ },
+ "fluf-connect|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "fluf-connect|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "fluf-connect|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa thương hiệu trong tìm kiếm trả phí nếu chưa có sự cho phép bằng văn bản"
+ },
+ "fluf-connect|ngan": {
+  "h": "787d46ca76",
+  "vi": "FLUF Connect là hệ điều hành cho người bán, cho phép người bán online đăng chéo sản phẩm trên 68 marketplace, gồm Depop, eBay, Vinted, Etsy, Shopify và Facebook…"
+ },
+ "foreman|ngan": {
+  "h": "4f4dd351b4",
+  "vi": "Foreman là phần mềm quản lý xây dựng cho nhà thầu."
+ },
+ "foreplay|luat0": {
+  "h": "f919c155e9",
+  "vi": "Không được gửi lưu lượng quảng cáo trả phí trực tiếp đến foreplay.co; affiliate trả phí phải dùng advertorial, listicle hoặc website riêng của họ"
+ },
+ "foreplay|ngan": {
+  "h": "074f58e80e",
+  "vi": "Foreplay là một nền tảng nghiên cứu quảng cáo và sáng tạo dành cho các performance marketer."
+ },
+ "fotor|luat0": {
+  "h": "4492758bec",
+  "vi": "Không cho phép các trang coupon, nền tảng cashback và trang tổng hợp ưu đãi"
+ },
+ "fotor|ngan": {
+  "h": "129eaec658",
+  "vi": "Fotor là công cụ chỉnh sửa ảnh và thiết kế trực tuyến với các tính năng AI như tăng cường ảnh, nâng cấp độ phân giải, khử mờ, phục hồi ảnh, xóa và thay thế nền, đối tượng…"
+ },
+ "framer|luat0": {
+  "h": "a452213b45",
+  "vi": "Không đấu thầu thương hiệu trên từ khóa 'Framer' trong quảng cáo tìm kiếm trả phí"
+ },
+ "framer|luat1": {
+  "h": "24fa84d5e4",
+  "vi": "Tài khoản được giới thiệu phải là khách hàng Framer mới"
+ },
+ "framer|luat2": {
+  "h": "510a66d0d0",
+  "vi": "Không đưa ra tuyên bố gây hiểu lầm về tính năng hoặc giá của Framer"
+ },
+ "framer|ngan": {
+  "h": "b5f816eb5f",
+  "vi": "Framer là công cụ thiết kế và tạo website dùng AI, giúp bất kỳ ai cũng có thể tạo website đẹp mắt, tương tác mượt mà với hiệu ứng chuyển động trơn tru và hoàn thiện chỉn chu."
+ },
+ "frase-io|luat0": {
+  "h": "6701ee48b5",
+  "vi": "Không đấu thầu tên thương hiệu Frase qua quảng cáo trên công cụ tìm kiếm"
+ },
+ "frase-io|ngan": {
+  "h": "2660957588",
+  "vi": "Frase là nền tảng nội dung AI nghiên cứu dữ liệu SERP, tạo brief và viết bài tối ưu SEO ở quy mô lớn cho các đội ngũ content marketing."
+ },
+ "freshdesk-by-freshworks|luat0": {
+  "h": "37c5925280",
+  "vi": "Chỉ gửi giới thiệu qua link giới thiệu được cung cấp; điện thoại, email và tự giới thiệu không đủ điều kiện"
+ },
+ "freshdesk-by-freshworks|luat1": {
+  "h": "a232880efe",
+  "vi": "Không được thương lượng điều khoản hoặc cam kết thay mặt Freshworks"
+ },
+ "freshdesk-by-freshworks|luat2": {
+  "h": "37e1a8ea17",
+  "vi": "Chỉ khách hàng trả phí mới và thực sự mới đủ điều kiện; việc chuyển đổi phải diễn ra trong vòng ba tháng, trừ khi có ngoại lệ bằng văn bản"
+ },
+ "freshdesk-by-freshworks|ngan": {
+  "h": "7e026b721b",
+  "vi": "Freshdesk là phần mềm hỗ trợ khách hàng trên nền tảng đám mây."
+ },
+ "fullenrich|luat0": {
+  "h": "727a5ee655",
+  "vi": "Không được dùng quảng cáo trả phí"
+ },
+ "fullenrich|ngan": {
+  "h": "f462ceb2a3",
+  "vi": "FullEnrich là nền tảng làm giàu dữ liệu waterfall B2B, tìm email công việc và số điện thoại di động cho prospect."
+ },
+ "gamma|ngan": {
+  "h": "c9ccba15a2",
+  "vi": "Gamma là một nền tảng trình bày và tài liệu được hỗ trợ bởi AI."
+ },
+ "ganttpro|luat0": {
+  "h": "fda3c4349f",
+  "vi": "Không đặt link affiliate trên các trang có nội dung người lớn hoặc nội dung bất hợp pháp."
+ },
+ "ganttpro|luat1": {
+  "h": "62d9f32cd8",
+  "vi": "Không quảng bá sản phẩm thông qua bất kỳ nền tảng quảng cáo nào."
+ },
+ "ganttpro|luat2": {
+  "h": "a1ea8b178b",
+  "vi": "Hãy xin phê duyệt từ team đối tác trước khi dùng banner của chính bạn."
+ },
+ "ganttpro|ngan": {
+  "h": "a9f7ab66fa",
+  "vi": "GanttPRO là phần mềm quản lý dự án được xây dựng quanh các biểu đồ Gantt trực tuyến."
+ },
+ "getimg-ai|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "getimg-ai|luat1": {
+  "h": "876f3b5332",
+  "vi": "Không đặt thầu vào getimg, getimg.ai, lỗi chính tả hoặc các thuật ngữ thương hiệu trong quảng cáo tìm kiếm trả phí"
+ },
+ "getimg-ai|luat2": {
+  "h": "67d1ec3bd7",
+  "vi": "Không dùng mã giảm giá hoặc mã coupon trái phép, và không dùng các trang coupon hoặc deal nhắm vào thương hiệu khi chưa có chấp thuận bằng văn bản"
+ },
+ "getimg-ai|ngan": {
+  "h": "c30294d0fb",
+  "vi": "getimg.ai là một nền tảng sáng tạo AI cho hình ảnh, video, âm nhạc và giọng nói trong cùng một không gian làm việc."
+ },
+ "ghost-browser|luat0": {
+  "h": "7c78c179f8",
+  "vi": "Hiện chỉ chấp nhận đăng ký từ người dùng Ghost Browser hiện có; các đối tượng khác sẽ được lưu hồ sơ"
+ },
+ "ghost-browser|luat1": {
+  "h": "4168162ccf",
+  "vi": "Không được giới thiệu cho các giao dịch mua của chính bạn"
+ },
+ "ghost-browser|luat2": {
+  "h": "210666a093",
+  "vi": "Không có site coupon"
+ },
+ "ghost-browser|ngan": {
+  "h": "2353644fb6",
+  "vi": "Ghost Browser là trình duyệt đa phiên dựa trên Chromium."
+ },
+ "ghost|luat0": {
+  "h": "0ff601ecec",
+  "vi": "Ứng viên phải có ấn phẩm Ghost của riêng mình với nội dung gốc"
+ },
+ "ghost|luat1": {
+  "h": "d1271caa07",
+  "vi": "Ứng viên cần có lượng khán giả ổn định khoảng 10.000 người trở lên"
+ },
+ "ghost|luat2": {
+  "h": "22030f458a",
+  "vi": "Tài khoản không có lượt giới thiệu thành công sẽ bị tạm ngừng"
+ },
+ "ghost|ngan": {
+  "h": "ca4fb3edd0",
+  "vi": "Ghost là nền tảng xuất bản mã nguồn mở dành cho creator, publisher và doanh nghiệp, với website, newsletter và hội viên trả phí trong một sản phẩm."
+ },
+ "gohighlevel|ngan": {
+  "h": "2e10f0f680",
+  "vi": "GoHighLevel là CRM marketing white-label với funnel, email, SMS, lịch hẹn và quản lý danh tiếng, được thiết kế cho agency quản lý nhiều khách hàng SMB."
+ },
+ "greengeeks|luat0": {
+  "h": "7d1e65c607",
+  "vi": "Người được giới thiệu phải duy trì tài khoản hosting đang hoạt động trong 30 ngày liên tiếp, nếu không hoa hồng sẽ bị hoàn lại"
+ },
+ "greengeeks|luat1": {
+  "h": "dc9e9eb9d3",
+  "vi": "Các lượt giới thiệu được hoàn tiền trong 30 ngày đầu dùng dịch vụ sẽ bị trừ khỏi hoa hồng"
+ },
+ "greengeeks|ngan": {
+  "h": "d2a04f017a",
+  "vi": "GreenGeeks là công ty hosting web cung cấp shared, WordPress, WooCommerce, reseller và VPS hosting, dedicated servers, một website builder và domains."
+ },
+ "helium-10|luat0": {
+  "h": "bf2684a412",
+  "vi": "Không quảng cáo trả phí có gắn thương hiệu"
+ },
+ "helium-10|luat1": {
+  "h": "b44bd760e1",
+  "vi": "Không spam, nhồi cookie hoặc theo dõi gian lận"
+ },
+ "helium-10|luat2": {
+  "h": "dd52d273d4",
+  "vi": "Không mạo danh Helium 10"
+ },
+ "helium-10|ngan": {
+  "h": "da70b81116",
+  "vi": "Helium 10 là bộ phần mềm dành cho người bán trên Amazon và thương mại điện tử."
+ },
+ "heygen|luat0": {
+  "h": "6476a9714e",
+  "vi": "Chỉ dành cho nhà sáng tạo có 5K+ người theo dõi trên ít nhất một nền tảng"
+ },
+ "heygen|luat1": {
+  "h": "e5361095da",
+  "vi": "Chỉ chấp nhận video gốc; không quảng bá chỉ bằng SEO/blog, không tìm kiếm trả phí, và không tự giới thiệu"
+ },
+ "heygen|ngan": {
+  "h": "e408d69eed",
+  "vi": "HeyGen là nền tảng video AI biến văn bản thành video chất lượng studio với AI avatar chân thực, hỗ trợ hơn 40 ngôn ngữ và giọng thương hiệu tùy chỉnh."
+ },
+ "hipol|luat0": {
+  "h": "37cc668f5b",
+  "vi": "Các chương trình khuyến mãi phải được xác định rõ là quảng cáo trước khi mọi người tương tác hoặc nhấp vào"
+ },
+ "hipol|luat1": {
+  "h": "1a641ba3a4",
+  "vi": "Không spam; email hoặc tin nhắn marketing cần có sự cho phép bắt buộc"
+ },
+ "hipol|luat2": {
+  "h": "129f3d4ae7",
+  "vi": "Không mạo danh Hipol"
+ },
+ "hipol|ngan": {
+  "h": "947bf640d2",
+  "vi": "Hipol cung cấp các cuộc trò chuyện riêng tư qua video trực tiếp, thoại và văn bản với bạn đồng hành AI hư cấu dành cho người lớn từ 18 tuổi trở lên."
+ },
+ "hivepress|luat0": {
+  "h": "59ac244bbd",
+  "vi": "Không spam: không quảng bá khi chưa có sự quan tâm hoặc đồng ý trước, như email spam hoặc bình luận spam"
+ },
+ "hivepress|luat1": {
+  "h": "69a41f8d0a",
+  "vi": "Không quảng bá chỉ bằng coupon trên các website coupon"
+ },
+ "hivepress|luat2": {
+  "h": "498db791b7",
+  "vi": "Không sử dụng nhãn hiệu HivePress để mạo danh website hoặc dịch vụ chính thức"
+ },
+ "hivepress|ngan": {
+  "h": "522f2262d7",
+  "vi": "HivePress là một plugin WordPress để xây dựng website danh mục và danh sách, như danh mục cho thuê, dịch vụ, chuyên gia và sự kiện."
+ },
+ "hix-ai|luat0": {
+  "h": "210666a093",
+  "vi": "Không dùng site coupon"
+ },
+ "hix-ai|luat1": {
+  "h": "f24f2b2e7f",
+  "vi": "Không quảng cáo trên tên thương hiệu hoặc tên sản phẩm của HIX.AI, và không dùng các trang HIX.AI làm trang đích quảng cáo"
+ },
+ "hix-ai|ngan": {
+  "h": "4b41585876",
+  "vi": "HIX.AI là không gian làm việc AI với AI agent, AI chat, AI writer, tạo hình ảnh và video bằng AI, AI slides, deep research và trợ lý làm bài tập AI, dùng để tạo slide…"
+ },
+ "hosting-com|luat0": {
+  "h": "816a0b22d6",
+  "vi": "Không được đấu thầu trên tên thương hiệu hosting.com, các biến thể hoặc lỗi chính tả của nó trong PPC"
+ },
+ "hosting-com|luat1": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "hosting-com|ngan": {
+  "h": "223bdfb90d",
+  "vi": "hosting.com, trước đây là A2 Hosting, là công ty web hosting cung cấp shared hosting, managed hosting cho WordPress và WooCommerce, VPS quản lý và không quản lý, máy chủ dedicated…"
+ },
+ "hostpapa|luat0": {
+  "h": "cb8a43cb30",
+  "vi": "Không đặt thầu vào brand terms, domains hoặc lỗi chính tả của HostPapa trong quảng cáo tìm kiếm"
+ },
+ "hostpapa|luat1": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "hostpapa|ngan": {
+  "h": "a584981f1c",
+  "vi": "HostPapa là công ty hosting web dành cho doanh nghiệp nhỏ, cung cấp shared hosting và WordPress hosting, domain, hosting email, website builder, chứng chỉ SSL, backup và SiteLock…"
+ },
+ "housecall-pro|luat0": {
+  "h": "5ce8cfebc2",
+  "vi": "Chỉ giới thiệu các doanh nghiệp dịch vụ tại nhà hợp lệ ở Hoa Kỳ hoặc Canada, sử dụng thông tin liên hệ chính xác và có ý định thực sự được liên hệ"
+ },
+ "housecall-pro|luat1": {
+  "h": "afaab13a31",
+  "vi": "Không gửi lead bịa đặt, chưa đầy đủ hoặc cố ý sai"
+ },
+ "housecall-pro|luat2": {
+  "h": "e31d74dcf0",
+  "vi": "Không điền thay lead hoặc mẫu dùng thử thay cho người được xác định"
+ },
+ "housecall-pro|ngan": {
+  "h": "5cdff5372e",
+  "vi": "Housecall Pro là nền tảng được đánh giá hàng đầu, giúp các chuyên gia dịch vụ tại nhà quản lý mọi khía cạnh của doanh nghiệp."
+ },
+ "hubspot|luat0": {
+  "h": "3b3e227d27",
+  "vi": "Không chạy quảng cáo cạnh tranh với quảng cáo của HubSpot, bao gồm từ khóa thương hiệu; quảng cáo phải dẫn traffic về website của riêng bạn"
+ },
+ "hubspot|luat1": {
+  "h": "7c969755f9",
+  "vi": "Không dành cho giới thiệu khách hàng: agency và consultant phải dùng Solutions Partner Program"
+ },
+ "hubspot|luat2": {
+  "h": "9595c127ec",
+  "vi": "Không dùng link affiliate của chính bạn để mua HubSpot"
+ },
+ "hubspot|ngan": {
+  "h": "5d14644e1c",
+  "vi": "HubSpot là một nền tảng khách hàng với phần mềm cho CRM, marketing, sales, customer service và content, với gói miễn phí và cao cấp cùng gói Starter cho doanh nghiệp nhỏ."
+ },
+ "hubstaff|luat0": {
+  "h": "0c9879a942",
+  "vi": "Không dùng các trang coupon hoặc deal ngụy trang link affiliate thành coupon hoặc deal"
+ },
+ "hubstaff|luat1": {
+  "h": "c9d8fd6c5a",
+  "vi": "Cần có chấp thuận bằng văn bản trước khi chạy chiến dịch PPC trên các từ khóa cạnh tranh với những từ khóa của chính Hubstaff"
+ },
+ "hubstaff|luat2": {
+  "h": "46f8491bd2",
+  "vi": "Không nhồi cookie hoặc can thiệp vào các link theo dõi"
+ },
+ "hubstaff|ngan": {
+  "h": "766972e7af",
+  "vi": "Hubstaff là phần mềm theo dõi thời gian với giám sát năng suất và phân tích lực lượng lao động."
+ },
+ "hunter|luat0": {
+  "h": "d07aba20ff",
+  "vi": "Không tự giới thiệu, và không giới thiệu người trong chính công ty hoặc văn phòng của bạn"
+ },
+ "hunter|luat1": {
+  "h": "6d9f961282",
+  "vi": "Không gửi email hàng loạt không được yêu cầu có nhắc đến hoặc đề cập Hunter"
+ },
+ "hunter|luat2": {
+  "h": "8fe391747b",
+  "vi": "Không thao túng theo dõi affiliate để được ghi nhận cho lưu lượng bạn không tạo ra"
+ },
+ "hunter|ngan": {
+  "h": "205a93c8e2",
+  "vi": "Hunter là một nền tảng tạo lead B2B và tiếp cận lạnh."
+ },
+ "identityiq|ngan": {
+  "h": "bd9b365234",
+  "vi": "IdentityIQ là dịch vụ bảo vệ chống đánh cắp danh tính và theo dõi tín dụng từ IDIQ, với báo cáo và điểm tín dụng, cảnh báo gian lận thời gian thực và $1 million bồi thường…"
+ },
+ "imyfone|luat0": {
+  "h": "3f1b5f14fa",
+  "vi": "Không dùng iFrames, toolbar, pop-under, pop-up hoặc layer ads tải tài liệu quảng bá của iMyFone lên máy tính người dùng mà không được phép"
+ },
+ "imyfone|luat1": {
+  "h": "c3af6bf6a1",
+  "vi": "Không ép click, spyware hoặc adware có thể tải xuống"
+ },
+ "imyfone|luat2": {
+  "h": "43bed579eb",
+  "vi": "Chỉ cho phép các phương thức marketing truyền thống tạo ra doanh số"
+ },
+ "imyfone|ngan": {
+  "h": "3fab91f3a5",
+  "vi": "iMyFone làm các tiện ích cho desktop và mobile dành cho người dùng iPhone, Android và PC, gồm D-Back khôi phục dữ liệu, iMyTrans chuyển WhatsApp, AnyTo đổi vị trí, MirrorTo phản chiếu màn hình…"
+ },
+ "infatica|ngan": {
+  "h": "54ab5837d5",
+  "vi": "Infatica là nhà cung cấp proxy và dữ liệu web."
+ },
+ "infomaniak|luat0": {
+  "h": "617041bdfd",
+  "vi": "Tên miền, Housing và hosting Very High Availability không được bao gồm"
+ },
+ "infomaniak|ngan": {
+  "h": "b829c7c304",
+  "vi": "Infomaniak là một công ty hosting và cloud của Thụy Sĩ."
+ },
+ "interserver|ngan": {
+  "h": "744c63619a",
+  "vi": "InterServer là công ty hosting web cung cấp shared web hosting, reseller hosting, cloud VPS, dedicated server, GPU và storage server, cùng colocation, với data center tại…"
+ },
+ "iobit|luat0": {
+  "h": "a4de738097",
+  "vi": "Không đấu thầu từ khóa nhãn hiệu IObit hoặc tên miền tương tự nếu chưa được chấp thuận trước"
+ },
+ "iobit|luat1": {
+  "h": "f240f1a4a6",
+  "vi": "Không dùng coupon, bonus hoặc ưu đãi thêm nếu chưa được chấp thuận; dùng giá chính thức"
+ },
+ "iobit|luat2": {
+  "h": "396a00252e",
+  "vi": "Không spam hoặc gửi email không được yêu cầu, không đặt liên kết trái phép trên forum"
+ },
+ "iobit|ngan": {
+  "h": "0f8bd202bb",
+  "vi": "IObit tạo phần mềm tối ưu hóa và bảo mật cho PC và Mac, bao gồm Advanced SystemCare, Driver Booster, IObit Malware Fighter, IObit Uninstaller, Smart Defrag và MacBooster."
+ },
+ "iubenda|luat0": {
+  "h": "003b41f1bf",
+  "vi": "Chỉ các giao dịch mua đầu tiên của khách hàng mới đủ điều kiện"
+ },
+ "iubenda|ngan": {
+  "h": "8b3edaeb46",
+  "vi": "iubenda là nền tảng tuân thủ quyền riêng tư cho website và ứng dụng."
+ },
+ "iwrity|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, cú nhấp giả hoặc cookie stuffing"
+ },
+ "iwrity|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính bạn hoặc tài khoản của bạn"
+ },
+ "iwrity|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong quảng cáo trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "iwrity|ngan": {
+  "h": "7498491aae",
+  "vi": "iWrity là bộ công cụ trao đổi đánh giá và KDP dành cho tác giả tự xuất bản."
+ },
+ "jg-core|luat0": {
+  "h": "99afda57a7",
+  "vi": "Gắn nhãn mọi bài đăng, video, email hoặc trang có chứa liên kết của bạn là quảng cáo, ví dụ #ad hoặc affiliate link"
+ },
+ "jg-core|luat1": {
+  "h": "2e6240c4d9",
+  "vi": "Không hứa hẹn về thu nhập, kết quả, thứ hạng hay đầu ra, và không bịa review hay lời chứng thực"
+ },
+ "jg-core|luat2": {
+  "h": "3be4691fbe",
+  "vi": "Không chạy quảng cáo tìm kiếm trả phí trên tên thương hiệu JG Core, và không dùng tên miền hoặc tài khoản mạng xã hội trông giống như thương hiệu"
+ },
+ "jg-core|ngan": {
+  "h": "3dd884ef59",
+  "vi": "JG Core Ltd là công ty tại UK bán sản phẩm số và phần mềm dưới nhiều thương hiệu: JG Core Academy (các gói từng bước và hệ thống đầy đủ để xây dựng và vận hành một…"
+ },
+ "jibble|luat0": {
+  "h": "fa4ebac68a",
+  "vi": "Không tuyển sub-affiliates hoặc chia hoa hồng với bên thứ ba"
+ },
+ "jibble|luat1": {
+  "h": "58626ed284",
+  "vi": "Không dùng chương trình để nhận giảm giá cho tài khoản hoặc tổ chức của bạn; giảm giá cho affiliate hoặc khách hàng được giới thiệu cần có ngoại lệ bằng văn bản từ Jibble"
+ },
+ "jibble|luat2": {
+  "h": "05a537c49a",
+  "vi": "Không marketing gian dối, gây hiểu lầm, bất hợp pháp hoặc phi đạo đức"
+ },
+ "jibble|ngan": {
+  "h": "0db79998e4",
+  "vi": "Tham gia chương trình affiliate/reseller của chúng tôi và kiếm hoa hồng lên đến 50% cho mỗi khách hàng đăng ký một trong các gói trả phí của Jibble!"
+ },
+ "jobholler|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, lượt nhấp giả hoặc nhồi cookie"
+ },
+ "jobholler|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu cho chính mình hoặc các tài khoản của bạn"
+ },
+ "jobholler|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đặt giá thầu trên từ khóa thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "jobholler|ngan": {
+  "h": "d3da798869",
+  "vi": "Jobholler là lễ tân AI được xây dựng cho các nhà thầu HVAC, hệ thống ống nước, điện và lợp mái."
+ },
+ "jogg|luat0": {
+  "h": "60e5dda9af",
+  "vi": "Chỉ quảng bá tự nhiên, không trả phí: cấm quảng cáo tìm kiếm, quảng cáo mạng xã hội, quảng cáo hiển thị, vị trí tài trợ và lưu lượng trả phí"
+ },
+ "jogg|ngan": {
+  "h": "7e04baf872",
+  "vi": "JoggAI là trình tạo video AI được xây dựng quanh các avatar AI chân thực."
+ },
+ "kalyvox|ngan": {
+  "h": "ec66aec5a7",
+  "vi": "Kalyvox là dịch vụ trả lời điện thoại bằng AI cho doanh nghiệp nhỏ."
+ },
+ "kartra-webinarjam-everwebinar|ngan": {
+  "h": "53a474bbad",
+  "vi": "Kartra là nền tảng tất cả trong một được xây dựng để giúp nhà sáng tạo và doanh nhân phát triển đối tượng, kiếm tiền từ nội dung và mở rộng quy mô với sự tự tin."
+ },
+ "keyword-insights|luat0": {
+  "h": "0a9c8eba70",
+  "vi": "Affiliate phải từ 18 tuổi trở lên và có tài khoản Keyword Insights đã đăng ký"
+ },
+ "keyword-insights|luat1": {
+  "h": "97b7b444a1",
+  "vi": "Không spam hoặc gửi tin nhắn không được yêu cầu"
+ },
+ "keyword-insights|luat2": {
+  "h": "f5f818d7c0",
+  "vi": "Không quảng cáo sai sự thật, gây hiểu lầm hoặc lừa dối"
+ },
+ "keyword-insights|ngan": {
+  "h": "dd8dafe5e0",
+  "vi": "Keyword Insights là nền tảng SEO để xây dựng thẩm quyền chủ đề."
+ },
+ "ki-websitebuilder-pro|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, nhấp chuột giả hoặc nhồi cookie"
+ },
+ "ki-websitebuilder-pro|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc các tài khoản của bạn"
+ },
+ "ki-websitebuilder-pro|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không được đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu chưa có sự cho phép bằng văn bản"
+ },
+ "ki-websitebuilder-pro|ngan": {
+  "h": "a3386c5ac6",
+  "vi": "KI Websitebuilder Pro là plugin WordPress cao cấp dùng AI để xây dựng website hoàn chỉnh, gồm nội dung, hình ảnh, điều hướng và trang pháp lý, từ câu trả lời cho một…"
+ },
+ "knownhost|luat0": {
+  "h": "9d0ef6185d",
+  "vi": "Không quảng bá từ các trang có nội dung bất hợp pháp, phỉ báng, khiêu dâm, quấy rối hoặc đáng phản đối khác, bao gồm các trang tạo điều kiện cho hoạt động bất hợp pháp, cổ vũ bạo lực hoặc xâm phạm bản quyền"
+ },
+ "knownhost|luat1": {
+  "h": "5a8935e9e4",
+  "vi": "Không gửi email thương mại không được yêu cầu (spam)"
+ },
+ "knownhost|luat2": {
+  "h": "00bee771d2",
+  "vi": "Không dùng nhãn hiệu đã đăng ký của KnownHost trong bất kỳ chiến dịch quảng cáo trả phí nào dẫn doanh số đến link affiliate"
+ },
+ "knownhost|ngan": {
+  "h": "5fda1d6eb9",
+  "vi": "KnownHost cung cấp web hosting quản lý toàn phần, từ shared và reseller hosting đến VPS quản lý, cloud và dedicated server, với WordPress, cPanel, Plesk và DirectAdmin…"
+ },
+ "krispcall-communications-inc|ngan": {
+  "h": "e8519f10dc",
+  "vi": "KrispCall là giải pháp điện thoại đám mây ứng dụng AI, hợp nhất cuộc gọi, SMS, voicemail và số ảo trên một nền tảng."
+ },
+ "krisp|luat0": {
+  "h": "fd4c1f6160",
+  "vi": "Không đặt thầu từ khóa có thương hiệu Krisp trong quảng cáo tìm kiếm trả phí"
+ },
+ "krisp|luat1": {
+  "h": "6dcbf42b95",
+  "vi": "Không dùng các trang coupon hoặc cashback chỉ tận dụng nhu cầu sẵn có"
+ },
+ "krisp|luat2": {
+  "h": "a68e888b5a",
+  "vi": "Không đưa ra các tuyên bố gây hiểu lầm, quảng bá kiểu spam hoặc tự động quảng bá mà không công khai"
+ },
+ "krisp|ngan": {
+  "h": "9b4610d964",
+  "vi": "Krisp là một ứng dụng khử tiếng ồn và trợ lý họp được hỗ trợ bởi AI."
+ },
+ "kualo|luat0": {
+  "h": "efc88329db",
+  "vi": "Không tự giới thiệu, bao gồm mua hàng cho chính bạn, doanh nghiệp liên quan hoặc thay mặt khách hàng"
+ },
+ "kualo|luat1": {
+  "h": "d9e0f09ced",
+  "vi": "Không spam hoặc quảng cáo bất hợp pháp, như thư không được yêu cầu"
+ },
+ "kualo|luat2": {
+  "h": "a608eaeda0",
+  "vi": "Không hoàn tiền, thưởng hoặc bất kỳ ưu đãi nào khác cho một giao dịch bán nếu chưa có phê duyệt trước"
+ },
+ "kualo|ngan": {
+  "h": "6c2a91753e",
+  "vi": "Kualo là công ty hosting web cung cấp shared, business và reseller hosting, cloud VPS và dedicated server, đăng ký domain, email marketing và email doanh nghiệp Zimbra…"
+ },
+ "lalal-ai|luat0": {
+  "h": "ce87dd85f8",
+  "vi": "Không chạy quảng cáo trả phí có chứa lalal.ai, các biến thể hoặc lỗi chính tả của tên này trong tên miền hoặc nội dung quảng cáo"
+ },
+ "lalal-ai|luat1": {
+  "h": "ba230fbd4c",
+  "vi": "Không chấp nhận lưu lượng từ Google Ads nếu chưa có thỏa thuận trước"
+ },
+ "lalal-ai|ngan": {
+  "h": "f0d0df3666",
+  "vi": "LALAL.AI là công cụ tách stem âm thanh dùng AI, trích xuất giọng hát, nhạc cụ, trống, bass và các stem khác từ bất kỳ tệp âm thanh hoặc video nào."
+ },
+ "landbot|luat0": {
+  "h": "9638b157c8",
+  "vi": "Không có nội dung người lớn, ảnh khỏa thân hoặc các thuật ngữ, hình ảnh hay hoạt động quá gợi dục hoặc mang tính tình dục trên website, dịch vụ hoặc thư từ quảng bá"
+ },
+ "landbot|luat1": {
+  "h": "790fc486c2",
+  "vi": "Không có nội dung bạo lực, tục tĩu, phỉ báng, vu khống, nói xấu hoặc bất hợp pháp"
+ },
+ "landbot|luat2": {
+  "h": "754aac5753",
+  "vi": "Không có phát ngôn thù ghét nhắm vào cá nhân hoặc nhóm dựa trên chủng tộc, giới tính, tín ngưỡng, nguồn gốc, tôn giáo, tình trạng hôn nhân, xu hướng tình dục, bản dạng giới hoặc ngôn ngữ"
+ },
+ "landbot|ngan": {
+  "h": "7e0a23faa0",
+  "vi": "Trình tạo chatbot trực quan nhất cho website và WhatsApp — tự động thu lead, hỗ trợ khách hàng, khảo sát và hơn thế nữa!"
+ },
+ "landerlab|ngan": {
+  "h": "db211fdf81",
+  "vi": "LanderLab là công cụ tạo landing page được thiết kế cho performance marketers và agency."
+ },
+ "launchspy|luat0": {
+  "h": "2cb4366fe7",
+  "vi": "Không đấu thầu từ khóa tên LaunchSpy trong quảng cáo tìm kiếm"
+ },
+ "launchspy|ngan": {
+  "h": "cda227f3ee",
+  "vi": "LaunchSpy là công cụ phân tích đối thủ dành cho người tạo khóa học, huấn luyện viên, chủ cộng đồng và các agency làm việc với họ."
+ },
+ "leiolai|luat0": {
+  "h": "fcb0f363ac",
+  "vi": "Không quảng bá Leiolai trên các website, ứng dụng hoặc mạng quảng cáo khiêu dâm hoặc giải trí người lớn"
+ },
+ "leiolai|luat1": {
+  "h": "6297382330",
+  "vi": "Không có nội dung khiêu dâm, nội dung tình dục rõ ràng, cảnh máu me đồ họa hoặc hình ảnh gây sốc trong quảng bá"
+ },
+ "leiolai|luat2": {
+  "h": "3e3a5f1617",
+  "vi": "Không lừa đảo, phishing, phần mềm độc hại, mạo danh, đánh giá bịa đặt, tuyên bố sản phẩm gây hiểu lầm hoặc hứa hẹn thu nhập hay kết quả được đảm bảo"
+ },
+ "leiolai|ngan": {
+  "h": "767f2f1613",
+  "vi": "Leiolai là AI chạy trên phần cứng tiêu dùng thay vì trung tâm dữ liệu, và trả tiền cho những người có thiết bị cung cấp sức mạnh cho nó."
+ },
+ "link-whisper|luat0": {
+  "h": "46e276256c",
+  "vi": "Không spam hoặc đưa ra tuyên bố gây hiểu lầm"
+ },
+ "link-whisper|ngan": {
+  "h": "dc1d2f6fb2",
+  "vi": "Link Whisper là công cụ liên kết nội bộ cho site WordPress và Shopify."
+ },
+ "listing-whisperer|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "listing-whisperer|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "listing-whisperer|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí khi chưa có phép bằng văn bản"
+ },
+ "listing-whisperer|ngan": {
+  "h": "113e36c70f",
+  "vi": "Listing Whisperer là trợ lý marketing AI được xây dựng riêng cho các đại lý bất động sản."
+ },
+ "listnr|ngan": {
+  "h": "8505194d1c",
+  "vi": "Listnr là một nền tảng giọng nói AI chuyển kịch bản thành giọng nói tự nhiên bằng hơn 130 ngôn ngữ."
+ },
+ "live-tennis-api|luat0": {
+  "h": "03e37044eb",
+  "vi": "Không tự giới thiệu"
+ },
+ "live-tennis-api|luat1": {
+  "h": "36077f53f0",
+  "vi": "Không spam"
+ },
+ "live-tennis-api|luat2": {
+  "h": "ba068f0f23",
+  "vi": "Không đặt giá thầu trên các nhãn hiệu của thương hiệu"
+ },
+ "live-tennis-api|ngan": {
+  "h": "3c119552fa",
+  "vi": "Live Tennis API là API REST + WebSocket dành cho nhà phát triển cho tennis thời gian thực ATP/WTA/Challenger/ITF — tỷ số trực tiếp, vận động viên, giá thị trường và xác suất thắng."
+ },
+ "livechat|luat0": {
+  "h": "66adaf4017",
+  "vi": "Không spam hoặc quảng bá gây hiểu lầm"
+ },
+ "livechat|ngan": {
+  "h": "a50f826528",
+  "vi": "LiveChat là nền tảng hỗ trợ khách hàng dùng AI với live chat, AI chatbots (ChatBot.com) và công cụ helpdesk."
+ },
+ "lunacal|luat0": {
+  "h": "61a82a7146",
+  "vi": "Không thêm mã giảm giá của bạn lên các website coupon; việc đó sẽ làm mất tư cách thành viên và hoa hồng."
+ },
+ "lunacal|luat1": {
+  "h": "9d45e0d86a",
+  "vi": "Không sử dụng liên kết affiliate của chính bạn để giảm giá gói đăng ký; các lượt tự giới thiệu không đủ điều kiện."
+ },
+ "lunacal|ngan": {
+  "h": "77be95a54f",
+  "vi": "Lunacal cung cấp lịch đặt lịch, đặt hẹn và các trang đặt chỗ có thể tùy chỉnh cho doanh nghiệp."
+ },
+ "macpaw|luat0": {
+  "h": "f79f5ed773",
+  "vi": "Không được đấu thầu PPC trên từ khóa thương hiệu MacPaw hoặc CleanMyMac"
+ },
+ "macpaw|luat1": {
+  "h": "4c39436725",
+  "vi": "Chỉ được sử dụng creative và trang đích đã được phê duyệt"
+ },
+ "macpaw|luat2": {
+  "h": "eff10a2e26",
+  "vi": "Không dùng cookie stuffing, popup, toolbar hoặc tiện ích mở rộng trình duyệt"
+ },
+ "macpaw|ngan": {
+  "h": "ff636fb1d7",
+  "vi": "MacPaw tạo ứng dụng cho Mac và iPhone, gồm CleanMyMac để dọn dẹp, tăng tốc và bảo vệ Mac, CleanMy Phone, ClearVPN, Moonlock, Gemini 2 để tìm file trùng lặp…"
+ },
+ "magiclight|luat0": {
+  "h": "a00b61e9ca",
+  "vi": "Không đấu thầu từ khóa thương hiệu MagicLight hoặc các biến thể tương tự trong quảng cáo trả phí"
+ },
+ "magiclight|ngan": {
+  "h": "d5fd554d79",
+  "vi": "MagicLight là nền tảng video truyện AI biến văn bản, kịch bản và hình ảnh thành video truyện dài với nhân vật và phong cách nghệ thuật nhất quán."
+ },
+ "mailbluster|luat0": {
+  "h": "7f9338e657",
+  "vi": "Người đăng ký phải có tài khoản MailBluster đang hoạt động"
+ },
+ "mailbluster|luat1": {
+  "h": "d4f966b9eb",
+  "vi": "Không tự giới thiệu; tự giới thiệu sẽ dẫn đến cấm vĩnh viễn"
+ },
+ "mailbluster|luat2": {
+  "h": "2c651123a6",
+  "vi": "Không đăng link affiliate trên các website bên thứ ba mà bạn không vận hành"
+ },
+ "mailbluster|ngan": {
+  "h": "d0533c5f23",
+  "vi": "MailBluster là công cụ email marketing để gửi chiến dịch email hàng loạt và newsletter với chi phí thấp, tích hợp với WordPress, WooCommerce, Salesforce, Zapier, Zoho, Make…"
+ },
+ "mailerlite|luat0": {
+  "h": "82d4c3c3eb",
+  "vi": "Thanh toán yêu cầu ít nhất 2 đơn hàng từ 2 lượt giới thiệu khác nhau"
+ },
+ "mailerlite|ngan": {
+  "h": "a6daba9234",
+  "vi": "MailerLite là nền tảng email marketing cho newsletter, tự động hóa, landing page, website, form đăng ký và thuê bao newsletter trả phí, hướng đến creator và doanh nghiệp nhỏ…"
+ },
+ "mailersend|ngan": {
+  "h": "8e1a5022f0",
+  "vi": "MailerSend là dịch vụ email giao dịch dành cho nhà phát triển và đội ngũ sản phẩm."
+ },
+ "mailshake|ngan": {
+  "h": "41b3c8fd07",
+  "vi": "Mailshake là nền tảng sales engagement cho cold outreach."
+ },
+ "makeugc|luat0": {
+  "h": "e2e4a4f48d",
+  "vi": "Không quảng cáo tìm kiếm nào đấu giá trên tên thương hiệu hoặc tên sản phẩm của MakeUGC hay biến thể gần giống"
+ },
+ "makeugc|ngan": {
+  "h": "be7306ea10",
+  "vi": "MakeUGC là trình tạo quảng cáo video bằng AI."
+ },
+ "manatal|luat0": {
+  "h": "661ee5f628",
+  "vi": "Không gửi liên lạc không được yêu cầu, email rác, spam hoặc các tin nhắn trùng lặp hay không được yêu cầu khác tới lead"
+ },
+ "manatal|luat1": {
+  "h": "5f7df0ec30",
+  "vi": "Không đặt banner hoặc liên kết trên newsgroup, phòng chat, bảng tin, mạng banner, trang hit farm, sổ lưu bút, v.v."
+ },
+ "manatal|luat2": {
+  "h": "9900d40d93",
+  "vi": "Không chạy chiến dịch pay-per-click cạnh tranh với hoạt động quảng cáo của Manatal"
+ },
+ "manatal|ngan": {
+  "h": "31f5b8f3f0",
+  "vi": "Manatal là phần mềm tuyển dụng dùng AI, tinh gọn quy trình tuyển dụng với chấm điểm ứng viên bằng AI, phân tích resume, làm giàu dữ liệu mạng xã hội và đăng tuyển tự động lên hơn 2500+…"
+ },
+ "manychat|ngan": {
+  "h": "b6b1521f8a",
+  "vi": "Đã bao giờ thấy \"Comment X to get Y\" trên Instagram chưa?"
+ },
+ "marketerhire|ngan": {
+  "h": "841d1865d0",
+  "vi": "Những công ty tăng trưởng nhanh nhất hôm nay không chỉ gặp may với marketing tuyệt vời — họ có MarketerHire đứng sau."
+ },
+ "marketing-miner|luat0": {
+  "h": "00af0593a1",
+  "vi": "Không quảng bá vi phạm pháp luật, bao gồm quy định về bảo vệ dữ liệu, cạnh tranh không lành mạnh, quảng cáo và bảo vệ người tiêu dùng, cùng quy tắc chống spam"
+ },
+ "marketing-miner|luat1": {
+  "h": "acce32123e",
+  "vi": "Không quảng bá gian lận bằng robot, frame, iframe, script hoặc tự làm mới trang thủ công để tạo hoa hồng"
+ },
+ "marketing-miner|luat2": {
+  "h": "f094e331c1",
+  "vi": "Không ép người dùng mới lưu cookie giới thiệu hoặc thiết lập nó một cách gian lận"
+ },
+ "marketing-miner|ngan": {
+  "h": "0768d860bc",
+  "vi": "Marketing Miner là công cụ SEO và hiển thị AI dành cho chủ sở hữu ecommerce và doanh nghiệp, marketer, chuyên gia SEO và agency."
+ },
+ "mcp-ads|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, nhấp giả hoặc nhồi cookie"
+ },
+ "mcp-ads|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "mcp-ads|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "mcp-ads|ngan": {
+  "h": "78182bb663",
+  "vi": "MCP Ads là máy chủ MCP kết nối các nền tảng quảng cáo và phân tích, gồm Google Ads, Meta Ads, TikTok, Instagram, Facebook, LinkedIn, GA4 và Search Console, với AI…"
+ },
+ "mddhosting|luat0": {
+  "h": "75461a1ca5",
+  "vi": "Không quảng cáo không phù hợp như tuyên bố sai sự thật hoặc link gây hiểu lầm"
+ },
+ "mddhosting|luat1": {
+  "h": "699c0485fe",
+  "vi": "Không spam, bao gồm gửi email hàng loạt hoặc đăng bài hàng loạt lên newsgroup"
+ },
+ "mddhosting|luat2": {
+  "h": "640631ce95",
+  "vi": "Không quảng cáo trên các trang có chứa hoặc cổ vũ hoạt động bất hợp pháp"
+ },
+ "mddhosting|ngan": {
+  "h": "bcbadb8e2b",
+  "vi": "MDDHosting là công ty hosting web cung cấp shared cloud cPanel hosting trên các nền tảng Plaid và Turbo, reseller hosting linh hoạt và cố định, VPS hosting, đăng ký domain…"
+ },
+ "meetgeek|ngan": {
+  "h": "1937840b1b",
+  "vi": "MeetGeek là nền tảng tự động hóa cuộc họp bằng AI, giúp nhóm ghi âm, chuyển biên và cộng tác trên thông tin chi tiết và kiến thức từ các cuộc họp với đồng đội và…"
+ },
+ "melio|ngan": {
+  "h": "0c44c38fa4",
+  "vi": "Melio là giải pháp thanh toán hóa đơn miễn phí và đơn giản dành cho doanh nghiệp nhỏ, kế toán và nhân viên ghi sổ."
+ },
+ "merch-dominator|luat0": {
+  "h": "776604f93c",
+  "vi": "Ứng viên phải từ 18 tuổi trở lên và cung cấp email hợp lệ cùng tài khoản PayPal."
+ },
+ "merch-dominator|luat1": {
+  "h": "903fe1e7fd",
+  "vi": "Không dùng spam, gian lận hoặc phương thức bất hợp pháp để tạo doanh số."
+ },
+ "merch-dominator|luat2": {
+  "h": "459460b780",
+  "vi": "Không đấu thầu tên thương hiệu hoặc các thuật ngữ có nhãn hiệu trong tìm kiếm trả phí."
+ },
+ "merch-dominator|ngan": {
+  "h": "474ac178de",
+  "vi": "Merch Dominator cung cấp phần mềm nghiên cứu sản phẩm, từ khóa và xu hướng cho người bán print-on-demand."
+ },
+ "metricool|ngan": {
+  "h": "005a7e6e7e",
+  "vi": "Metricool là công cụ quản lý mạng xã hội dành cho nhà sáng tạo, thương hiệu và agency."
+ },
+ "mindstamp|luat0": {
+  "h": "cb7d4888f6",
+  "vi": "Không dùng link giới thiệu của bạn để tạo tài khoản của chính mình"
+ },
+ "mindstamp|luat1": {
+  "h": "0fd1acc2dc",
+  "vi": "Không chia tiền hoa hồng giới thiệu với khách hàng"
+ },
+ "mindstamp|luat2": {
+  "h": "ade266acf6",
+  "vi": "Không dùng link giới thiệu trong quảng cáo trả phí"
+ },
+ "mindstamp|ngan": {
+  "h": "999fa67147",
+  "vi": "Mindstamp là phần mềm video tương tác cho đào tạo, marketing, bán hàng, giáo dục và hỗ trợ."
+ },
+ "mozello|luat0": {
+  "h": "ce3b322491",
+  "vi": "Không dùng link affiliate của chính bạn để mua sản phẩm"
+ },
+ "mozello|luat1": {
+  "h": "83f9680fbe",
+  "vi": "Không đấu thầu tên thương hiệu Mozello trên các công cụ tìm kiếm"
+ },
+ "mozello|luat2": {
+  "h": "e8bc28ec04",
+  "vi": "Không dùng lưu lượng tự động không có cú nhấp chuột chủ đích từ người dùng đã được thông tin"
+ },
+ "mozello|ngan": {
+  "h": "7671097422",
+  "vi": "Mozello là công cụ tạo website để xây dựng website, blog và cửa hàng online với template responsive, hướng đến doanh nghiệp nhỏ và cá nhân muốn một cách đơn giản để bắt đầu…"
+ },
+ "moz|luat0": {
+  "h": "ced6c31670",
+  "vi": "Không được đấu giá các nhãn hiệu của Moz"
+ },
+ "moz|luat1": {
+  "h": "cc990c0cf3",
+  "vi": "Không gửi email thương mại không được yêu cầu"
+ },
+ "moz|ngan": {
+  "h": "bce7b6309a",
+  "vi": "Moz là công ty phần mềm SEO."
+ },
+ "mylens|ngan": {
+  "h": "5c0b6f1d4a",
+  "vi": "MyLens là công cụ thuyết trình AI: bạn tải lên nguồn của mình và thêm đối tượng, rồi MyLens tạo bài thuyết trình trực tiếp, cá nhân hóa cho từng người, trả lời câu hỏi của họ và báo cáo…"
+ },
+ "nightwatch|luat0": {
+  "h": "c5d57f7cc6",
+  "vi": "Không được đấu thầu từ khóa thương hiệu Nightwatch trên công cụ tìm kiếm; quảng cáo trả phí cho nội dung của chính bạn về Nightwatch được phép"
+ },
+ "nightwatch|ngan": {
+  "h": "6521ec0970",
+  "vi": "Nightwatch là công cụ theo dõi thứ hạng SEO, theo dõi thứ hạng tìm kiếm trên hơn 107,000+ địa điểm và kết hợp với theo dõi hiển thị AI trong ChatGPT, Claude, Gemini và Perplexity…"
+ },
+ "notify-me|luat0": {
+  "h": "ab2eb57f36",
+  "vi": "Vận hành doanh nghiệp hợp pháp, agency hoặc kênh giới thiệu độc lập"
+ },
+ "notify-me|luat1": {
+  "h": "2a34108f9b",
+  "vi": "Chỉ giới thiệu các cửa hàng Shopify đủ điều kiện, đáp ứng ít nhất hai trong bốn yêu cầu đã công bố"
+ },
+ "notify-me|luat2": {
+  "h": "302ddf93a7",
+  "vi": "Tiêu chí đủ điều kiện là đã hoạt động 6 tháng trên gói Shopify; gói Basic trở lên; 10 sản phẩm gồm 2 sản phẩm hết hàng; hoặc doanh thu $500 trong quý trước"
+ },
+ "notify-me|ngan": {
+  "h": "d64bf7945c",
+  "vi": "Notify Me là nền tảng thông báo và chuyển đổi tất cả trong một cho người bán hàng Shopify."
+ },
+ "notroa|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, lượt nhấp giả hoặc cookie stuffing"
+ },
+ "notroa|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính mình hoặc tài khoản của chính bạn"
+ },
+ "notroa|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu giá trên từ khóa thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "notroa|ngan": {
+  "h": "db06be85bf",
+  "vi": "Notroa là nền tảng nghiên cứu lead bất động sản."
+ },
+ "nowplayingwidget|ngan": {
+  "h": "79cc67b3b8",
+  "vi": "NowPlayingWidget là widget Mac giúp giữ các nút điều khiển phát nhạc nổi phía trên các cửa sổ khác của bạn cho Apple Music, Spotify và phát lại trên trình duyệt tương thích."
+ },
+ "nuelink|luat0": {
+  "h": "cedd392ced",
+  "vi": "Không chạy quảng cáo trả phí; chỉ được quảng bá tự nhiên"
+ },
+ "nuelink|luat1": {
+  "h": "3d4e5b5f14",
+  "vi": "Affiliate phải có tài khoản Nuelink đang hoạt động"
+ },
+ "nuelink|ngan": {
+  "h": "d7638632a3",
+  "vi": "Nuelink là công cụ lên lịch và tự động hóa mạng xã hội cho Facebook, Instagram, Twitter (X), LinkedIn, Google My Business và Pinterest, với các tính năng AI."
+ },
+ "ocoya|luat0": {
+  "h": "48f2081dc8",
+  "vi": "Không đặt thầu vào từ khóa có thương hiệu (\"Ocoya\" và các từ liên quan) trong quảng cáo tìm kiếm trả phí"
+ },
+ "ocoya|luat1": {
+  "h": "e3d1fda744",
+  "vi": "Không tự giới thiệu; tự mua qua link của chính bạn sẽ không nhận hoa hồng"
+ },
+ "ocoya|ngan": {
+  "h": "040011db56",
+  "vi": "Ocoya là một công cụ quản lý mạng xã hội được hỗ trợ bởi AI."
+ },
+ "offorte|luat0": {
+  "h": "2b2150048b",
+  "vi": "Không dùng tên thương hiệu Offorte hoặc Dvotion, hoặc các lỗi chính tả của chúng, làm từ khóa quảng cáo trên bất kỳ công cụ tìm kiếm nào hoặc trong tên miền của bạn"
+ },
+ "offorte|luat1": {
+  "h": "45d1ac72d1",
+  "vi": "Không quảng bá trên các site cờ bạc hoặc site có nội dung người lớn, thù ghét, bạo lực, phỉ báng hoặc nội dung xúc phạm khác"
+ },
+ "offorte|luat2": {
+  "h": "90c55f7a83",
+  "vi": "Không chia sẻ hoa hồng với người dùng cuối, nhân viên hoặc bên thứ ba khác"
+ },
+ "offorte|ngan": {
+  "h": "5b27454a1b",
+  "vi": "Offorte là phần mềm tạo proposal cho đội ngũ bán hàng và agency."
+ },
+ "omneky|ngan": {
+  "h": "caa1f15085",
+  "vi": "Omneky cung cấp phần mềm quảng cáo AI cho marketer, agency và doanh nghiệp tạo và quản lý các chiến dịch quảng cáo."
+ },
+ "omnisend|ngan": {
+  "h": "052722a745",
+  "vi": "Omnisend là nền tảng email và SMS marketing dành cho thương hiệu ecommerce, với tự động hóa, thông báo web push, xây dựng form bằng AI và insight về đối tượng, cùng tích hợp…"
+ },
+ "omniseo|luat0": {
+  "h": "f947645feb",
+  "vi": "Đối thủ cạnh tranh của công ty hoặc các bên liên kết của công ty không được tham gia"
+ },
+ "omniseo|luat1": {
+  "h": "b7409ac317",
+  "vi": "Không dùng link affiliate của chính bạn để mua sản phẩm OmniSEO cho bản thân"
+ },
+ "omniseo|luat2": {
+  "h": "39d224dbb2",
+  "vi": "Một giao dịch không đủ điều kiện nếu khách hàng của giao dịch đó trả thù lao giới thiệu trực tiếp cho bạn hoặc tham gia vào một chương trình đối tác OmniSEO khác"
+ },
+ "omniseo|ngan": {
+  "h": "b161af1f4f",
+  "vi": "OmniSEO® là Nền tảng Hiển thị AI giúp thương hiệu hiểu, đo lường và cải thiện tần suất họ được AI search engine như ChatGPT, Google AI Overviews… giới thiệu"
+ },
+ "optimizepress|luat0": {
+  "h": "a99a2a87c5",
+  "vi": "Email khuyến mãi affiliate phải dùng danh sách opt-in của chính affiliate; không được phép dùng hệ thống email của bên thứ ba, solo ads, safe lists và spam."
+ },
+ "optimizepress|luat1": {
+  "h": "e5a43b3edc",
+  "vi": "Không dùng tên sản phẩm hoặc nhãn hiệu của OptimizePress trong quảng cáo hoặc đặt giá thầu trên từ khóa thương hiệu, kể cả lỗi chính tả; điều này bao gồm AdSense, AdWords, Google, Facebook, Twitter, Yahoo và các mạng trả phí khác."
+ },
+ "optimizepress|luat2": {
+  "h": "60b652ea74",
+  "vi": "Lưu lượng PPC phải dẫn đến trang đích riêng của affiliate có giá trị bổ sung, thay vì dẫn trực tiếp đến OptimizePress hoặc các trang của họ."
+ },
+ "optimizepress|ngan": {
+  "h": "5d3de6af0c",
+  "vi": "OptimizePress là trình tạo trang WordPress và bộ công cụ marketing cho landing pages, sales pages, funnels và luồng thanh toán."
+ },
+ "originality-ai|luat0": {
+  "h": "d56d1be041",
+  "vi": "Không dùng Google Ads gửi traffic trực tiếp đến Originality.ai bằng link affiliate"
+ },
+ "originality-ai|ngan": {
+  "h": "24e5f98947",
+  "vi": "Originality.ai là công cụ phát hiện nội dung AI và kiểm tra đạo văn cho nhà xuất bản nội dung, agency và trường học."
+ },
+ "outranking|luat0": {
+  "h": "e1d6014734",
+  "vi": "Không được đấu giá các từ khóa thương hiệu như \"Outranking\" hoặc \"Outranking.io\" trong các chiến dịch tìm kiếm trả phí"
+ },
+ "outranking|luat1": {
+  "h": "cd2fa6a652",
+  "vi": "Không mạo danh Outranking.io hoặc khiến người khác hiểu nhầm rằng công ty của bạn là Outranking"
+ },
+ "outranking|luat2": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "outranking|ngan": {
+  "h": "2e9c74111e",
+  "vi": "Outranking là nền tảng nội dung SEO dùng AI."
+ },
+ "owtrue|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, lượt nhấp giả hoặc nhồi cookie"
+ },
+ "owtrue|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu cho chính mình hoặc các tài khoản của bạn"
+ },
+ "owtrue|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đặt giá thầu trên từ khóa thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "owtrue|ngan": {
+  "h": "46f23bc34d",
+  "vi": "Owtrue là nền tảng phản hồi khách hàng được xây dựng cho các nhóm sản phẩm muốn thu thập, ưu tiên và xử lý ý kiến người dùng mà không rời khỏi sản phẩm của mình."
+ },
+ "oxylabs|luat0": {
+  "h": "c7cb038b66",
+  "vi": "Mở cho ứng viên có website hợp lệ hoặc hiện diện mạng xã hội đã स्थापित"
+ },
+ "oxylabs|luat1": {
+  "h": "e39a901fea",
+  "vi": "Hoa hồng tối đa $2,000 cho mỗi khách hàng được giới thiệu"
+ },
+ "oxylabs|ngan": {
+  "h": "0a089bab5b",
+  "vi": "Oxylabs bán proxy và công cụ dữ liệu web: proxy residential, mobile, ISP và datacenter, Web Unblocker, API web scraping và search, trình duyệt agent và bộ dữ liệu có sẵn…"
+ },
+ "pabbly-connect|luat0": {
+  "h": "0819b3c86e",
+  "vi": "Không nhận traffic từ website coupon hoặc giảm giá, và không chạy chiến dịch Google Ads hoặc Bing Ads"
+ },
+ "pabbly-connect|luat1": {
+  "h": "85ec7d1e8b",
+  "vi": "Không có ưu đãi hoàn tiền và không được dùng tên miền chứa Pabbly"
+ },
+ "pabbly-connect|luat2": {
+  "h": "77e2e5a1fc",
+  "vi": "Không có hoa hồng cho các lần mua của chính bạn"
+ },
+ "pabbly-connect|ngan": {
+  "h": "c0b8b142b0",
+  "vi": "Pabbly Connect là công cụ tự động hóa workflow, chuyển dữ liệu giữa các ứng dụng và tự động hóa các tác vụ lặp lại mà không cần code, với hơn 2,000 tích hợp ứng dụng."
+ },
+ "pagecloud|ngan": {
+  "h": "10c09eaf6a",
+  "vi": "Trình tạo website hàng đầu cho doanh nghiệp nhỏ!"
+ },
+ "pagefly|luat0": {
+  "h": "3a7650f246",
+  "vi": "Không sử dụng Dịch vụ PageFly cho mục đích trái pháp luật hoặc vi phạm pháp luật hiện hành."
+ },
+ "pagefly|luat1": {
+  "h": "c229b84952",
+  "vi": "Khi sử dụng PageFly, không vi phạm quyền của bên thứ ba hoặc khuyến khích người khác làm vậy, bao gồm cả quyền sở hữu trí tuệ."
+ },
+ "pagefly|luat2": {
+  "h": "1ea7d16ca2",
+  "vi": "Không vô hiệu hóa hoặc vượt qua các tính năng bảo mật của PageFly nhằm hạn chế truy cập hoặc sao chép nội dung Dịch vụ."
+ },
+ "pagefly|ngan": {
+  "h": "321ef56aca",
+  "vi": "PageFly là trình xây dựng trang Shopify để tạo và tùy chỉnh các trang cửa hàng."
+ },
+ "pagergpt|ngan": {
+  "h": "4115137dd7",
+  "vi": "pagergpt là một nền tảng xây dựng AI agents xử lý hội thoại khách hàng trên toàn bộ hành trình bán hàng, hỗ trợ và các hành trình khách hàng khác."
+ },
+ "paraphrase-tool|ngan": {
+  "h": "e0d3d8827e",
+  "vi": "Paraphrase Tool là ứng dụng viết AI viết lại câu, đoạn văn và bài luận bằng hơn 100 ngôn ngữ."
+ },
+ "pdf2go|ngan": {
+  "h": "2bc15eb532",
+  "vi": "PDF2Go là trình chỉnh sửa và chuyển đổi PDF trực tuyến chạy trên trình duyệt mà không cần cài phần mềm."
+ },
+ "pictory|luat0": {
+  "h": "81c455483f",
+  "vi": "Không spam hoặc quảng bá không được yêu cầu"
+ },
+ "pictory|ngan": {
+  "h": "fe1e37552d",
+  "vi": "Pictory AI là nền tảng tạo text-to-video tự động biến bài blog, kịch bản và bài viết thành video ngắn, dễ chia sẻ."
+ },
+ "pineapple-builder|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "pineapple-builder|luat1": {
+  "h": "36077f53f0",
+  "vi": "Không spam"
+ },
+ "pineapple-builder|luat2": {
+  "h": "23d02f761b",
+  "vi": "Luôn công khai mối quan hệ affiliate của bạn"
+ },
+ "pineapple-builder|ngan": {
+  "h": "7306907bf8",
+  "vi": "Pineapple Builder là trình xây dựng website bằng AI dành cho doanh nghiệp nhỏ."
+ },
+ "pinin|luat0": {
+  "h": "36077f53f0",
+  "vi": "Không spam"
+ },
+ "pinin|luat1": {
+  "h": "06bf2e68fa",
+  "vi": "Không đăng trên các trang coupon"
+ },
+ "pinin|luat2": {
+  "h": "e149218aec",
+  "vi": "Không đặt giá thầu trên Pinin hoặc các lỗi chính tả của thương hiệu trong quảng cáo tìm kiếm"
+ },
+ "pinin|ngan": {
+  "h": "7e4a1c3d60",
+  "vi": "Pinin là dịch vụ khôi phục ảnh bằng AI từ Italy."
+ },
+ "pipeline-crm|luat0": {
+  "h": "4e29ac9cc0",
+  "vi": "Không giới thiệu chính mình hoặc chủ lao động của bạn"
+ },
+ "pipeline-crm|luat1": {
+  "h": "ba02686580",
+  "vi": "Hoa hồng sẽ dừng nếu bạn trở thành nhân viên của công ty mà bạn đã giới thiệu"
+ },
+ "pipeline-crm|luat2": {
+  "h": "61a88ea217",
+  "vi": "Các lượt giới thiệu được thực hiện trước khi bạn tham gia chương trình sẽ không được nhận hoa hồng"
+ },
+ "pipeline-crm|ngan": {
+  "h": "6dec3ff670",
+  "vi": "Pipeline CRM, còn gọi là PipelineDeals, là phần mềm quản lý pipeline bán hàng cho đội ngũ bán hàng."
+ },
+ "pixelcut|luat0": {
+  "h": "aa72884d76",
+  "vi": "Không có hoa hồng cho lượt nhấp từ các công cụ tìm kiếm lớn như Google, Bing, Baidu và Yandex, bao gồm cả quảng cáo trả phí trên đó"
+ },
+ "pixelcut|ngan": {
+  "h": "5a86765df2",
+  "vi": "Pixelcut là trình chỉnh sửa ảnh AI với công cụ xóa nền, nâng cấp ảnh, magic eraser, generative fill, uncrop, trình tạo ảnh và video AI, chụp sản phẩm bằng AI và xử lý hàng loạt…"
+ },
+ "pixverse|ngan": {
+  "h": "86849001a9",
+  "vi": "PixVerse là nền tảng tạo video bằng AI để biến prompt văn bản và hình ảnh thành video."
+ },
+ "plansom|luat0": {
+  "h": "191b694a6c",
+  "vi": "Không đặt giá thầu trên các từ khóa mang thương hiệu Plansom trong tìm kiếm trả phí"
+ },
+ "plansom|luat1": {
+  "h": "5eae71de99",
+  "vi": "Không tự giới thiệu, bao gồm cả các giao dịch mua cho chủ lao động của bạn hoặc một công ty mà bạn có lợi ích đáng kể"
+ },
+ "plansom|luat2": {
+  "h": "b0bdd7072e",
+  "vi": "Không dùng cookie stuffing, click cưỡng bức, pop-up, iframe hoặc khung ẩn"
+ },
+ "plansom|ngan": {
+  "h": "de5fe7238f",
+  "vi": "Plansom là một công cụ đơn giản hóa công việc bằng AI."
+ },
+ "podia|luat0": {
+  "h": "94476682e1",
+  "vi": "Không có site coupon; Podia không cung cấp giảm giá đặc biệt hoặc coupon"
+ },
+ "podia|luat1": {
+  "h": "5e87d18fde",
+  "vi": "Affiliates nên quảng bá Podia thường xuyên để giữ trạng thái hoạt động"
+ },
+ "podia|ngan": {
+  "h": "1990461427",
+  "vi": "Podia là nền tảng tất cả trong một dành cho creator để bán khóa học online, tải xuống kỹ thuật số, coaching và sự kiện, vận hành cộng đồng miễn phí hoặc trả phí, và gửi email marketing, tất cả từ…"
+ },
+ "poptin|luat0": {
+  "h": "661e58102b",
+  "vi": "Quảng cáo trả phí và việc sử dụng tài sản sáng tạo của Poptin cần được phê duyệt trước"
+ },
+ "poptin|luat1": {
+  "h": "2ba5583fb7",
+  "vi": "Quảng cáo gắn thương hiệu cần được phê duyệt chính thức qua email"
+ },
+ "poptin|luat2": {
+  "h": "c2735892a0",
+  "vi": "Không gửi email, bài đăng diễn đàn hoặc tin nhắn mạng xã hội không được yêu cầu để quảng bá Poptin"
+ },
+ "poptin|ngan": {
+  "h": "3f87b56099",
+  "vi": "Poptin cung cấp popup, biểu mẫu và công cụ email marketing cho website."
+ },
+ "post-affiliate-pro|luat0": {
+  "h": "9ca88df1c4",
+  "vi": "Cần hai lượt giới thiệu riêng biệt trước khi thanh toán đầu tiên"
+ },
+ "post-affiliate-pro|luat1": {
+  "h": "ac4999f9ef",
+  "vi": "Hoa hồng sẽ được chia khi nhiều affiliate giới thiệu cùng một đơn hàng"
+ },
+ "post-affiliate-pro|ngan": {
+  "h": "e900af2fc0",
+  "vi": "Post Affiliate Pro là phần mềm quản lý affiliate để vận hành các chương trình affiliate, referral và đối tác."
+ },
+ "postall|ngan": {
+  "h": "3db30e6454",
+  "vi": "PostAll là nền tảng tự động hóa mạng xã hội, lên lịch, tạo và đăng bài lên nhiều tài khoản mạng xã hội từ một nơi, với nội dung hỗ trợ bởi AI."
+ },
+ "praybefore|ngan": {
+  "h": "d47fb6e191",
+  "vi": "PrayBefore là ứng dụng cầu nguyện và Kinh Thánh Cơ Đốc giáo giúp mọi người xây dựng thói quen cầu nguyện hằng ngày đều đặn và đặt Chúa lên trên các xao nhãng kỹ thuật số."
+ },
+ "predis|ngan": {
+  "h": "cb467457e4",
+  "vi": "Predis.ai là công cụ tạo nội dung mạng xã hội bằng AI, tạo sẵn carousel, reel, video và caption từ một prompt văn bản."
+ },
+ "prepostseo|ngan": {
+  "h": "a0d74bfc36",
+  "vi": "Prepostseo là website cung cấp hơn 150 công cụ trực tuyến cho sinh viên, người viết và chuyên gia SEO, bao gồm công cụ kiểm tra đạo văn, công cụ diễn đạt lại, AI humanizer, kiểm tra ngữ pháp…"
+ },
+ "press-mage|luat0": {
+  "h": "684771b822",
+  "vi": "Không đặt giá thầu trên Press Mage, CSP Geeks, bất kỳ tên sản phẩm Mage nào hoặc các lỗi chính tả gây nhầm lẫn trong tìm kiếm trả phí, hoặc chạy quảng cáo trông như chính thức, khi chưa được ủy quyền bằng văn bản."
+ },
+ "press-mage|luat1": {
+  "h": "684ea0249b",
+  "vi": "Không đăng ký tên miền, tài khoản mạng xã hội hoặc trang mạo danh Press Mage hoặc CSP Geeks, hoặc tự nhận là nhân viên hay đại diện."
+ },
+ "press-mage|luat2": {
+  "h": "d6e3c3ef1f",
+  "vi": "Không đưa ra giá sai, bịa đặt giảm giá, nêu các tuyên bố không có cơ sở về dịch vụ, hoặc công bố giá riêng tư hay mật."
+ },
+ "press-mage|ngan": {
+  "h": "ef3d3ae92c",
+  "vi": "Press Mage là một nền tảng dành cho các agency web và đội ngũ tinh gọn, được xây dựng và vận hành bởi CSP Geeks LLC."
+ },
+ "pro-rank-tracker|luat0": {
+  "h": "2991bf2e38",
+  "vi": "Không chạy quảng cáo PPC, và không dùng tên miền có từ khóa giống hoặc tương tự thương hiệu, như ProRankTracker, Pro Rank Tracker hoặc Pro Rank Tracker Coupon"
+ },
+ "pro-rank-tracker|luat1": {
+  "h": "9ad3328eb1",
+  "vi": "Không tự giới thiệu hoặc giới thiệu cho công ty thuê bạn"
+ },
+ "pro-rank-tracker|luat2": {
+  "h": "397d84b9d6",
+  "vi": "Không cung cấp thông tin gây hiểu lầm hoặc sai về sản phẩm, khuyến mãi, coupon hoặc bản dùng thử miễn phí"
+ },
+ "pro-rank-tracker|ngan": {
+  "h": "b7888cb6e6",
+  "vi": "Pro Rank Tracker là một công cụ theo dõi và báo cáo thứ hạng SEO."
+ },
+ "proxyscrape|luat0": {
+  "h": "59f4092012",
+  "vi": "Không quảng cáo URL affiliate của bạn trên Google hoặc bất kỳ công cụ tìm kiếm nào khác cho tên thương hiệu ProxyScrape hoặc các từ gần giống, bao gồm ProxyScrape, Proxyscraper, proxyscrap và mọi biến thể"
+ },
+ "proxyscrape|luat1": {
+  "h": "88dabff8be",
+  "vi": "Không dùng URL affiliate của chính bạn để mua hàng từ ProxyScrape"
+ },
+ "proxyscrape|ngan": {
+  "h": "443bdf578b",
+  "vi": "ProxyScrape bán proxy server được xây dựng cho web scraping và tự động hóa, với 120M+ residential IPs và 40,000 proxy datacenter hỗ trợ HTTP, SOCKS5 và UDP, uptime 99.9%…"
+ },
+ "pumpgtm|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "pumpgtm|luat1": {
+  "h": "06d2922dd7",
+  "vi": "Không chạy quảng cáo trả phí trên các thuật ngữ thương hiệu PumpGTM"
+ },
+ "pumpgtm|luat2": {
+  "h": "2deffc7848",
+  "vi": "Chỉ chấp nhận bản ghi màn hình thật; không bao giờ bịa ra kết quả hoặc câu trả lời"
+ },
+ "pumpgtm|ngan": {
+  "h": "142473be6d",
+  "vi": "PumpGTM tìm những người mua đang cho thấy họ sẵn sàng mua và triển khai tiếp cận đa kênh từ các tài khoản của chính bạn trên LinkedIn, X, email và Instagram, với WhatsApp đang ở bản beta."
+ },
+ "purevpn|luat0": {
+  "h": "c9fd94df90",
+  "vi": "Không đấu thầu các thuật ngữ thương hiệu hoặc nhãn hiệu PureVPN trong quảng cáo tìm kiếm trả phí"
+ },
+ "purevpn|luat1": {
+  "h": "175a2068ca",
+  "vi": "Không dùng tên thương hiệu PureVPN trong tên miền affiliate"
+ },
+ "purevpn|luat2": {
+  "h": "bd93630eb2",
+  "vi": "Hoa hồng sẽ bị hủy khi có chargeback, hoàn tiền và hủy đơn"
+ },
+ "purevpn|ngan": {
+  "h": "30f6ff7f15",
+  "vi": "PureVPN là dịch vụ VPN có ứng dụng cho Windows, Mac, Android, iOS, Linux, Apple TV, Fire Stick và router."
+ },
+ "quickmail|ngan": {
+  "h": "02ae5da148",
+  "vi": "QuickMail là một nền tảng cold outreach cho các growth team và agency."
+ },
+ "rank-prompt|ngan": {
+  "h": "f819a25d8d",
+  "vi": "Chúng tôi cung cấp cho bạn các công cụ mà thương hiệu cần để mở rộng khả năng hiển thị trong xếp hạng AI."
+ },
+ "rask-ai|luat0": {
+  "h": "af728e5de1",
+  "vi": "Không tự giới thiệu hoặc dùng link của chính bạn để nhận giảm giá"
+ },
+ "rask-ai|luat1": {
+  "h": "801fb2c4ca",
+  "vi": "Không đấu thầu từ khóa có thương hiệu; affiliate dùng lưu lượng trả phí sẽ bị cấm vĩnh viễn"
+ },
+ "rask-ai|luat2": {
+  "h": "3006720c43",
+  "vi": "Không có lưu lượng được khuyến khích, spam email, pop-up, traffic người lớn hoặc marketing gây hiểu lầm"
+ },
+ "rask-ai|ngan": {
+  "h": "c833793d04",
+  "vi": "Rask AI là công cụ bản địa hóa video, dịch, lồng tiếng và đồng bộ khẩu hình video và âm thanh sang hơn 135 ngôn ngữ, với nhân bản giọng nói, tự động phiên âm và phụ đề…"
+ },
+ "real-time-sale-global|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "real-time-sale-global|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "real-time-sale-global|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí khi chưa có phép bằng văn bản"
+ },
+ "real-time-sale-global|ngan": {
+  "h": "7914407793",
+  "vi": "Real Time Sale Global hiển thị những gì đang bán trên Shopify ngay khi nó diễn ra, giúp người bán tìm ngách đang tăng trưởng, xác nhận nhu cầu và bắt kịp thị trường."
+ },
+ "reclaim|ngan": {
+  "h": "45206422d2",
+  "vi": "Reclaim AI là công cụ quản lý lịch thông minh, tự động sắp xếp công việc, thói quen, cuộc họp và thời gian nghỉ quanh lịch hiện có của bạn."
+ },
+ "reelscut|ngan": {
+  "h": "74ce7b7105",
+  "vi": "ReelsCut là trình chỉnh sửa video AI dành cho nhà sáng tạo quay cảnh mình nói trước camera."
+ },
+ "rentaneo|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có traffic gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "rentaneo|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính bạn hoặc các tài khoản của chính bạn"
+ },
+ "rentaneo|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đặt thầu vào từ khóa thương hiệu trong quảng cáo tìm kiếm nếu không có chấp thuận bằng văn bản"
+ },
+ "rentaneo|ngan": {
+  "h": "79e3cb2ad0",
+  "vi": "RENTANEO là phần mềm quản lý tất cả trong một được thiết kế cho các đại lý cho thuê xe ở Pháp."
+ },
+ "revid|luat0": {
+  "h": "d53d948da7",
+  "vi": "Không dùng các trang coupon hoặc deal, và không có trang hoặc quảng cáo nhắm vào tìm kiếm mã giảm giá hoặc promo code của Revid"
+ },
+ "revid|luat1": {
+  "h": "3053810d1c",
+  "vi": "Không đặt thầu vào từ khóa thương hiệu Revid; lượt truy cập từ quảng cáo trả phí sẽ không bao giờ nhận hoa hồng"
+ },
+ "revid|luat2": {
+  "h": "cc0f4d50fa",
+  "vi": "Mã giảm giá không được chứa \"rev\" hoặc các từ chung như SAVE20"
+ },
+ "revid|ngan": {
+  "h": "4791c5337e",
+  "vi": "Revid là một công cụ video AI cho nội dung ngắn."
+ },
+ "review-reply-ai|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "review-reply-ai|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "review-reply-ai|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí khi chưa có phép bằng văn bản"
+ },
+ "review-reply-ai|ngan": {
+  "h": "081c36a1a1",
+  "vi": "ReviewReply AI là nền tảng quản lý đánh giá Google Business Profile ứng dụng AI, được thiết kế cho chủ doanh nghiệp và đội ngũ marketing."
+ },
+ "rightblogger|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "rightblogger|luat1": {
+  "h": "48f857268d",
+  "vi": "Không chạy quảng cáo tìm kiếm trả phí trên từ khóa thương hiệu RightBlogger"
+ },
+ "rightblogger|luat2": {
+  "h": "914927ac98",
+  "vi": "Link affiliate phải có thông báo hoa hồng rõ ràng"
+ },
+ "rightblogger|ngan": {
+  "h": "4ed2bd715b",
+  "vi": "RightBlogger là công cụ tự động hóa blog bằng AI cho blogger và agency."
+ },
+ "riley|luat0": {
+  "h": "95cfa7de2a",
+  "vi": "Không đấu giá quảng cáo tìm kiếm trả phí trên tên thương hiệu Riley"
+ },
+ "riley|luat1": {
+  "h": "36077f53f0",
+  "vi": "Không spam"
+ },
+ "riley|luat2": {
+  "h": "6086db9307",
+  "vi": "Không được đưa ra những tuyên bố mà Riley không đưa ra (Riley không bao giờ báo giá hay đặt lịch công việc nếu chưa có OK của chủ sở hữu)"
+ },
+ "riley|ngan": {
+  "h": "6a3e99dd79",
+  "vi": "Riley là dịch vụ nhận cuộc gọi nhỡ dành cho nhà thầu."
+ },
+ "ringcentral|ngan": {
+  "h": "8b8daa21ca",
+  "vi": "RingCentral là nhà cung cấp điện thoại doanh nghiệp và truyền thông trên nền tảng đám mây."
+ },
+ "rippling|ngan": {
+  "h": "0fd073f3f7",
+  "vi": "Rippling là nền tảng vận hành HR, IT và Finance tại một nơi: payroll, phúc lợi, tuân thủ, thiết bị công ty và chi phí, với Rippling AI làm việc trên cùng dữ liệu nhân viên…"
+ },
+ "rocket-net|luat0": {
+  "h": "737e3ddd4b",
+  "vi": "Không tự giới thiệu: bạn không được giới thiệu chính mình như khách hàng Rocket.net"
+ },
+ "rocket-net|ngan": {
+  "h": "6055650c82",
+  "vi": "Rocket.net là nền tảng hosting WordPress quản lý dành cho agency và cửa hàng online."
+ },
+ "rytr|ngan": {
+  "h": "401b4c31d6",
+  "vi": "Rytr là một trợ lý viết bằng AI tiết kiệm chi phí để tạo bài blog, email, nội dung quảng cáo, nội dung mạng xã hội, và hơn thế nữa."
+ },
+ "salesblink|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "salesblink|ngan": {
+  "h": "75e84c6fd8",
+  "vi": "SalesBlink là phần mềm cold email tự động hóa hoạt động tiếp cận bán hàng."
+ },
+ "saleshandy|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "saleshandy|luat1": {
+  "h": "1d8304a0ef",
+  "vi": "Không đăng giảm giá giả lên các website chia sẻ mã giảm giá"
+ },
+ "saleshandy|luat2": {
+  "h": "22d4635e30",
+  "vi": "Không có quảng cáo Google, Bing, Yahoo hoặc Facebook cạnh tranh với Saleshandy, đặc biệt trên các từ khóa thương hiệu hoặc tên miền"
+ },
+ "saleshandy|ngan": {
+  "h": "daa2f66c00",
+  "vi": "Saleshandy là nền tảng tiếp cận qua email lạnh."
+ },
+ "saner|ngan": {
+  "h": "d599f2072a",
+  "vi": "Saner.AI là trợ lý cá nhân AI được xây dựng cho người mắc ADHD."
+ },
+ "scalahosting|luat0": {
+  "h": "3f4c1f1899",
+  "vi": "Không nhận các website quảng bá nội dung khiêu dâm hoặc bạo lực"
+ },
+ "scalahosting|luat1": {
+  "h": "16c6f3bc8f",
+  "vi": "Không nhận các website quảng bá phân biệt đối xử dựa trên chủng tộc, giới tính, tôn giáo, quốc gia xuất xứ hoặc khuyết tật thể chất"
+ },
+ "scalahosting|luat2": {
+  "h": "6fdaab8179",
+  "vi": "Không nhận các website quảng bá hoạt động bất hợp pháp"
+ },
+ "scalahosting|ngan": {
+  "h": "9faf93e5fd",
+  "vi": "ScalaHosting cung cấp cloud hosting được quản lý, cloud VPS, WordPress hosting, reseller hosting và email doanh nghiệp."
+ },
+ "scalenut|luat0": {
+  "h": "f00c53aea1",
+  "vi": "Không tự giới thiệu, kể cả việc cố gắng nhận giảm giá cho lần mua của chính bạn"
+ },
+ "scalenut|luat1": {
+  "h": "380906a87e",
+  "vi": "Không có chiến lược paid search dựa trên nhãn hiệu hoặc tên thương hiệu của Scalenut; khi chạy quảng cáo tìm kiếm trả phí trên Google hoặc Bing, bắt buộc phải thêm từ khóa phủ định cho các thuật ngữ thương hiệu Scalenut"
+ },
+ "scalenut|ngan": {
+  "h": "cfae737ad2",
+  "vi": "Scalenut là nền tảng SEO và content ứng dụng AI, kết hợp nghiên cứu từ khóa, lập kế hoạch nội dung, viết bằng AI và tối ưu SEO trong một công cụ."
+ },
+ "se-ranking|luat0": {
+  "h": "ea216bf89e",
+  "vi": "Không chạy quảng cáo trả phí"
+ },
+ "se-ranking|ngan": {
+  "h": "3d8f67261b",
+  "vi": "SE Ranking là một nền tảng SEO dành cho agency, doanh nghiệp và nhà tiếp thị."
+ },
+ "seerist|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, lượt nhấp giả hoặc nhồi cookie"
+ },
+ "seerist|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu cho chính mình hoặc các tài khoản của bạn"
+ },
+ "seerist|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đặt giá thầu trên từ khóa thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "seerist|ngan": {
+  "h": "222fbb7b93",
+  "vi": "Seerist là hệ điều hành doanh nghiệp tất cả trong một, được xây dựng cho founder SaaS và agency cần giành được công việc từ khách hàng, xây dựng và triển khai dự án, và phát triển sản phẩm mà không…"
+ },
+ "sellercenter|luat0": {
+  "h": "97c0466ee8",
+  "vi": "Không tự giới thiệu: khoản chi trả có thể bị hoãn cho đến khi ít nhất hai người dùng khác nhau đăng ký và mua gói qua liên kết của bạn"
+ },
+ "sellercenter|ngan": {
+  "h": "504b45073b",
+  "vi": "SellerCenter là bộ công cụ dropshipping dành cho người bán Shopify."
+ },
+ "sender|luat0": {
+  "h": "090f897434",
+  "vi": "Không đưa ra tuyên bố hay bảo đảm nào về Sender ngoài các tài liệu marketing đã được phê duyệt."
+ },
+ "sender|luat1": {
+  "h": "d85bc1decb",
+  "vi": "Việc sử dụng dịch vụ, nhãn hiệu và tài liệu marketing của Sender phải đáp ứng tiêu chuẩn của họ và cần được phê duyệt trước khi bán, sử dụng, phân phối hoặc tiết lộ."
+ },
+ "sender|luat2": {
+  "h": "caaec991a2",
+  "vi": "Sử dụng hình ảnh nhãn hiệu được cung cấp mà không thay đổi, chỉ cho chương trình và theo hướng dẫn nhãn hiệu; dừng lại khi được yêu cầu."
+ },
+ "sender|ngan": {
+  "h": "00048d6548",
+  "vi": "Sender.net là nền tảng email và SMS marketing tất cả trong một được xây dựng cho doanh nghiệp muốn tự động hóa mạnh mẽ mà không phức tạp hay tốn kém cao."
+ },
+ "sendowl|luat0": {
+  "h": "e6b89e37c6",
+  "vi": "Không có trang coupon, deal hoặc giảm giá"
+ },
+ "sendowl|luat1": {
+  "h": "067d721194",
+  "vi": "Không quảng cáo trả tiền theo lượt nhấp"
+ },
+ "sendowl|luat2": {
+  "h": "f88f38f763",
+  "vi": "Điều khoản Chương trình Giới thiệu cấm quảng bá trên công cụ tìm kiếm hoặc nền tảng mạng xã hội"
+ },
+ "sendowl|ngan": {
+  "h": "ad213e5ec0",
+  "vi": "SendOwl là nền tảng bán sản phẩm số và file tải xuống."
+ },
+ "sendpulse|luat0": {
+  "h": "baee167ab0",
+  "vi": "Không spam email hoặc SEO, và không dùng các hệ thống PPC như Google Ads hoặc Bing Ads"
+ },
+ "sendpulse|ngan": {
+  "h": "b015311139",
+  "vi": "SendPulse là nền tảng tự động hóa marketing với chiến dịch email, email giao dịch, chatbot cho WhatsApp, Telegram, Instagram, Facebook và TikTok, CRM, website và…"
+ },
+ "senja|luat0": {
+  "h": "798c19ca8b",
+  "vi": "Không tự giới thiệu: không được đăng ký Senja bằng chính tài khoản affiliate của bạn"
+ },
+ "senja|luat1": {
+  "h": "6baf0775bb",
+  "vi": "Không được đấu thầu từ khóa thương hiệu như Senja hoặc Senja testimonials"
+ },
+ "senja|luat2": {
+  "h": "f87cd3a2f7",
+  "vi": "Không được chạy quảng cáo trên công cụ tìm kiếm cạnh tranh với marketing của chính Senja hoặc gây nhầm lẫn cho khách hàng của họ"
+ },
+ "senja|ngan": {
+  "h": "5cf96a1f19",
+  "vi": "Senja là công cụ thu thập testimonial cho nhà sáng tạo và doanh nghiệp."
+ },
+ "seobility|ngan": {
+  "h": "7e46837ccf",
+  "vi": "Seobility là một bộ phần mềm SEO tất cả trong một."
+ },
+ "setmore|luat0": {
+  "h": "7f850482b7",
+  "vi": "Không đặt giá thầu trên từ khóa thương hiệu Setmore trong Google Ads"
+ },
+ "setmore|luat1": {
+  "h": "e84549fd45",
+  "vi": "Không quảng bá trên các trang người lớn, thù ghét hoặc cờ bạc"
+ },
+ "setmore|luat2": {
+  "h": "38d89f618d",
+  "vi": "Không gửi email hàng loạt không được yêu cầu"
+ },
+ "setmore|ngan": {
+  "h": "f98e29bc60",
+  "vi": "Setmore là ứng dụng đặt lịch hẹn trực tuyến dành cho doanh nghiệp nhỏ và nhóm."
+ },
+ "shopify|luat0": {
+  "h": "948c6d6675",
+  "vi": "Hoa hồng chỉ áp dụng cho các gói Basic, Grow hoặc Advanced giá đầy đủ"
+ },
+ "shopify|luat1": {
+  "h": "da0fa96062",
+  "vi": "Ứng viên cần có website đang hoạt động hoặc lượng khán giả đã được xây dựng; không phải mọi đơn đăng ký đều được chấp thuận"
+ },
+ "shopify|ngan": {
+  "h": "9759919b96",
+  "vi": "Shopify là nền tảng thương mại tất cả trong một để bắt đầu và phát triển doanh nghiệp, từ cửa hàng trực tuyến đến dropshipping, in theo yêu cầu, bán hàng trên mạng xã hội và bán trực tiếp tại điểm bán với POS."
+ },
+ "similarweb|ngan": {
+  "h": "8c53bb0105",
+  "vi": "Similarweb cung cấp dữ liệu thị trường số và tình báo cạnh tranh để nghiên cứu website, ứng dụng, ngành và thị trường."
+ },
+ "simplybook-me|luat0": {
+  "h": "fe946c2d52",
+  "vi": "Không có các thực hành quảng cáo gây hiểu lầm hoặc phi đạo đức"
+ },
+ "simplybook-me|ngan": {
+  "h": "71fef6f251",
+  "vi": "SimplyBook.me là một hệ thống đặt lịch trực tuyến cho các doanh nghiệp dịch vụ như salon, phòng khám, phòng gym, gia sư, huấn luyện viên và tư vấn viên."
+ },
+ "simvoly|luat0": {
+  "h": "2a1e0f1df6",
+  "vi": "Không được nhận hoa hồng từ tài khoản hoặc dự án của chính bạn"
+ },
+ "simvoly|luat1": {
+  "h": "0fa13e70a2",
+  "vi": "Không được cookie pushing"
+ },
+ "simvoly|luat2": {
+  "h": "6a4489a676",
+  "vi": "Không chạy chiến dịch PPC trên các từ khóa chứa tên thương hiệu Simvoly"
+ },
+ "simvoly|ngan": {
+  "h": "49b0244769",
+  "vi": "Simvoly là công cụ tạo website và funnel với thương mại điện tử, cộng đồng và khóa học, CRM, marketing email và SMS, đặt lịch hẹn, quiz và lưu trữ video."
+ },
+ "site-pro|luat0": {
+  "h": "c526b67ec0",
+  "vi": "Không có hoa hồng khi affiliate và khách hàng có cùng hoặc tương tự địa chỉ email, địa chỉ IP, hoặc thuộc cùng một nhóm công ty"
+ },
+ "site-pro|luat1": {
+  "h": "c7d8acf368",
+  "vi": "Không có hoa hồng trừ khi affiliate đã đặt một URL công khai quảng cáo Site.pro và sản phẩm của mình"
+ },
+ "site-pro|luat2": {
+  "h": "4ac2261a94",
+  "vi": "Không có hoa hồng khi affiliate chỉ có một khách hàng trả phí"
+ },
+ "site-pro|ngan": {
+  "h": "bea7ef407d",
+  "vi": "Site.pro là một trình xây dựng website AI."
+ },
+ "siteground|ngan": {
+  "h": "7cf3279c0b",
+  "vi": "SiteGround là công ty hosting web cho WordPress, WooCommerce và các website khác, chạy trên Google Cloud với CDN toàn cầu."
+ },
+ "smartlead|luat0": {
+  "h": "66adaf4017",
+  "vi": "Không spam hoặc quảng bá gây hiểu lầm"
+ },
+ "smartlead|ngan": {
+  "h": "8c5489aace",
+  "vi": "Smartlead là một công cụ tiếp cận cold email bằng AI được xây dựng cho agency và đội ngũ bán hàng."
+ },
+ "snov-io|luat0": {
+  "h": "548cb8719b",
+  "vi": "Không đấu thầu PPC trên tên thương hiệu Snov.io (Snov.io, Snov, Snovio) nếu chưa có phép bằng văn bản; các thuật ngữ thương hiệu phải là từ khóa phủ định"
+ },
+ "snov-io|luat1": {
+  "h": "c2f4fd2fc8",
+  "vi": "Không tự giới thiệu, và không giới thiệu người thân hoặc người trong nơi làm việc của bạn"
+ },
+ "snov-io|luat2": {
+  "h": "0b4ddd6488",
+  "vi": "Không spam, gửi email hàng loạt hoặc quảng cáo gây hiểu lầm"
+ },
+ "snov-io|ngan": {
+  "h": "973134b0ce",
+  "vi": "Snov.io là nền tảng tìm kiếm khách hàng tiềm năng và outreach lạnh."
+ },
+ "socialbee|ngan": {
+  "h": "fce072e179",
+  "vi": "SocialBee là nền tảng quản lý mạng xã hội và agency marketing số giúp doanh nghiệp tận dụng tối đa sự hiện diện online của mình."
+ },
+ "socialpilot|luat0": {
+  "h": "fbe5413885",
+  "vi": "Không quảng cáo trên bất kỳ mạng quảng cáo nào để thu hút khách hàng"
+ },
+ "socialpilot|luat1": {
+  "h": "715810729d",
+  "vi": "Không quảng bá trên các trang coupon hoặc loyalty, và chỉ dùng mã coupon do chương trình cung cấp"
+ },
+ "socialpilot|luat2": {
+  "h": "09d1d00b24",
+  "vi": "Không tự giới thiệu, và không giới thiệu chủ lao động, nhân viên hoặc đồng nghiệp của bạn"
+ },
+ "socialpilot|ngan": {
+  "h": "116b5d704f",
+  "vi": "SocialPilot là công cụ quản lý mạng xã hội cho chuyên gia, nhóm, doanh nghiệp và agency."
+ },
+ "softsync|ngan": {
+  "h": "305292e201",
+  "vi": "SoftSync là CRM AI dành cho doanh nghiệp nhỏ và vừa."
+ },
+ "spark-plugin|luat0": {
+  "h": "cb8cd11a0c",
+  "vi": "Không dùng liên kết affiliate của chính bạn cho gói đăng ký hoặc website Spark Plugin của bạn"
+ },
+ "spark-plugin|ngan": {
+  "h": "21193c608b",
+  "vi": "Spark Plugin là plugin thiết kế cho Squarespace."
+ },
+ "speak-ai|luat0": {
+  "h": "a4965af5bc",
+  "vi": "Không cung cấp khoản hoàn tiền, coupon hoặc khoản chi trả hứa hẹn khác từ hoa hồng affiliate của bạn như một ưu đãi"
+ },
+ "speak-ai|luat1": {
+  "h": "7a0ac28ee0",
+  "vi": "Không tự giới thiệu hoặc giao dịch gian lận"
+ },
+ "speak-ai|luat2": {
+  "h": "ed70814dd4",
+  "vi": "Tên miền của site affiliate không được chứa 'Speakai' hoặc biến thể hay lỗi chính tả của nó"
+ },
+ "speak-ai|ngan": {
+  "h": "eeb938540f",
+  "vi": "Speak AI là nền tảng phân tích hội thoại ghi âm, chép lời và phân tích các cuộc họp, phỏng vấn và các nội dung âm thanh, video khác."
+ },
+ "spreadsimple|ngan": {
+  "h": "4d4d8d881c",
+  "vi": "SpreadSimple là trình tạo website không cần code, biến bảng tính Google Sheets thành website như cửa hàng online, danh bạ, catalog hoặc site đăng tin, với mẫu, một…"
+ },
+ "springbolt-id|ngan": {
+  "h": "1f628a36ba",
+  "vi": "Giới thiệu về Springbolt Web Visitor ID Phần lớn lưu lượng truy cập website rời đi mà không để lại dấu vết."
+ },
+ "storychief|luat0": {
+  "h": "9ba57f3a20",
+  "vi": "Được xây dựng cho các agency giới thiệu khách hàng muốn tự vận hành nội dung nội bộ"
+ },
+ "storychief|ngan": {
+  "h": "8073f1538d",
+  "vi": "StoryChief là nền tảng content marketing dành cho các team marketing, agency và team biên tập."
+ },
+ "storylab|luat0": {
+  "h": "74ced0ce63",
+  "vi": "Không đấu giá trên các từ khóa tìm kiếm có thương hiệu như \"StoryLab.ai\" và \"StoryLab.ai Pricing\" trong tìm kiếm trả phí"
+ },
+ "storylab|luat1": {
+  "h": "c91596f52f",
+  "vi": "Không mạo danh StoryLab.ai"
+ },
+ "storylab|ngan": {
+  "h": "dd13dbe655",
+  "vi": "StoryLab.ai là công cụ viết quảng cáo bằng AI cho marketer và người sáng tạo nội dung."
+ },
+ "streak-crm-for-gmail|ngan": {
+  "h": "470b47d81d",
+  "vi": "Công cụ hỗ trợ CRM + Email hoàn toàn trong Gmail."
+ },
+ "stripo|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "stripo|ngan": {
+  "h": "d69fbb704d",
+  "vi": "Stripo là trình tạo mẫu email kéo-thả và trình chỉnh sửa email HTML."
+ },
+ "submagic|luat0": {
+  "h": "1d3a8c7967",
+  "vi": "Không cho phép quảng cáo trả phí; hoa hồng từ quảng cáo trả phí sẽ không được trả"
+ },
+ "submagic|ngan": {
+  "h": "ceaf82e08d",
+  "vi": "Submagic là một trình chỉnh sửa video AI cho nội dung ngắn."
+ },
+ "subscribr|luat0": {
+  "h": "c9e7840bbd",
+  "vi": "Không spam hoặc gửi liên lạc không được yêu cầu liên quan đến việc quảng bá Subscribr"
+ },
+ "subscribr|luat1": {
+  "h": "58ebb42d55",
+  "vi": "Không xuyên tạc: không mạo danh, không nói sai về mối quan hệ của bạn với Subscribr, không dùng tài khoản, blog, trang web, profile, link, deepfake hoặc tin nhắn giả"
+ },
+ "subscribr|luat2": {
+  "h": "10f4b7b0f6",
+  "vi": "Không có nội dung bôi nhọ liên quan đến Subscribr hoặc bên thứ ba"
+ },
+ "subscribr|ngan": {
+  "h": "d642733cb5",
+  "vi": "Subscribr là workspace AI dành cho nhà sáng tạo YouTube."
+ },
+ "sucuri|luat0": {
+  "h": "78de4ca530",
+  "vi": "Affiliate không được tạo tài khoản thay cho khách hàng của họ"
+ },
+ "sucuri|luat1": {
+  "h": "074e6652dd",
+  "vi": "Không có hoa hồng định kỳ"
+ },
+ "sucuri|ngan": {
+  "h": "e6a9a9ddfe",
+  "vi": "Sucuri là nền tảng bảo mật website giúp làm sạch site bị hack, xóa malware và bảo vệ website bằng web application firewall (WAF) và CDN chặn tấn công và…"
+ },
+ "surfer-seo|luat0": {
+  "h": "9f678145e5",
+  "vi": "Không có các website coupon khi chưa được phê duyệt"
+ },
+ "surfer-seo|luat1": {
+  "h": "be12f277cc",
+  "vi": "Không đấu thầu từ khóa thương hiệu"
+ },
+ "surfer-seo|ngan": {
+  "h": "b868ecdb5e",
+  "vi": "Surfer SEO là nền tảng tối ưu nội dung dùng AI giúp người viết tạo nội dung có thứ hạng."
+ },
+ "surfshark|luat0": {
+  "h": "e30722a46f",
+  "vi": "Hoa hồng được ghi nhận sau thời hạn hoàn tiền 30 ngày"
+ },
+ "surfshark|ngan": {
+  "h": "5043653117",
+  "vi": "Surfshark là bộ công cụ bảo mật trực tuyến xoay quanh VPN với kết nối không giới hạn thiết bị, cùng Antivirus, Alert (cảnh báo rò rỉ dữ liệu), Search, Alternative ID và Incogni cho…"
+ },
+ "surveysparrow|luat0": {
+  "h": "29129f9e38",
+  "vi": "Chỉ dùng các liên kết, hình ảnh và nội dung quảng bá đã được phê duyệt; phải xin phê duyệt bằng văn bản trước cho thông tin về SurveySparrow và tuân thủ các thay đổi bắt buộc về vị trí đặt liên kết."
+ },
+ "surveysparrow|luat1": {
+  "h": "6f771cf98e",
+  "vi": "Không đặt cookie theo dõi khi khách hàng được giới thiệu không biết."
+ },
+ "surveysparrow|luat2": {
+  "h": "8d1b728a6e",
+  "vi": "Không dùng IP của SurveySparrow hoặc các biến thể dễ gây nhầm lẫn khi chưa được phép, kể cả trong tên miền, giá thầu từ khóa, quảng cáo tìm kiếm, thẻ meta, từ khóa tìm kiếm, mã hoặc quảng cáo, hoặc gây nhầm lẫn ấn tượng ban đầu."
+ },
+ "surveysparrow|ngan": {
+  "h": "ad44c8c834",
+  "vi": "SurveySparrow cho phép bạn tạo và chia sẻ các khảo sát thu hút cao, ưu tiên mobile, mang lại trải nghiệm như trò chuyện."
+ },
+ "syllaby|ngan": {
+  "h": "9ec71b6017",
+  "vi": "Syllaby là công cụ AI để tạo video không lộ mặt và video avatar AI cho mạng xã hội."
+ },
+ "synthesia|luat0": {
+  "h": "19a68b3820",
+  "vi": "Không sử dụng từ khóa liên quan đến Synthesia (bao gồm nhãn hiệu và lỗi chính tả) trong quảng cáo trả phí như Google Ads"
+ },
+ "synthesia|luat1": {
+  "h": "064cc13714",
+  "vi": "Tên miền affiliate không được chứa 'Synthesia' hoặc các từ khóa thương hiệu"
+ },
+ "synthesia|luat2": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "synthesia|ngan": {
+  "h": "5956f416e0",
+  "vi": "Synthesia là nền tảng tạo video bằng AI được hơn 50K công ty sử dụng để tạo video đào tạo doanh nghiệp, demo sản phẩm và truyền thông nội bộ với các AI avatar chân thực."
+ },
+ "systeme-io|ngan": {
+  "h": "10f89f840c",
+  "vi": "Systeme.io là nền tảng tất cả trong một để tạo funnel, chiến dịch email, site thành viên, khóa học online và blog — với gói miễn phí khá hào phóng."
+ },
+ "talkio-ai|luat0": {
+  "h": "e0f40822de",
+  "vi": "Không quảng bá qua các site coupon, deal hoặc mã giảm giá"
+ },
+ "talkio-ai|luat1": {
+  "h": "576320b15f",
+  "vi": "Không được đấu thầu từ khóa thương hiệu Talkio trong tìm kiếm trả phí"
+ },
+ "talkio-ai|luat2": {
+  "h": "82894f437c",
+  "vi": "Chỉ ghi nhận đăng ký trên web; hãy gửi lượt giới thiệu đến talkio.ai, không phải các app store"
+ },
+ "talkio-ai|ngan": {
+  "h": "9494d1444d",
+  "vi": "Talkio AI là gia sư ngôn ngữ AI cho luyện nói."
+ },
+ "templatemonster|luat0": {
+  "h": "1bafac3408",
+  "vi": "Không đấu thầu 'templatemonster', các biến thể của nó hoặc các lỗi chính tả của nó trong chiến dịch PPC"
+ },
+ "templatemonster|luat1": {
+  "h": "cd2c671bd7",
+  "vi": "Không chuyển tiếp hoặc che giấu domain của bạn khi đưa người truy cập đến TemplateMonster"
+ },
+ "templatemonster|ngan": {
+  "h": "d3ea6c0f62",
+  "vi": "TemplateMonster là marketplace dành cho các sản phẩm thiết kế và phát triển web, với mẫu website, giao diện WordPress, đồ họa, plugin và các mục kỹ thuật số khác, cùng các…"
+ },
+ "thematic|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "thematic|ngan": {
+  "h": "67e9093b55",
+  "vi": "Thematic là nền tảng âm nhạc nơi nhà sáng tạo video cấp phép các bài hát không bản quyền từ nghệ sĩ thật cho YouTube, Instagram, TikTok và podcast."
+ },
+ "themify|luat0": {
+  "h": "624e917005",
+  "vi": "Không hoa hồng cho các đơn hàng của chính bạn"
+ },
+ "themify|luat1": {
+  "h": "5fe2030e7a",
+  "vi": "Không dùng coupon, giảm giá hoặc ưu đãi nếu chưa được phê duyệt"
+ },
+ "themify|luat2": {
+  "h": "01f89b6cfe",
+  "vi": "Tên miền không được chứa 'themify' nếu chưa được phê duyệt"
+ },
+ "themify|ngan": {
+  "h": "f9921dc0d3",
+  "vi": "Themify tạo các theme và plugin WordPress được xây dựng để nhanh và chuẩn SEO, bao gồm theme Ultra và Shoppe, trình tạo trang kéo thả Themify Builder, Builder Pro, Post Type…"
+ },
+ "thetop|luat0": {
+  "h": "da85fa2190",
+  "vi": "Khách hàng của TheTop không được, và cũng không được cho bất kỳ bên thứ ba nào, cấp phép lại, bán lại, cho thuê, cho mượn hoặc cung cấp Dashboard, Engine hay các Dịch vụ khác đã được định nghĩa của mình cho bên thứ ba hoặc vận hành chúng như một dịch vụ trung gian."
+ },
+ "thetop|luat1": {
+  "h": "246a170e9a",
+  "vi": "Khách hàng của TheTop không được, và cũng không được cho bất kỳ bên thứ ba nào, dò ngược, dịch ngược hoặc cố suy ra mã nguồn, mô hình, prompt, logic định tuyến hoặc bộ nhớ, hay bộ phân loại từ Dịch vụ, trừ khi luật áp dụng cấm hạn chế này."
+ },
+ "thetop|luat2": {
+  "h": "50a5497ea9",
+  "vi": "Khách hàng của TheTop không được, và cũng không được cho bất kỳ bên thứ ba nào, dùng Dịch vụ, đầu ra, benchmark hoặc dữ liệu hiệu suất để xây dựng, huấn luyện hoặc hỗ trợ một sản phẩm hay dịch vụ cạnh tranh."
+ },
+ "thetop|ngan": {
+  "h": "acfc5f77a0",
+  "vi": "TheTop là Chief of Staff được hỗ trợ bởi AI, biến mọi nhiễu loạn trong ngày của bạn thành một bản tóm tắt hằng ngày rõ ràng."
+ },
+ "thinkific|ngan": {
+  "h": "4aa0c5e52f",
+  "vi": "Nền tảng học tập all-in-one mạnh mẽ của Thinkific giúp bạn dễ dàng xây dựng doanh nghiệp đào tạo mơ ước với khóa học online, sản phẩm số và cộng đồng."
+ },
+ "thirstyaffiliates|ngan": {
+  "h": "3b49416a0b",
+  "vi": "ThirstyAffiliates là plugin WordPress để quản lý liên kết affiliate."
+ },
+ "ticket-tailor|luat0": {
+  "h": "f0a3e4d156",
+  "vi": "Không dùng liên kết giới thiệu Ticket Tailor của chính bạn để mua Dịch vụ của họ cho bản thân."
+ },
+ "ticket-tailor|luat1": {
+  "h": "32ee3269cd",
+  "vi": "Không spam; tuân thủ luật bảo vệ dữ liệu và luật thương mại địa phương khi giới thiệu Ticket Tailor."
+ },
+ "ticket-tailor|luat2": {
+  "h": "357e92c476",
+  "vi": "Không ám chỉ rằng việc giới thiệu khách hàng Ticket Tailor khiến bạn trở thành nhân viên của Ticket Tailor."
+ },
+ "ticket-tailor|ngan": {
+  "h": "3f1e5955ba",
+  "vi": "Tại Ticket Tailor, sứ mệnh của chúng tôi là trao quyền cho nhiều nhà tổ chức sự kiện khác nhau bằng cách giúp việc bán vé trở nên dễ dàng và phải chăng."
+ },
+ "transistor|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "transistor|luat1": {
+  "h": "d968ee6022",
+  "vi": "Không quảng cáo trên công cụ tìm kiếm (đặc biệt là theo từ khóa thương hiệu hoặc tên miền), quảng cáo Facebook hoặc các quảng cáo khác cạnh tranh với hoạt động marketing của Transistor"
+ },
+ "transistor|luat2": {
+  "h": "056cd40fa2",
+  "vi": "Không chạy quảng cáo dẫn đến website của Transistor hoặc bất kỳ thứ gì tương tự cạnh tranh với hoạt động quảng cáo trả phí của họ"
+ },
+ "transistor|ngan": {
+  "h": "2e4b888b8f",
+  "vi": "Transistor là nền tảng hosting podcast cho phép bạn lưu trữ không giới hạn chương trình trên một tài khoản, với hosting podcast video, podcast riêng cho nhóm, phân phối đến các ứng dụng podcast…"
+ },
+ "translatepress|luat0": {
+  "h": "15059f5118",
+  "vi": "Không tạo tài khoản affiliate để mua cho chính mình; các giao dịch như vậy sẽ bị hủy"
+ },
+ "translatepress|luat1": {
+  "h": "f0fe1b44de",
+  "vi": "Không có website coupon; thu nhập từ các site coupon sẽ không được chi trả"
+ },
+ "translatepress|luat2": {
+  "h": "36d4ffa309",
+  "vi": "Không spam dưới bất kỳ hình thức nào, bao gồm spam email, liên kết và bình luận"
+ },
+ "translatepress|ngan": {
+  "h": "8d115373bb",
+  "vi": "TranslatePress là plugin dịch thuật cho WordPress."
+ },
+ "trueproxies|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "trueproxies|luat1": {
+  "h": "a07752e3bb",
+  "vi": "Không đấu thầu các từ khóa thương hiệu TrueProxies hoặc lỗi chính tả của chúng trong tìm kiếm trả phí"
+ },
+ "trueproxies|luat2": {
+  "h": "85c1f4273f",
+  "vi": "Không spam qua email, tin nhắn, bình luận hoặc diễn đàn"
+ },
+ "trueproxies|ngan": {
+  "h": "bc2d40b49d",
+  "vi": "TrueProxies cung cấp proxy residential và datacenter cho quét web, thu thập dữ liệu, kiểm tra quảng cáo và tự động hóa đa tài khoản, với chọn quốc gia, xoay vòng và…"
+ },
+ "twin|luat0": {
+  "h": "d523d875f1",
+  "vi": "Không chạy quảng cáo tìm kiếm trả phí trên từ khóa gắn với Twin"
+ },
+ "twin|luat1": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "twin|ngan": {
+  "h": "a07eacfece",
+  "vi": "Twin xây dựng các tác nhân AI thực hiện các tác vụ kinh doanh."
+ },
+ "unchained-music|ngan": {
+  "h": "f1d4227e30",
+  "vi": "Unchained Music là dịch vụ phân phối nhạc cho nghệ sĩ và hãng đĩa độc lập."
+ },
+ "unitel-voice|luat0": {
+  "h": "68fc789a78",
+  "vi": "Trừ khi UniTel Voice cho phép bằng văn bản trước, không được đặt giá thầu trên nhãn hiệu, từ khóa thương hiệu, Restricted Terms hoặc các biến thể và lỗi chính tả của chúng trong các chiến dịch tìm kiếm hoặc nội dung trên bất kỳ mạng quảng cáo nào."
+ },
+ "unitel-voice|luat1": {
+  "h": "476bf3bd34",
+  "vi": "Trừ khi UniTel Voice cho phép bằng văn bản trước, không được kết hợp nhãn hiệu hoặc Restricted Terms của hãng, cùng các biến thể hoặc lỗi chính tả, với các từ khóa khác."
+ },
+ "unitel-voice|luat2": {
+  "h": "2d35caf8aa",
+  "vi": "Trừ khi UniTel Voice cho phép bằng văn bản trước, không được dùng nhãn hiệu hoặc Restricted Terms của hãng trong tiêu đề quảng cáo, nội dung quảng cáo, tên hiển thị hoặc URL hiển thị."
+ },
+ "unitel-voice|ngan": {
+  "h": "82556f661d",
+  "vi": "Unitel Voice là hệ thống điện thoại ảo cho phép startup & doanh nhân vận hành doanh nghiệp từ bất cứ đâu trên mọi thiết bị."
+ },
+ "uptimerobot|luat0": {
+  "h": "210666a093",
+  "vi": "Không có trang web coupon"
+ },
+ "uptimerobot|luat1": {
+  "h": "996311225b",
+  "vi": "Không quảng cáo PPC dẫn trực tiếp đến bất kỳ website nào của UptimeRobot"
+ },
+ "uptimerobot|luat2": {
+  "h": "f55129d975",
+  "vi": "Không dùng tên thương hiệu hoặc tên công cụ của UptimeRobot trong quảng cáo PPC, tên miền, tên miền phụ hoặc hồ sơ mạng xã hội"
+ },
+ "uptimerobot|ngan": {
+  "h": "d9741e5ac4",
+  "vi": "UptimeRobot là dịch vụ giám sát uptime được hơn 3.4 triệu người dùng sử dụng."
+ },
+ "usermaven|luat0": {
+  "h": "64708c1782",
+  "vi": "Không spam, không gửi tin nhắn không được yêu cầu hoặc các chiến dịch quảng bá gây hiểu lầm"
+ },
+ "usermaven|luat1": {
+  "h": "95d524aecd",
+  "vi": "Không đưa ra tuyên bố sai, đánh giá bịa đặt hoặc kết quả hiệu suất được đảm bảo"
+ },
+ "usermaven|luat2": {
+  "h": "3ce113edd2",
+  "vi": "Không được đấu thầu PPC trên từ khóa mang thương hiệu Usermaven nếu không có phê duyệt bằng văn bản; mọi quảng cáo trả phí cần có sự cho phép trước bằng văn bản"
+ },
+ "usermaven|ngan": {
+  "h": "917e341663",
+  "vi": "Usermaven là phần mềm phân bổ marketing kết nối mọi điểm chạm với doanh thu."
+ },
+ "velvet|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, lượt nhấp giả hoặc nhồi cookie"
+ },
+ "velvet|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính mình hoặc tài khoản của chính bạn"
+ },
+ "velvet|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa thương hiệu trong tìm kiếm trả phí nếu chưa có sự cho phép bằng văn bản"
+ },
+ "velvet|ngan": {
+  "h": "0b059fd81d",
+  "vi": "Velvet là nền tảng all-in-one cho đặt lịch, thanh toán và thương mại dành cho doanh nghiệp dịch vụ địa phương và kinh doanh theo lịch hẹn."
+ },
+ "verba-studio|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "verba-studio|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính bạn hoặc tài khoản của chính bạn"
+ },
+ "verba-studio|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "verba-studio|ngan": {
+  "h": "091c5884a8",
+  "vi": "Verba Studio gộp phòng thu âm và phát trực tuyến đầy đủ vào một ứng dụng Windows, không cần OBS."
+ },
+ "verpex|luat0": {
+  "h": "e185833208",
+  "vi": "Không đấu giá tên Verpex trên bất kỳ nền tảng PPC nào khi chưa có sự đồng ý, và không dùng nhãn hiệu Verpex trong quảng cáo"
+ },
+ "verpex|luat1": {
+  "h": "b27a713a75",
+  "vi": "Không nhận hoa hồng từ chính các lần mua của bạn hoặc của thành viên gia đình hay hộ gia đình"
+ },
+ "verpex|luat2": {
+  "h": "3ac7a5ed5e",
+  "vi": "Không spam; email phải tuân thủ CAN-SPAM Act và chỉ dùng các link, banner và quảng cáo được Verpex phê duyệt"
+ },
+ "verpex|ngan": {
+  "h": "b3bb11c784",
+  "vi": "Verpex là nhà cung cấp hosting web cho doanh nghiệp nhỏ và website cá nhân."
+ },
+ "versoly|luat0": {
+  "h": "9664fa5213",
+  "vi": "Không chạy quảng cáo trực tiếp đến Versoly"
+ },
+ "versoly|ngan": {
+  "h": "b522b413a0",
+  "vi": "Versoly là công cụ tạo website không cần code cho landing page và website dùng CMS, với template, blog, analytics và tính năng changelog, được xây dựng cho công ty SaaS muốn…"
+ },
+ "vid-ai|luat0": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "vid-ai|luat1": {
+  "h": "f9b222c5cc",
+  "vi": "Không chạy quảng cáo tìm kiếm trả phí trên các thuật ngữ thương hiệu Vid.AI"
+ },
+ "vid-ai|luat2": {
+  "h": "f76f6c0b11",
+  "vi": "Các trang coupon và deal cần được chấp thuận bằng văn bản"
+ },
+ "vid-ai|ngan": {
+  "h": "9b8b8a7c48",
+  "vi": "Vid.AI biến ý tưởng thành video AI sẵn sàng đăng."
+ },
+ "vidiq|luat0": {
+  "h": "607d559f30",
+  "vi": "Không đấu giá vidIQ, tên miền của họ hoặc các lỗi chính tả trong chiến dịch PPC"
+ },
+ "vidiq|luat1": {
+  "h": "b399579203",
+  "vi": "Không spam hoặc gửi email thương mại không được yêu cầu"
+ },
+ "vidiq|luat2": {
+  "h": "50cee5eed9",
+  "vi": "Không tạo trang web mô phỏng vidIQ hoặc khiến khách hàng tin rằng bạn là vidIQ"
+ },
+ "vidiq|ngan": {
+  "h": "3b88f25406",
+  "vi": "vidIQ là công cụ tăng trưởng YouTube với nghiên cứu từ khóa, AI coach, ý tưởng video hằng ngày, công cụ tạo thumbnail AI, kiểm tra hiệu suất video và tiện ích mở rộng trình duyệt hiển thị video…"
+ },
+ "vidyo|luat0": {
+  "h": "172463e00f",
+  "vi": "Không dùng quảng cáo trả phí với link của bạn; các lượt nhấp từ quảng cáo trả phí bị chặn và không được hưởng hoa hồng"
+ },
+ "vidyo|luat1": {
+  "h": "8d28e0d9f0",
+  "vi": "Không quảng cáo trên các tên quso.ai hoặc vidyo.ai (và các lỗi chính tả hoặc kết hợp với từ như coupon, promo, discount, review) trong bất kỳ mạng quảng cáo tìm kiếm, mạng xã hội hoặc hiển thị nào, ngay cả khi quảng cáo dẫn người dùng đến trang của bạn trước"
+ },
+ "vidyo|luat2": {
+  "h": "b1da1492b2",
+  "vi": "Không đăng các ưu đãi hoặc mã quso.ai trên các trang coupon, deal, cashback hoặc voucher nếu chưa được phê duyệt bằng văn bản, và khi đó chỉ được dùng mã được cấp cho bạn"
+ },
+ "vidyo|ngan": {
+  "h": "8292b85008",
+  "vi": "quso.ai (trước đây là Vidyo.ai) tự động trích xuất các clip viral từ video dài với phụ đề AI, đổi khung và các mẫu cho mạng xã hội."
+ },
+ "visme|luat0": {
+  "h": "b514eacf2e",
+  "vi": "Không chạy chiến dịch paid search, pay-per-click hoặc tương tự trên công cụ tìm kiếm để kéo traffic affiliate đến Visme, bao gồm đấu thầu bất kỳ từ khóa nào (có hoặc không có thương hiệu)"
+ },
+ "visme|luat1": {
+  "h": "88097384da",
+  "vi": "Không hoàn tiền, thưởng hoặc ưu đãi khác để chốt đơn nếu chưa được phê duyệt trước"
+ },
+ "visme|luat2": {
+  "h": "6cc2b2968a",
+  "vi": "Không dùng coupon, voucher, mã giảm giá hoặc ưu đãi cộng thêm nếu chưa được phê duyệt trước"
+ },
+ "visme|ngan": {
+  "h": "e177050d79",
+  "vi": "Visme là nền tảng nội dung trực quan để tạo bài thuyết trình, tài liệu, infographic, biểu đồ, báo cáo, biểu mẫu, bảng trắng và đồ họa mạng xã hội, với mẫu, thương hiệu…"
+ },
+ "visualcv|ngan": {
+  "h": "d374be4d48",
+  "vi": "VisualCV là website tạo hồ sơ xin việc và portfolio trực tuyến, đã giúp hơn 3 triệu người tiến bước trong sự nghiệp."
+ },
+ "visualeaf|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không có lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "visualeaf|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không giới thiệu chính bạn hoặc tài khoản của chính bạn"
+ },
+ "visualeaf|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa của thương hiệu trong tìm kiếm trả phí nếu không có sự cho phép bằng văn bản"
+ },
+ "visualeaf|ngan": {
+  "h": "2d24445e2d",
+  "vi": "VisuaLeaf là một không gian làm việc trực quan và GUI được thiết kế cho nhà phát triển và nhóm làm việc với MongoDB và 35 loại cơ sở dữ liệu khác, bao gồm cả hệ quan hệ và key-value."
+ },
+ "vizard|luat0": {
+  "h": "3c2f889ca3",
+  "vi": "Không quảng cáo trả phí dưới bất kỳ hình thức nào, không đấu giá từ khóa, spam hoặc quảng cáo gây hiểu lầm"
+ },
+ "vizard|luat1": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "vizard|ngan": {
+  "h": "0a84deaf42",
+  "vi": "Vizard là công cụ chỉnh sửa và cắt video bằng AI, biến video dài như podcast, webinar và livestream thành clip ngắn sẵn sàng cho mạng xã hội, với transcript…"
+ },
+ "voila|luat0": {
+  "h": "00aeb1809d",
+  "vi": "Không cho phép tự giới thiệu"
+ },
+ "voila|ngan": {
+  "h": "d508335a51",
+  "vi": "Voilà là trợ lý AI cho trình duyệt, máy tính để bàn và điện thoại."
+ },
+ "vozqi|luat0": {
+  "h": "de4d2c0e83",
+  "vi": "Không lưu lượng gian lận: bot, script tự động, click giả hoặc cookie stuffing"
+ },
+ "vozqi|luat1": {
+  "h": "fd20459c3e",
+  "vi": "Không tự giới thiệu: không tự giới thiệu chính mình hoặc tài khoản của bạn"
+ },
+ "vozqi|luat2": {
+  "h": "3e1cc7beb5",
+  "vi": "Không đấu thầu từ khóa thương hiệu trong tìm kiếm trả phí nếu chưa có sự cho phép bằng văn bản"
+ },
+ "vozqi|ngan": {
+  "h": "de9c5222eb",
+  "vi": "VozQI là ứng dụng điện thoại để quản lý sổ sách cho doanh nghiệp nhỏ như nhà trẻ, phòng gym, học viện, tiệm rửa xe, tiệm bánh hoặc dịch vụ đưa đón học sinh."
+ },
+ "vsub|luat0": {
+  "h": "cd2c8bf4c6",
+  "vi": "Chỉ dành cho nhà sáng tạo nội dung: lượt giới thiệu phải đến từ nội dung do chính bạn đăng tải"
+ },
+ "vsub|luat1": {
+  "h": "802bd6a4c4",
+  "vi": "Tự giới thiệu sẽ không được hưởng gì"
+ },
+ "vsub|ngan": {
+  "h": "b54c92da17",
+  "vi": "Vsub biến kịch bản hoặc giọng đọc thành video minh họa."
+ },
+ "waalaxy|luat0": {
+  "h": "69f603d682",
+  "vi": "Không tự giới thiệu, bao gồm việc chia sẻ link của bạn với nhân viên công ty mình hoặc dùng cho tài khoản của chính bạn"
+ },
+ "waalaxy|luat1": {
+  "h": "f247da39d5",
+  "vi": "Không chạy quảng cáo trả phí để quảng bá Waalaxy hoặc kéo traffic về link affiliate của bạn"
+ },
+ "waalaxy|ngan": {
+  "h": "71beb943e6",
+  "vi": "Waalaxy là công cụ tự động hóa LinkedIn và email giúp bạn tạo khách hàng tiềm năng, mở rộng mạng lưới và tăng hiệu quả tiếp cận bằng các chiến dịch đa kênh thông minh, dễ dùng."
+ },
+ "weav|luat0": {
+  "h": "3b8c89e48e",
+  "vi": "Đối thủ cạnh tranh trực tiếp, hoặc bất kỳ ai hành động thay mặt đối thủ, không thể tham gia nếu không có sự phê duyệt trước bằng văn bản"
+ },
+ "weav|luat1": {
+  "h": "49acf1fc97",
+  "vi": "Không tự giới thiệu, tài khoản trùng lặp hoặc các cách khác nhằm tạo tín dụng giới thiệu một cách giả tạo (đối tác agency được phê duyệt bằng văn bản có thể nhận trên các tài khoản họ quản lý)"
+ },
+ "weav|luat2": {
+  "h": "6f50eb1dea",
+  "vi": "Không nhồi cookie, nhấp chuột cưỡng ép, chuyển hướng ẩn, lưu lượng giả, thao túng phân bổ hoặc mạo danh"
+ },
+ "weav|ngan": {
+  "h": "7f3dcdf05a",
+  "vi": "Weav là nền tảng hỗ trợ khách hàng bằng AI."
+ },
+ "webflow|luat0": {
+  "h": "1913ca112e",
+  "vi": "Không đấu thầu từ khóa 'Webflow' trong quảng cáo tìm kiếm trả phí"
+ },
+ "webflow|luat1": {
+  "h": "f740f2eb2a",
+  "vi": "Không dùng cashback, coupon hoặc các website tạo traffic có khuyến khích"
+ },
+ "webflow|luat2": {
+  "h": "0c3b38f917",
+  "vi": "Affiliate phải có tệp khán giả phù hợp trong thiết kế web, phát triển web hoặc no-code"
+ },
+ "webflow|ngan": {
+  "h": "beef5eb322",
+  "vi": "Webflow là nền tảng phát triển web trực quan giúp nhà thiết kế và nhà phát triển xây dựng website chất lượng sản xuất mà không cần viết code."
+ },
+ "webydo|ngan": {
+  "h": "6ab64e27c8",
+  "vi": "Webydo giúp các nhà thiết kế và agency tạo website responsive hoàn toàn, pixel-perfect — không cần viết code."
+ },
+ "weglot|luat0": {
+  "h": "9820aa199d",
+  "vi": "Không chạy mạng quảng cáo trả phí (Google Ads, Facebook Ads, Twitter Ads và tương tự) để quảng bá link affiliate"
+ },
+ "weglot|luat1": {
+  "h": "09bbb18e99",
+  "vi": "Không tự giới thiệu và không dùng coupon hoặc ưu đãi hoàn tiền được trả từ hoa hồng"
+ },
+ "weglot|luat2": {
+  "h": "b31aede468",
+  "vi": "Affiliate phải nhận được sự đồng ý riêng của từng khách truy cập trước khi cookie affiliate của Weglot được đặt"
+ },
+ "weglot|ngan": {
+  "h": "800264f8aa",
+  "vi": "Weglot là nền tảng dịch website giúp site đa ngôn ngữ bằng dịch AI được tinh chỉnh theo hướng dẫn thương hiệu, URL theo từng ngôn ngữ, thẻ hreflang và các…"
+ },
+ "wisepops|luat0": {
+  "h": "80d6db3ec1",
+  "vi": "Không đặt giá thầu trên Wisepops hoặc bất kỳ biến thể nào của tên này làm từ khóa trên các nền tảng tìm kiếm trả phí"
+ },
+ "wisepops|luat1": {
+  "h": "04501ce1d3",
+  "vi": "Không chạy lưu lượng trả phí đến wisepops.com nếu chưa chuyển hướng qua nội dung của riêng bạn trước"
+ },
+ "wisepops|luat2": {
+  "h": "a8065e3376",
+  "vi": "Không rebate, coupon hoặc khoản kick-back nào khác từ hoa hồng của bạn như một khoản khuyến khích"
+ },
+ "wisepops|ngan": {
+  "h": "5d2d05357f",
+  "vi": "Wisepops là nền tảng tương tác tại chỗ và kích hoạt lưu lượng truy cập."
+ },
+ "wondershare-pdfelement|luat0": {
+  "h": "4cbe8dc7d1",
+  "vi": "Không đấu giá, đăng ký hoặc mua từ khóa công cụ tìm kiếm, tên miền hoặc các từ khóa khác tương tự nhãn hiệu của Wondershare"
+ },
+ "wondershare-pdfelement|luat1": {
+  "h": "ceb52a8c64",
+  "vi": "Không spam hoặc gửi email không được yêu cầu để quảng bá chương trình"
+ },
+ "wondershare-pdfelement|luat2": {
+  "h": "04e83038ef",
+  "vi": "Không quảng cáo công cụ tìm kiếm pay per click để công khai mối quan hệ với Wondershare"
+ },
+ "wondershare-pdfelement|ngan": {
+  "h": "f81f840f25",
+  "vi": "Wondershare PDFelement là trình chỉnh sửa PDF dùng AI cho desktop, mobile và web, tạo, chỉnh sửa, chuyển đổi, chú thích và ký điện tử file PDF, với OCR để biến tài liệu scan…"
+ },
+ "wp-engine|luat0": {
+  "h": "7c073d2a27",
+  "vi": "Chỉ dùng link affiliate trên các domain bạn sở hữu; traffic từ mạng xã hội phải đi qua landing page của chính bạn"
+ },
+ "wp-engine|luat1": {
+  "h": "e68c2e9f1c",
+  "vi": "Cấm liên kết trực tiếp"
+ },
+ "wp-engine|luat2": {
+  "h": "59b986e348",
+  "vi": "Không được hưởng hoa hồng từ nâng cấp gói hoặc tiện ích bổ sung"
+ },
+ "wp-engine|ngan": {
+  "h": "6eed48f139",
+  "vi": "WP Engine là nền tảng hosting WordPress quản lý, với các gói cho doanh nghiệp nhỏ, agency và enterprise, giải pháp eCommerce cho cửa hàng WooCommerce, nền tảng headless…"
+ },
+ "wpmet|luat0": {
+  "h": "a54f957482",
+  "vi": "Liên kết affiliate không được dùng trên các site coupon hoặc deal"
+ },
+ "wpmet|luat1": {
+  "h": "78a938dc06",
+  "vi": "Không quảng cáo sai về sản phẩm"
+ },
+ "wpmet|luat2": {
+  "h": "6cab7e02ab",
+  "vi": "Không mua qua liên kết affiliate của chính bạn hoặc qua danh tính giả"
+ },
+ "wpmet|ngan": {
+  "h": "8c1eab28ae",
+  "vi": "Wpmet tạo plugin WordPress cho site dùng Elementor và Gutenberg, bao gồm addon ElementsKit, trình tạo form MetForm, ShopEngine cho WooCommerce, GutenKit blocks, PopupKit…"
+ },
+ "writecream|ngan": {
+  "h": "1a37b70b88",
+  "vi": "Writecream là nền tảng viết bằng AI với hơn 75 công cụ cho bài viết tối ưu SEO, quảng cáo, email lạnh, tin nhắn LinkedIn, kịch bản YouTube và mô tả sản phẩm."
+ },
+ "writerush|luat0": {
+  "h": "89c0d1397e",
+  "vi": "Không chạy quảng cáo trả phí trên từ khóa thương hiệu WriteRush, nhãn hiệu hoặc cụm từ dễ gây nhầm lẫn nếu chưa được chấp thuận bằng văn bản"
+ },
+ "writerush|luat1": {
+  "h": "bd25bacaa4",
+  "vi": "Không đưa ra tuyên bố sai sự thật, phóng đại hoặc gây hiểu lầm, và không nêu các kết quả tài chính mà thương hiệu không thể đảm bảo"
+ },
+ "writerush|luat2": {
+  "h": "d0cf433a6c",
+  "vi": "Không tự giới thiệu, tạo tài khoản giả, gian lận coupon, click hoặc lead do bot tạo, hay các hành động khác làm tăng hoa hồng"
+ },
+ "writerush|ngan": {
+  "h": "005ba97301",
+  "vi": "WriteRush là plugin viết AI được tích hợp trong WordPress."
+ },
+ "writesonic|luat0": {
+  "h": "66adaf4017",
+  "vi": "Không spam hoặc quảng bá gây hiểu lầm"
+ },
+ "writesonic|ngan": {
+  "h": "25abe8aec2",
+  "vi": "Writesonic là nền tảng viết bằng AI để tạo bài blog tối ưu SEO, nội dung marketing, mô tả sản phẩm, và hơn thế nữa."
+ },
+ "youart|ngan": {
+  "h": "e35fd81231",
+  "vi": "YouArt là studio sáng tạo AI cho hình ảnh và video."
+ },
+ "zebracat|luat0": {
+  "h": "ea216bf89e",
+  "vi": "Không có quảng cáo trả phí"
+ },
+ "zebracat|luat1": {
+  "h": "39a69e2a3f",
+  "vi": "Không có site mã giảm giá hoặc mã khuyến mãi"
+ },
+ "zebracat|luat2": {
+  "h": "d41e00d34b",
+  "vi": "Không được đấu thầu trả phí cho \"Zebracat\" hoặc các lỗi chính tả của thương hiệu"
+ },
+ "zebracat|ngan": {
+  "h": "bfd3dac727",
+  "vi": "Zebracat là công cụ tạo video bằng AI, biến prompt văn bản thành video marketing với hình ảnh, giọng đọc và nhạc do AI tạo ra."
+ },
+ "zeemo-ai|luat0": {
+  "h": "497d8a880e",
+  "vi": "Không quảng cáo trả phí hoặc đấu thầu từ khóa"
+ },
+ "zeemo-ai|luat1": {
+  "h": "0ababc319f",
+  "vi": "Không đăng link giới thiệu hoặc mã khuyến mãi trên các trang coupon hoặc mã giảm giá nếu chưa được phê duyệt"
+ },
+ "zeemo-ai|luat2": {
+  "h": "25fb4b64d2",
+  "vi": "Không tự giới thiệu"
+ },
+ "zeemo-ai|ngan": {
+  "h": "680d6467b4",
+  "vi": "Zeemo là công cụ video AI dành cho nhà sáng tạo."
+ },
+ "zenrows|luat0": {
+  "h": "b6cca1b6a1",
+  "vi": "Không có hoa hồng cho lượt tự giới thiệu hoặc khi giới thiệu công ty của chính bạn"
+ },
+ "zenrows|luat1": {
+  "h": "182211f8c1",
+  "vi": "Không có hoa hồng cho lưu lượng từ các website coupon, deal, voucher hoặc tổng hợp giảm giá"
+ },
+ "zenrows|luat2": {
+  "h": "7e39c12f2e",
+  "vi": "Đấu giá trên các từ khóa thương hiệu ZenRows trong tìm kiếm trả phí là không được phép"
+ },
+ "zenrows|ngan": {
+  "h": "3bc1bc2998",
+  "vi": "ZenRows là hạ tầng dữ liệu web cho các nhóm AI, dữ liệu và tự động hóa."
+ },
+ "zonka-feedback|ngan": {
+  "h": "0f980f9ae9",
+  "vi": "Zonka Feedback giúp doanh nghiệp nắm bắt tiếng nói khách hàng theo thời gian thực để nâng cao trải nghiệm khách hàng với insights, actions và CX Automation."
+ },
+ "zyte|luat0": {
+  "h": "78eb29f156",
+  "vi": "Không đặt quảng cáo Zyte trên các nền tảng đấu giá trực tuyến như eBay hoặc Amazon"
+ },
+ "zyte|luat1": {
+  "h": "a1629d1a33",
+  "vi": "Không giảm giá hoặc cung cấp mã coupon cho dịch vụ Zyte nếu chưa có अनुमति rõ ràng"
+ },
+ "zyte|luat2": {
+  "h": "7eac832c93",
+  "vi": "Không quảng cáo trả tiền theo lượt nhấp cho Zyte nếu chưa có sự đồng ý trước"
+ },
+ "zyte|ngan": {
+  "h": "4d9ff1cdd9",
+  "vi": "Zyte là nền tảng dữ liệu web từ những người tạo ra Scrapy."
+ }
+}

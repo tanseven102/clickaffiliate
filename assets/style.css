@@ -180,3 +180,9 @@ footer .wrap.duoi { display: block; padding-top: 14px; } .duoi a { display: inli
 
 .nav a.lang { border: 1px solid var(--vien); background: var(--the); color: var(--chu); }
 .nav a.lang:hover { border-color: #BFD0F5; }
+
+.vi-dai { display: flex; align-items: center; gap: 14px; padding: 18px 20px; color: var(--chu); flex-wrap: wrap; background: linear-gradient(90deg, #FFF6DB, #fff 60%); }
+.vi-dai b { font-size: 17px; }
+.vi-dai span:last-child { color: var(--acc); font-weight: 600; margin-left: auto; }
+.vi-dai:hover { border-color: #BFD0F5; color: var(--chu); }
+.bia-bai { display: block; width: 100%; height: auto; border-radius: 14px; border: 1px solid var(--vien); margin: 16px 0 6px; }

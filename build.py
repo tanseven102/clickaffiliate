@@ -12,6 +12,8 @@ from urllib.parse import urlparse
 
 import yaml
 
+import noi_dung_vi
+
 GOC = os.path.dirname(os.path.abspath(__file__))
 SITE_URL = os.environ.get("SITE_URL", "https://tanseven102.github.io/clickaffiliate").rstrip("/")
 P = urlparse(SITE_URL).path.rstrip("/")          # tiền tố đường dẫn ("" khi có tên miền riêng)
@@ -169,9 +171,10 @@ def doc_chuong_trinh(thu_muc):
         p["domain"] = urlparse(p["url"]).netloc.replace("www.", "") if p["url"] else ""
         p["cat_slug"] = slugify(p["cat"])
         p["nhan"] = nhan_hoa_hong(p["c"])
-        p["ngan"] = re.split(r"(?<=[.!?])\s", p["desc"].split("Affiliate program:")[0].strip())[0][:180]
-        if p["ngan"] and p["ngan"][-1] not in ".!?…":
-            p["ngan"] += "."
+        ngan = re.split(r"(?<=[.!?])\s", p["desc"].split("Affiliate program:")[0].strip())[0]
+        if len(ngan) > 180:                       # cắt ở chỗ hết từ, không cắt giữa chữ
+            ngan = ngan[:178].rsplit(" ", 1)[0].rstrip(",;:-") + "…"
+        p["ngan"] = ngan + ("." if ngan and ngan[-1] not in ".!?…" else "")
         cham_diem(p)
         ds.append(p)
     # trùng slug: giữ bản đầu
@@ -203,18 +206,19 @@ def diem_html(p):
 
 # nút Tiếng Việt: mở đúng trang hiện tại qua Google Dịch; đang ở bản dịch thì nút thành "English"
 NGON_NGU_JS = r"""<script>(function(){var a=document.getElementById("ngon-ngu"),h=location.hostname;
-if(h.endsWith(".translate.goog")){a.textContent="🇺🇸 English";a.title="Back to English";a.href=SITE+location.pathname+location.hash;}
+if(location.pathname.indexOf("/vi/")>-1){a.textContent="🌐 English";a.title="English";a.href=SITE+"/";}
+else if(h.endsWith(".translate.goog")){a.textContent="🌐 English";a.title="Back to English";a.href=SITE+location.pathname+location.hash;}
 else{a.href="https://"+h.replace(/-/g,"--").replace(/\./g,"-")+".translate.goog"+location.pathname+"?_x_tr_sl=en&_x_tr_tl=vi&_x_tr_hl=vi"+location.hash;}})();</script>""".replace("SITE", json.dumps(SITE_URL))
 
 
-def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", anh_og="assets/og.png", md=False):
+def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", anh_og="assets/og.png", md=False, lang="en"):
     can = f"{SITE_URL}/{duong}"
     lds = "".join(f'<script type="application/ld+json">{json.dumps(x, ensure_ascii=False)}</script>' for x in (ld or []))
     muc = [("rankings/", "Rankings"), ("programs/", "Programs"), ("categories/", "Categories"), ("new/", "New"), ("blog/", "Blog"), ("about/", "About")]
     nav_html = "".join(f'<a href="{u(d)}"{" class=on" if nav == d else ""}>{t}</a>' for d, t in muc)
     full = tieu_de if TEN in tieu_de else f"{tieu_de} · {TEN}"
     return f"""<!doctype html>
-<html lang="en"><head>
+<html lang="{lang}"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>{e(full)}</title>
 <meta name="description" content="{e(mo_ta)}">
@@ -234,14 +238,14 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <header class="top"><div class="wrap">
 <a class="brand" href="{u()}"><img src="{u('assets/logo.svg')}" alt="{TEN} logo" width="34" height="34"><b>Click<span>Affiliate</span></b></a>
 <button class="menu-btn" aria-label="Menu" onclick="document.querySelector('.nav').classList.toggle('mo')">☰</button>
-<nav class="nav">{nav_html}<a class="lang" id="ngon-ngu" href="#" title="Đọc trang bằng tiếng Việt">🇻🇳 Tiếng Việt</a><a class="btn chinh" style="color:#fff;padding:7px 13px" href="{u('subscribe/')}">Subscribe</a></nav>
+<nav class="nav">{nav_html}<a class="lang" id="ngon-ngu" href="#" title="Đọc trang bằng tiếng Việt">🌐 Tiếng Việt</a><a class="btn chinh" style="color:#fff;padding:7px 13px" href="{u('subscribe/')}">Subscribe</a></nav>
 </div></header>
 <main>{than}</main>
 <footer><div class="wrap">
 <div><a class="brand" href="{u()}"><img src="{u('assets/logo.svg')}" alt="" width="30" height="30"><b>Click<span>Affiliate</span></b></a>
 <p>The affiliate program directory that ranks programs by real terms — commission, cookie, payout and approval — and updates every day. Rankings are never paid.</p></div>
 <div><h4>Directory</h4><a href="{u('rankings/')}">Top rankings</a><a href="{u('programs/')}">All programs</a><a href="{u('categories/')}">Categories</a><a href="{u('new/')}">New programs</a></div>
-<div><h4>Read</h4><a href="{u('subscribe/')}">Weekly newsletter</a><a href="{u('blog/')}">Blog</a><a href="{u('about/')}#clickscore">How ClickScore works</a><a href="{u('feed.xml')}">RSS feed</a></div>
+<div><h4>Read</h4><a href="{u('vi/')}">🇻🇳 Bài viết tiếng Việt</a><a href="{u('subscribe/')}">Weekly newsletter</a><a href="{u('blog/')}">Blog</a><a href="{u('about/')}#clickscore">How ClickScore works</a><a href="{u('feed.xml')}">RSS feed</a></div>
 <div><h4>Project</h4><a href="{u('about/')}">About</a><a href="{u('about/')}#submit">Submit a program</a><a href="{u('about/')}#disclosure">Disclosure</a></div>
 </div><div class="wrap duoi">© {HOM_NAY.year} {TEN} by Tan-Seven · All rights reserved · Updated {HOM_NAY.strftime("%B %-d, %Y")}</div></footer>
 {NGON_NGU_JS}
@@ -579,6 +583,10 @@ def dung(nguon, ra, so_dang):
         if loai > so_bai * 6 + 9:
             break
 
+    for b in noi_dung_vi.BAI_VI:
+        if f"vi-{b['slug']}" not in da:
+            dang(f"vi-{b['slug']}", "vi", b["slug"])
+
     # ── dựng nội dung từng bài từ dữ liệu hôm nay ──
     theo_slug = {p["slug"]: p for p in ds}
     bai = []
@@ -633,6 +641,7 @@ def dung(nguon, ra, so_dang):
 <section class="khoi"><div class="khoi-dau"><div><h2>Just added</h2><p>The newest programs in the directory.</p></div><a href="{u('new/')}">All new →</a></div>
 <div class="luoi">{''.join(the_ct(p, f'<span class="pill vang">added {p["seen"]:%b %-d}</span>') for p in moi[:6])}</div></section>
 <section class="khoi"><div class="khoi-dau"><div><h2>Categories</h2><p>{len(dms)} niches, ranked inside each one.</p></div></div><div class="danh-muc">{dm_html}</div></section>
+<section class="khoi"><a class="card vi-dai" href="{u('vi/')}"><span class="pill xanh">🌐 Tiếng Việt</span><b>Làm Affiliate và đang tìm sản phẩm ngon?</b><span>Đọc bài hướng dẫn bằng tiếng Việt →</span></a></section>
 <section class="khoi">{hop_dk("home")}</section>
 <section class="khoi"><div class="khoi-dau"><div><h2>From the blog</h2><p>New guides, reviews and comparisons every day.</p></div><a href="{u('blog/')}">All articles →</a></div>
 <div class="bai-list">{''.join(bai_item(b) for b in bai[:5])}</div></section>
@@ -788,6 +797,39 @@ def dung(nguon, ra, so_dang):
 </article></div>"""
     ghi(ra, "about", khung(f"About {TEN} & How ClickScore Works", "How ClickAffiliate ranks affiliate programs every day, where the data comes from and our disclosure policy.", "about/", than, nav="about/"))
 
+    # bài tiếng Việt
+    ngay_vi = {b["slug"]: b["date"] for b in posts if b["type"] == "vi"}
+    ctx = {"u": u, "xep": xep, "ds": ds, "theo_dm": theo_dm, "so_ct": len(ds), "dich": doc_json(os.path.join(sd, "dich_vi.json"), {})}
+    co_anh = lambda d: os.path.exists(os.path.join(GOC, d))
+    the_vi = []
+    for b in noi_dung_vi.BAI_VI:
+        than_bai, faq = b["ham"](ctx)
+        d = dt.date.fromisoformat(ngay_vi.get(b["slug"], HOM_NAY.isoformat()))
+        anh = f'<img class="bia-bai" src="{u(b["anh"])}" alt="{e(b["tieu"])}" width="1280" height="720">' if co_anh(b["anh"]) else ""
+        ld = [{"@context": "https://schema.org", "@type": "Article", "headline": b["tieu"], "description": b["mota"], "inLanguage": "vi",
+               "datePublished": d.isoformat(), "dateModified": HOM_NAY.isoformat(), "author": {"@type": "Organization", "name": TEN}, "publisher": org,
+               "mainEntityOfPage": f"{SITE_URL}/vi/{b['slug']}/", **({"image": f"{SITE_URL}/{b['anh']}"} if co_anh(b["anh"]) else {})},
+              {"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": q, "acceptedAnswer": {"@type": "Answer", "text": re.sub("<[^>]+>", "", a)}} for q, a in faq]}]
+        khac = "".join(f'<a class="card bai-item" href="{u("vi/" + x["slug"] + "/")}"><h3>{e(x["tieu"])}</h3><p>{e(x["mota"])}</p></a>' for x in noi_dung_vi.BAI_VI if x is not b)
+        than = f"""<div class="wrap"><article class="doc"><div class="crumb"><a href="{u('vi/')}">Bài viết tiếng Việt</a></div>
+<h1>{e(b['tieu'])}</h1><div class="meta"><span>Đội ngũ {TEN}</span><span>Đăng {d:%d/%m/%Y}</span><span>Số liệu cập nhật {HOM_NAY:%d/%m/%Y}</span></div>
+{anh}<div class="note" style="margin-top:14px"><b>Trả lời ngắn:</b> {faq[0][1]}</div>
+{than_bai}{"<h2>Câu hỏi thường gặp</h2>" + "".join(f"<h3>{e(q)}</h3><p>{a}</p>" for q, a in faq)}
+<div style="margin:30px 0 6px">{hop_dk("vi:" + b["slug"], tieu="Nhận sản phẩm Affiliate ngon mỗi tuần", mo="Mỗi thứ Hai một email: chương trình mới, sản phẩm tăng hạng, hoa hồng định kỳ cao nhất. Miễn phí.")}</div>
+<h2>Đọc thêm</h2><div class="bai-list">{khac}</div></article></div>"""
+        ghi(ra, f"vi/{b['slug']}", khung(b["tieu"], b["mota"], f"vi/{b['slug']}/", than, ld=ld, og_type="article", lang="vi",
+                                         anh_og=b["anh"] if co_anh(b["anh"]) else "assets/og.png", md=True))
+        ghi(ra, f"vi/{b['slug']}/index.md", f"# {b['tieu']}\n\n{SITE_URL}/vi/{b['slug']}/ · Cập nhật {HOM_NAY}\n\n> {sang_md(faq[0][1]).strip()}\n\n" + sang_md(than_bai))
+        the_vi.append(f'<a class="card bai-item" href="{u("vi/" + b["slug"] + "/")}"><div class="meta"><span class="pill xanh">Hướng dẫn</span>{d:%d/%m/%Y}</div><h3>{e(b["tieu"])}</h3><p>{e(b["mota"])}</p></a>')
+    than = f"""<div class="wrap"><section class="hero" style="padding-bottom:10px"><span class="pill xanh">🌐 Tiếng Việt</span>
+<h1>Tìm sản phẩm Affiliate <em>ngon</em> để làm</h1>
+<p class="lead">Dành cho người làm Affiliate ở Việt Nam: chương trình nào hoa hồng cao, trả định kỳ, duyệt dễ, nhận tiền về Việt Nam được. {len(ds):,} chương trình được chấm điểm và xếp hạng lại mỗi ngày.</p>
+<div class="cta"><a class="btn chinh" href="{u('rankings/')}">Xem bảng xếp hạng hôm nay →</a><a class="btn" href="{u('programs/')}">Tìm trong danh bạ</a></div></section>
+{f'<img class="bia-bai" src="{u("assets/vi/bia-affiliate.webp")}" alt="Tìm sản phẩm Affiliate ngon" width="1280" height="720">' if co_anh("assets/vi/bia-affiliate.webp") else ''}
+<section class="khoi"><div class="khoi-dau"><div><h2>Bài viết</h2><p>Số liệu trong bài tự cập nhật theo bảng xếp hạng mỗi ngày.</p></div></div><div class="bai-list">{''.join(the_vi)}</div></section>
+<section class="khoi">{hop_dk("vi", tieu="Nhận sản phẩm Affiliate ngon mỗi tuần", mo="Mỗi thứ Hai một email ngắn: chương trình mới, sản phẩm tăng hạng, hoa hồng định kỳ cao nhất. Miễn phí, không spam.")}</section></div>"""
+    ghi(ra, "vi", khung("Tìm sản phẩm Affiliate ngon — xếp hạng mỗi ngày", "Danh bạ sản phẩm Affiliate cho người Việt: hoa hồng cao, định kỳ, duyệt dễ, nhận tiền về Việt Nam. Xếp hạng lại mỗi ngày.", "vi/", than, lang="vi"))
+
     # đăng ký bản tin
     than = f"""<div class="wrap"><div class="doc" style="max-width:820px">
 <span class="pill xanh">Free · every Monday</span><h1>ClickAffiliate Weekly</h1>
@@ -807,7 +849,8 @@ def dung(nguon, ra, so_dang):
 
     # sitemap, robots, rss, llms
     urls = [("", "daily", "1.0"), ("rankings/", "daily", "0.9"), ("programs/", "daily", "0.9"), ("new/", "daily", "0.7"), ("blog/", "daily", "0.8"),
-            ("categories/", "weekly", "0.6"), ("about/", "monthly", "0.4"), ("subscribe/", "monthly", "0.5")]
+            ("categories/", "weekly", "0.6"), ("about/", "monthly", "0.4"), ("subscribe/", "monthly", "0.5"), ("vi/", "daily", "0.8")]
+    urls += [(f"vi/{b['slug']}/", "daily", "0.8") for b in noi_dung_vi.BAI_VI]
     urls += [(f"categories/{slugify(c)}/", "daily", "0.7") for c, _ in dms]
     urls += [(f"blog/{b['slug']}/", "weekly", "0.7") for b in bai]
     urls += [(f"programs/{p['slug']}/", "weekly", "0.6") for p in ds]
