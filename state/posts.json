@@ -198,5 +198,37 @@
   "key": "vi-san-pham-ai-affiliate-cho-nguoi-moi",
   "slug": "san-pham-ai-affiliate-cho-nguoi-moi",
   "type": "vi"
+ },
+ {
+  "cat": "Design",
+  "date": "2026-10-24",
+  "key": "best-design-2026-10",
+  "slug": "best-design-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
+ },
+ {
+  "date": "2026-10-24",
+  "key": "review-envato",
+  "prog": "envato",
+  "slug": "envato-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "fluf-connect",
+  "b": "shopify",
+  "cat": "E-Commerce",
+  "date": "2026-10-24",
+  "key": "vs-fluf-connect-shopify",
+  "slug": "fluf-connect-vs-shopify-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Security",
+  "date": "2026-10-24",
+  "key": "best-security-2026-10",
+  "slug": "best-security-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
  }
 ]
