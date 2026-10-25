@@ -230,5 +230,37 @@
   "slug": "best-security-affiliate-programs-october-2026",
   "thang": "2026-10",
   "type": "best"
+ },
+ {
+  "cat": "Customer Support",
+  "date": "2026-10-25",
+  "key": "best-customer-support-2026-10",
+  "slug": "best-customer-support-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
+ },
+ {
+  "date": "2026-10-25",
+  "key": "review-blogify",
+  "prog": "blogify",
+  "slug": "blogify-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "envato",
+  "b": "webflow",
+  "cat": "Design",
+  "date": "2026-10-25",
+  "key": "vs-envato-webflow",
+  "slug": "envato-vs-webflow-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Analytics",
+  "date": "2026-10-25",
+  "key": "best-analytics-2026-10",
+  "slug": "best-analytics-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
  }
 ]
