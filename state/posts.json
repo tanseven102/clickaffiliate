@@ -292,5 +292,37 @@
   "key": "vs-weav-jobholler",
   "slug": "weav-vs-jobholler-affiliate-program",
   "type": "vs"
+ },
+ {
+  "cat": "Content Management",
+  "date": "2026-10-27",
+  "key": "best-content-management-2026-10",
+  "slug": "best-content-management-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
+ },
+ {
+  "date": "2026-10-27",
+  "key": "review-clozure",
+  "prog": "clozure",
+  "slug": "clozure-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "purevpn",
+  "b": "iobit",
+  "cat": "Security",
+  "date": "2026-10-27",
+  "key": "vs-purevpn-iobit",
+  "slug": "purevpn-vs-iobit-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Finance",
+  "date": "2026-10-27",
+  "key": "best-finance-2026-10",
+  "slug": "best-finance-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
  }
 ]
