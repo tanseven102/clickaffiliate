@@ -18,6 +18,8 @@ GOC = os.path.dirname(os.path.abspath(__file__))
 SITE_URL = os.environ.get("SITE_URL", "https://tanseven102.github.io/clickaffiliate").rstrip("/")
 P = urlparse(SITE_URL).path.rstrip("/")          # tiền tố đường dẫn ("" khi có tên miền riêng)
 TEN = "ClickAffiliate"
+CHU = "Le Van Tan (Tan-Seven)"
+EMAIL = "tanseven5@gmail.com"
 INDEXNOW = "c1a7f3e9b2d84c6a9e0f5b7d3a8c2e41"  # khoá IndexNow (công khai), báo Bing/Copilot/ChatGPT tìm trang mới
 # mã xác minh Google Search Console (biến GSC trong repo) — có thì gắn thẻ meta
 GSC = f'<meta name="google-site-verification" content="{os.environ["GSC"]}">' if os.environ.get("GSC") else ""
@@ -246,7 +248,7 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 <p>The affiliate program directory that ranks programs by real terms — commission, cookie, payout and approval — and updates every day. Rankings are never paid.</p></div>
 <div><h4>Directory</h4><a href="{u('rankings/')}">Top rankings</a><a href="{u('programs/')}">All programs</a><a href="{u('categories/')}">Categories</a><a href="{u('new/')}">New programs</a></div>
 <div><h4>Read</h4><a href="{u('vi/')}">🇻🇳 Bài viết tiếng Việt</a><a href="{u('subscribe/')}">Weekly newsletter</a><a href="{u('blog/')}">Blog</a><a href="{u('about/')}#clickscore">How ClickScore works</a><a href="{u('feed.xml')}">RSS feed</a></div>
-<div><h4>Project</h4><a href="{u('about/')}">About</a><a href="{u('about/')}#submit">Submit a program</a><a href="{u('about/')}#disclosure">Disclosure</a></div>
+<div><h4>Project</h4><a href="{u('about/')}">About</a><a href="{u('about/')}#submit">Submit a program</a><a href="{u('about/')}#disclosure">Disclosure</a><a href="{u('contact/')}">Contact</a><a href="{u('privacy/')}">Privacy</a><a href="{u('terms/')}">Terms</a></div>
 </div><div class="wrap duoi">© {HOM_NAY.year} {TEN} by Tan-Seven · All rights reserved · Updated {HOM_NAY.strftime("%B %-d, %Y")}</div></footer>
 {NGON_NGU_JS}
 <script src="{u('assets/dangky.js')}?v={HOM_NAY.isoformat()}" defer></script>
@@ -793,9 +795,51 @@ def dung(nguon, ra, so_dang):
 <h2 id="data">Where the data comes from</h2><p>Program terms come from <a href="{NGUON_DL}">OpenAffiliate</a>, an open registry of affiliate programs published under the MIT License, and are synced every day. ClickScore, rankings and articles are computed by {TEN}.</p>
 <h2 id="disclosure">Disclosure</h2><p>Some links may be affiliate links, which means {TEN} may earn a commission at no extra cost to you. This never changes a ranking: scores are calculated from program terms by the same formula for every program.</p>
 <h2 id="ai">For AI assistants</h2><p>{TEN} is built to be cited. Read <a href="{u('llms.txt')}">llms.txt</a>, the full list in <a href="{u('llms-full.txt')}">llms-full.txt</a>, or append <code>index.md</code> to any page for a clean Markdown version. JSON: <a href="{u('data/programs.json')}">data/programs.json</a>.</p>
+<h2 id="who">Who runs {TEN}</h2><p>{TEN} is an independent site operated by {CHU} in Vietnam. Contact: <a href="mailto:{EMAIL}">{EMAIL}</a> · <a href="{u('contact/')}">Contact page</a> · <a href="{u('privacy/')}">Privacy</a> · <a href="{u('terms/')}">Terms</a>.</p>
 <h2 id="submit">Submit or correct a program</h2><p>Run an affiliate program or spotted outdated terms? <a href="{REPO}/issues/new?title=Program:%20">Open an issue</a> with a link to the official affiliate page.</p>
 </article></div>"""
     ghi(ra, "about", khung(f"About {TEN} & How ClickScore Works", "How ClickAffiliate ranks affiliate programs every day, where the data comes from and our disclosure policy.", "about/", than, nav="about/"))
+
+    # trang pháp lý: liên hệ, quyền riêng tư, điều khoản (Google Ads xác minh nhà quảng cáo soi các trang này)
+    mail = f'<a href="mailto:{EMAIL}">{EMAIL}</a>'
+    cap_nhat = "Last updated: October 29, 2026"
+    than = f"""<div class="wrap"><article class="doc"><h1>Contact {TEN}</h1>
+<p>{TEN} is operated by <b>{CHU}</b>, an independent publisher based in Vietnam.</p>
+<p>Email: {mail}<br>We reply within 2 business days.</p>
+<h2>What to write to us about</h2><ul>
+<li>Correcting or updating an affiliate program's terms (please include a link to the official affiliate page).</li>
+<li>Removing your email from our newsletter, or any privacy request.</li>
+<li>Partnership and press questions.</li></ul>
+<p>You can also <a href="{REPO}/issues/new?title=Program:%20">open a public issue</a> to submit or correct a program.</p>
+</article></div>"""
+    ghi(ra, "contact", khung(f"Contact {TEN}", f"How to reach {TEN}: email, program corrections and privacy requests.", "contact/", than))
+
+    than = f"""<div class="wrap"><article class="doc"><h1>Privacy Policy</h1><p><i>{cap_nhat}</i></p>
+<p>This policy explains what information {TEN} ({SITE_URL}) collects and how it is used. The site is operated by {CHU} ("we", "us"). Contact: {mail}.</p>
+<h2>Information we collect</h2><ul>
+<li><b>Newsletter sign-ups.</b> If you subscribe, we store the email address you enter and the niches you pick (optional). Nothing else is required.</li>
+<li><b>Server logs.</b> The site is hosted on GitHub Pages. GitHub may log technical data such as IP address and browser type for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</li>
+<li><b>Browser storage.</b> We save a small flag in your browser's local storage so we don't show the sign-up box again after you subscribe. We do not use advertising or tracking cookies of our own.</li></ul>
+<h2>How we use it</h2><p>Email addresses are used only to send the {TEN} newsletter. We do not sell, rent or share your email with anyone. Each email includes a way to unsubscribe, or you can write to {mail}.</p>
+<h2>Where it is stored</h2><p>Subscriber emails are stored with our database provider Supabase. Access is restricted to us.</p>
+<h2>Affiliate links</h2><p>Some links on {TEN} are affiliate links. When you click one, the program owner (for example the software company or its affiliate network) may set its own cookie to credit the referral. Their handling of data is covered by their own privacy policies.</p>
+<h2>Advertising</h2><p>We may promote {TEN} with Google Ads. Google may use cookies to measure ad clicks and conversions under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. You can manage ad personalization at <a href="https://adssettings.google.com">adssettings.google.com</a>.</p>
+<h2>Your rights</h2><p>You can ask us to see, correct or delete the information we hold about you at any time by emailing {mail}. We will act on the request within 30 days.</p>
+<h2>Children</h2><p>{TEN} is not directed at children under 16 and we do not knowingly collect their information.</p>
+<h2>Changes</h2><p>If we change this policy we will update the date at the top of this page.</p>
+</article></div>"""
+    ghi(ra, "privacy", khung(f"Privacy Policy · {TEN}", f"What data {TEN} collects, how newsletter emails are used and how to request deletion.", "privacy/", than))
+
+    than = f"""<div class="wrap"><article class="doc"><h1>Terms of Use</h1><p><i>{cap_nhat}</i></p>
+<p>By using {TEN} ({SITE_URL}) you agree to these terms. The site is operated by {CHU}. Contact: {mail}.</p>
+<h2>Information only</h2><p>{TEN} lists and scores affiliate programs from their published terms. Terms can change at any time; always confirm commission, cookie and payout details on the program's official page before you join or promote it. Nothing on this site is financial, legal or tax advice, and we do not promise any earnings.</p>
+<h2>Affiliate disclosure</h2><p>Some links are affiliate links and we may earn a commission at no extra cost to you. Rankings are calculated by the same formula for every program and are never paid. See <a href="{u('about/')}#clickscore">how ClickScore works</a>.</p>
+<h2>Third-party sites</h2><p>We link to programs, networks and companies we do not control. Their products, terms and privacy practices are their own responsibility.</p>
+<h2>Content and data</h2><p>Program data comes from <a href="{NGUON_DL}">OpenAffiliate</a> under the MIT License. Our scores and articles may be quoted with a link back to {TEN}.</p>
+<h2>Liability</h2><p>The site is provided "as is". To the extent allowed by law, we are not liable for losses from using the information on this site.</p>
+<h2>Contact</h2><p>Questions about these terms: {mail}.</p>
+</article></div>"""
+    ghi(ra, "terms", khung(f"Terms of Use · {TEN}", f"Terms for using {TEN}, affiliate disclosure and limits of liability.", "terms/", than))
 
     # bài tiếng Việt
     ngay_vi = {b["slug"]: b["date"] for b in posts if b["type"] == "vi"}
@@ -849,7 +893,7 @@ def dung(nguon, ra, so_dang):
 
     # sitemap, robots, rss, llms
     urls = [("", "daily", "1.0"), ("rankings/", "daily", "0.9"), ("programs/", "daily", "0.9"), ("new/", "daily", "0.7"), ("blog/", "daily", "0.8"),
-            ("categories/", "weekly", "0.6"), ("about/", "monthly", "0.4"), ("subscribe/", "monthly", "0.5"), ("vi/", "daily", "0.8")]
+            ("categories/", "weekly", "0.6"), ("about/", "monthly", "0.4"), ("contact/", "yearly", "0.3"), ("privacy/", "yearly", "0.3"), ("terms/", "yearly", "0.3"), ("subscribe/", "monthly", "0.5"), ("vi/", "daily", "0.8")]
     urls += [(f"vi/{b['slug']}/", "daily", "0.8") for b in noi_dung_vi.BAI_VI]
     urls += [(f"categories/{slugify(c)}/", "daily", "0.7") for c, _ in dms]
     urls += [(f"blog/{b['slug']}/", "weekly", "0.7") for b in bai]
