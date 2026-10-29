@@ -356,5 +356,37 @@
   "slug": "best-business-operations-affiliate-programs-october-2026",
   "thang": "2026-10",
   "type": "best"
+ },
+ {
+  "cat": "SaaS",
+  "date": "2026-10-29",
+  "key": "best-saas-2026-10",
+  "slug": "best-saas-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
+ },
+ {
+  "date": "2026-10-29",
+  "key": "review-mailbluster",
+  "prog": "mailbluster",
+  "slug": "mailbluster-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "rippling",
+  "b": "freshbooks",
+  "cat": "HR & Recruiting",
+  "date": "2026-10-29",
+  "key": "vs-rippling-freshbooks",
+  "slug": "rippling-vs-freshbooks-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Email Marketing",
+  "date": "2026-10-29",
+  "key": "best-email-marketing-2026-10",
+  "slug": "best-email-marketing-affiliate-programs-october-2026",
+  "thang": "2026-10",
+  "type": "best"
  }
 ]
