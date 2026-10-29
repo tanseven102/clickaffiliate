@@ -20,6 +20,8 @@ P = urlparse(SITE_URL).path.rstrip("/")          # tiền tố đường dẫn (
 TEN = "ClickAffiliate"
 CHU = "Le Van Tan (Tan-Seven)"
 EMAIL = "tanseven5@gmail.com"
+# link affiliate riêng của anh Tân (Affitor, join 29/10/2026) — nút "Try …" trên trang chương trình đi qua link này
+LINK_AFF = {"velvet": "https://velvet.salon/?aff=onTMkQM", "landerlab": "https://landerlab.io/?aff=4EivyrF"}
 INDEXNOW = "c1a7f3e9b2d84c6a9e0f5b7d3a8c2e41"  # khoá IndexNow (công khai), báo Bing/Copilot/ChatGPT tìm trang mới
 # mã xác minh Google Search Console (biến GSC trong repo) — có thì gắn thẻ meta
 GSC = f'<meta name="google-site-verification" content="{os.environ["GSC"]}">' if os.environ.get("GSC") else ""
@@ -718,7 +720,7 @@ def dung(nguon, ra, so_dang):
 <div class="card"><small>Payout</small><b>{e((tan.get('frequency') or '—').replace('-', ' '))}</b><span class="meta">{('min $' + str(tan['minimum'])) if isinstance(tan.get('minimum'), (int, float)) else ''}</span></div>
 <div class="card"><small>Approval</small><b>{e(p['approval'] or '—')}</b><span class="meta">{e(p['network'])}</span></div></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 10px"><a class="btn chinh" href="{e(p['signup'])}" rel="nofollow sponsored noopener" target="_blank">Apply to the program ↗</a>
-{f'<a class="btn" href="{e(p["url"])}" rel="nofollow noopener" target="_blank">Visit {e(p["domain"])} ↗</a>' if p['url'] else ''}
+{f'<a class="btn chinh" href="{e(LINK_AFF[p["slug"]])}" rel="nofollow sponsored noopener" target="_blank">Try {e(p["name"])} ↗</a>' if p['slug'] in LINK_AFF else (f'<a class="btn" href="{e(p["url"])}" rel="nofollow noopener" target="_blank">Visit {e(p["domain"])} ↗</a>' if p['url'] else '')}
 {f'<a class="btn" href="{u("blog/" + rv["slug"] + "/")}">Read our review</a>' if rv else ''}</div>
 {f"<p><b>Commission details:</b> {e(p['c']['conditions'])}</p>" if p['c']['conditions'] else ''}
 <h2>ClickScore breakdown</h2><div class="card diem-chia">{chia}</div>
