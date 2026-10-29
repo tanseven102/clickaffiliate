@@ -254,6 +254,7 @@ def khung(tieu_de, mo_ta, duong, than, *, ld=None, nav="", og_type="website", an
 </div><div class="wrap duoi">© {HOM_NAY.year} {TEN} by Tan-Seven · All rights reserved · Updated {HOM_NAY.strftime("%B %-d, %Y")}</div></footer>
 {NGON_NGU_JS}
 <script src="{u('assets/dangky.js')}?v={HOM_NAY.isoformat()}" defer></script>
+<script src="{u('assets/dem.js')}?v={HOM_NAY.isoformat()}" defer></script>
 </body></html>"""
 
 
@@ -817,9 +818,10 @@ def dung(nguon, ra, so_dang):
     # /go/<slug>/?k=<kênh>: mỗi kênh YouTube một link riêng, không gắn thẳng mã affiliate lên nhiều kênh (luật số 0)
     for slug, dich in LINK_AFF.items():
         ghi(ra, f"go/{slug}", f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
-<meta name="referrer" content="no-referrer"><meta http-equiv="refresh" content="0;url={e(dich)}"><title>Redirecting…</title></head>
+<meta name="referrer" content="no-referrer"><meta http-equiv="refresh" content="2;url={e(dich)}"><title>Redirecting…</title></head>
 <body style="font-family:system-ui;padding:24px"><p>Redirecting to <a href="{e(dich)}" rel="nofollow sponsored">{e(urlparse(dich).netloc)}</a>…</p>
-<script>location.replace({json.dumps(dich)});</script></body></html>""")
+<script src="/assets/dem.js?v={HOM_NAY.isoformat()}"></script>
+<script>setTimeout(function(){{location.replace({json.dumps(dich)})}},150);</script></body></html>""")
 
     ghi(ra, "contact", khung(f"Contact {TEN}", f"How to reach {TEN}: email, program corrections and privacy requests.", "contact/", than))
 
@@ -828,9 +830,10 @@ def dung(nguon, ra, so_dang):
 <h2>Information we collect</h2><ul>
 <li><b>Newsletter sign-ups.</b> If you subscribe, we store the email address you enter and the niches you pick (optional). Nothing else is required.</li>
 <li><b>Server logs.</b> The site is hosted on GitHub Pages. GitHub may log technical data such as IP address and browser type for security; see <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub's privacy statement</a>.</li>
+<li><b>Visit counts.</b> To count visits, each page view records the page address, the referring website's name, your browser language and a random visitor number kept in your browser's local storage. We do not record your IP address, name or email with it, and we use no tracking cookies.</li>
 <li><b>Browser storage.</b> We save a small flag in your browser's local storage so we don't show the sign-up box again after you subscribe. We do not use advertising or tracking cookies of our own.</li></ul>
 <h2>How we use it</h2><p>Email addresses are used only to send the {TEN} newsletter. We do not sell, rent or share your email with anyone. Each email includes a way to unsubscribe, or you can write to {mail}.</p>
-<h2>Where it is stored</h2><p>Subscriber emails are stored with our database provider Supabase. Access is restricted to us.</p>
+<h2>Where it is stored</h2><p>Subscriber emails and visit counts are stored with our database provider Supabase. Access is restricted to us.</p>
 <h2>Affiliate links</h2><p>Some links on {TEN} are affiliate links. When you click one, the program owner (for example the software company or its affiliate network) may set its own cookie to credit the referral. Their handling of data is covered by their own privacy policies.</p>
 <h2>Advertising</h2><p>We may promote {TEN} with Google Ads. Google may use cookies to measure ad clicks and conversions under <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>. You can manage ad personalization at <a href="https://adssettings.google.com">adssettings.google.com</a>.</p>
 <h2>Your rights</h2><p>You can ask us to see, correct or delete the information we hold about you at any time by emailing {mail}. We will act on the request within 30 days.</p>
@@ -931,6 +934,8 @@ def dung(nguon, ra, so_dang):
         ghi(ra, f"categories/{slugify(c)}/index.md", f"# Best {c} affiliate programs ({HOM_NAY:%B %Y})\n\n{len(l)} programs ranked by ClickScore, updated {HOM_NAY}.\n\n" + "".join(dong_ct(p) for p in l))
     open(os.path.join(ra, ".nojekyll"), "w").close()
     ghi(ra, f"{INDEXNOW}.txt", INDEXNOW)
+    # tệp xác minh Google Search Console (tanseven5, 29/10/2026) — không được xoá kẻo mất quyền
+    ghi(ra, "google4f39e1145ea1b5cb.html", "google-site-verification: google4f39e1145ea1b5cb.html")
     ghi(ra, "data/urls-hom-nay.json", json.dumps([f"{SITE_URL}/{d}" for d, _, _ in urls[:7 + len(dms)]]
         + [f"{SITE_URL}/blog/{b['slug']}/" for b in bai if b["date"] == HOM_NAY.isoformat()]
         + [f"{SITE_URL}/programs/{p['slug']}/" for p in ds if p["seen"] == HOM_NAY]))
