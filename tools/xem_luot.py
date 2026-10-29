@@ -7,7 +7,7 @@ import json, os, subprocess, sys
 NGAY = int(sys.argv[1]) if len(sys.argv) > 1 else 7
 TMP = "/mnt/c/Users/tan/AppData/Local/Temp/ca"
 os.makedirs(TMP, exist_ok=True)
-T = f"from public.clickaffiliate_views where created_at > now() - interval '{NGAY} days'"
+T = f"from public.clickaffiliate_views where created_at > now() - interval '{NGAY} days' and path not like '/\_\_%'"
 CAU = {
     "ngay": f"select to_char(created_at at time zone 'Asia/Ho_Chi_Minh','MM-DD') as n, count(*) filter (where loai='xem') as luot, "
             f"count(distinct khach) as nguoi, count(*) filter (where loai='go') as click {T} group by 1 order by 1",
