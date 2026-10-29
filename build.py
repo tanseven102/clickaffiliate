@@ -20,8 +20,8 @@ P = urlparse(SITE_URL).path.rstrip("/")          # tiền tố đường dẫn (
 TEN = "ClickAffiliate"
 CHU = "Le Van Tan (Tan-Seven)"
 EMAIL = "tanseven5@gmail.com"
-# link affiliate riêng của anh Tân (Affitor, join 29/10/2026) — nút "Try …" trên trang chương trình đi qua link này
-LINK_AFF = {"velvet": "https://velvet.salon/?aff=onTMkQM", "landerlab": "https://landerlab.io/?aff=4EivyrF"}
+# link affiliate riêng của anh Tân — sổ gốc ở ~/projects/TAFFILIATE/du-lieu/so_link.json (lien_ket.py dong_bo chép sang đây)
+LINK_AFF = json.load(open(os.path.join(GOC, "data", "link_aff.json"), encoding="utf-8")) if os.path.exists(os.path.join(GOC, "data", "link_aff.json")) else {}
 INDEXNOW = "c1a7f3e9b2d84c6a9e0f5b7d3a8c2e41"  # khoá IndexNow (công khai), báo Bing/Copilot/ChatGPT tìm trang mới
 # mã xác minh Google Search Console (biến GSC trong repo) — có thì gắn thẻ meta
 GSC = f'<meta name="google-site-verification" content="{os.environ["GSC"]}">' if os.environ.get("GSC") else ""
@@ -720,7 +720,7 @@ def dung(nguon, ra, so_dang):
 <div class="card"><small>Payout</small><b>{e((tan.get('frequency') or '—').replace('-', ' '))}</b><span class="meta">{('min $' + str(tan['minimum'])) if isinstance(tan.get('minimum'), (int, float)) else ''}</span></div>
 <div class="card"><small>Approval</small><b>{e(p['approval'] or '—')}</b><span class="meta">{e(p['network'])}</span></div></div>
 <div style="display:flex;gap:10px;flex-wrap:wrap;margin:6px 0 10px"><a class="btn chinh" href="{e(p['signup'])}" rel="nofollow sponsored noopener" target="_blank">Apply to the program ↗</a>
-{f'<a class="btn chinh" href="{e(LINK_AFF[p["slug"]])}" rel="nofollow sponsored noopener" target="_blank">Try {e(p["name"])} ↗</a>' if p['slug'] in LINK_AFF else (f'<a class="btn" href="{e(p["url"])}" rel="nofollow noopener" target="_blank">Visit {e(p["domain"])} ↗</a>' if p['url'] else '')}
+{f'<a class="btn chinh" href="{u('go/' + p['slug'] + '/')}" rel="nofollow sponsored noopener" target="_blank">Try {e(p["name"])} ↗</a>' if p['slug'] in LINK_AFF else (f'<a class="btn" href="{e(p["url"])}" rel="nofollow noopener" target="_blank">Visit {e(p["domain"])} ↗</a>' if p['url'] else '')}
 {f'<a class="btn" href="{u("blog/" + rv["slug"] + "/")}">Read our review</a>' if rv else ''}</div>
 {f"<p><b>Commission details:</b> {e(p['c']['conditions'])}</p>" if p['c']['conditions'] else ''}
 <h2>ClickScore breakdown</h2><div class="card diem-chia">{chia}</div>
@@ -814,6 +814,13 @@ def dung(nguon, ra, so_dang):
 <li>Partnership and press questions.</li></ul>
 <p>You can also <a href="{REPO}/issues/new?title=Program:%20">open a public issue</a> to submit or correct a program.</p>
 </article></div>"""
+    # /go/<slug>/?k=<kênh>: mỗi kênh YouTube một link riêng, không gắn thẳng mã affiliate lên nhiều kênh (luật số 0)
+    for slug, dich in LINK_AFF.items():
+        ghi(ra, f"go/{slug}", f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,nofollow">
+<meta name="referrer" content="no-referrer"><meta http-equiv="refresh" content="0;url={e(dich)}"><title>Redirecting…</title></head>
+<body style="font-family:system-ui;padding:24px"><p>Redirecting to <a href="{e(dich)}" rel="nofollow sponsored">{e(urlparse(dich).netloc)}</a>…</p>
+<script>location.replace({json.dumps(dich)});</script></body></html>""")
+
     ghi(ra, "contact", khung(f"Contact {TEN}", f"How to reach {TEN}: email, program corrections and privacy requests.", "contact/", than))
 
     than = f"""<div class="wrap"><article class="doc"><h1>Privacy Policy</h1><p><i>{cap_nhat}</i></p>
