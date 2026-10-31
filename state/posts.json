@@ -420,5 +420,37 @@
   "slug": "best-communication-affiliate-programs-october-2026",
   "thang": "2026-10",
   "type": "best"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "review-purevpn",
+  "prog": "purevpn",
+  "slug": "purevpn-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "clozure",
+  "b": "calilio",
+  "cat": "Business Operations",
+  "date": "2026-10-31",
+  "key": "vs-clozure-calilio",
+  "slug": "clozure-vs-calilio-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-10-31",
+  "key": "review-rybbit",
+  "prog": "rybbit",
+  "slug": "rybbit-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "mozello",
+  "b": "ghost",
+  "cat": "Content Management",
+  "date": "2026-10-31",
+  "key": "vs-mozello-ghost",
+  "slug": "mozello-vs-ghost-affiliate-program",
+  "type": "vs"
  }
 ]
