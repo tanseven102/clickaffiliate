@@ -452,5 +452,37 @@
   "key": "vs-mozello-ghost",
   "slug": "mozello-vs-ghost-affiliate-program",
   "type": "vs"
+ },
+ {
+  "cat": "AI",
+  "date": "2026-11-01",
+  "key": "best-ai-2026-11",
+  "slug": "best-ai-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
+ },
+ {
+  "date": "2026-11-01",
+  "key": "review-webflow",
+  "prog": "webflow",
+  "slug": "webflow-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "vozqi",
+  "b": "bankstatementtoexcel",
+  "cat": "Finance",
+  "date": "2026-11-01",
+  "key": "vs-vozqi-bankstatementtoexcel",
+  "slug": "vozqi-vs-bankstatementtoexcel-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Productivity",
+  "date": "2026-11-01",
+  "key": "best-productivity-2026-11",
+  "slug": "best-productivity-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
  }
 ]
