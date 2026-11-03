@@ -514,5 +514,37 @@
   "key": "vs-springbolt-id-notify-me",
   "slug": "springbolt-id-vs-notify-me-affiliate-program",
   "type": "vs"
+ },
+ {
+  "cat": "Developer Tools",
+  "date": "2026-11-03",
+  "key": "best-developer-tools-2026-11",
+  "slug": "best-developer-tools-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
+ },
+ {
+  "date": "2026-11-03",
+  "key": "review-iobit",
+  "prog": "iobit",
+  "slug": "iobit-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "mailbluster",
+  "b": "stripo",
+  "cat": "Email Marketing",
+  "date": "2026-11-03",
+  "key": "vs-mailbluster-stripo",
+  "slug": "mailbluster-vs-stripo-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Sales",
+  "date": "2026-11-03",
+  "key": "best-sales-2026-11",
+  "slug": "best-sales-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
  }
 ]
