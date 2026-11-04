@@ -546,5 +546,37 @@
   "slug": "best-sales-affiliate-programs-november-2026",
   "thang": "2026-11",
   "type": "best"
+ },
+ {
+  "cat": "Infrastructure",
+  "date": "2026-11-04",
+  "key": "best-infrastructure-2026-11",
+  "slug": "best-infrastructure-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
+ },
+ {
+  "date": "2026-11-04",
+  "key": "review-deepbrid",
+  "prog": "deepbrid",
+  "slug": "deepbrid-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "pipeline-crm",
+  "b": "softsync",
+  "cat": "CRM",
+  "date": "2026-11-04",
+  "key": "vs-pipeline-crm-softsync",
+  "slug": "pipeline-crm-vs-softsync-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "E-Commerce",
+  "date": "2026-11-04",
+  "key": "best-e-commerce-2026-11",
+  "slug": "best-e-commerce-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
  }
 ]
