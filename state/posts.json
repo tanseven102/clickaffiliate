@@ -610,5 +610,37 @@
   "slug": "best-security-affiliate-programs-november-2026",
   "thang": "2026-11",
   "type": "best"
+ },
+ {
+  "cat": "Customer Support",
+  "date": "2026-11-06",
+  "key": "best-customer-support-2026-11",
+  "slug": "best-customer-support-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
+ },
+ {
+  "date": "2026-11-06",
+  "key": "review-siteground",
+  "prog": "siteground",
+  "slug": "siteground-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "rybbit",
+  "b": "agencyanalytics",
+  "cat": "Analytics",
+  "date": "2026-11-06",
+  "key": "vs-rybbit-agencyanalytics",
+  "slug": "rybbit-vs-agencyanalytics-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Analytics",
+  "date": "2026-11-06",
+  "key": "best-analytics-2026-11",
+  "slug": "best-analytics-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
  }
 ]
