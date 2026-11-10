@@ -736,5 +736,37 @@
   "key": "vs-mdbootstrap-instatus",
   "slug": "mdbootstrap-vs-instatus-affiliate-program",
   "type": "vs"
+ },
+ {
+  "cat": "SaaS",
+  "date": "2026-11-10",
+  "key": "best-saas-2026-11",
+  "slug": "best-saas-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
+ },
+ {
+  "date": "2026-11-10",
+  "key": "review-omniseo",
+  "prog": "omniseo",
+  "slug": "omniseo-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "krystal",
+  "b": "servermania",
+  "cat": "Infrastructure",
+  "date": "2026-11-10",
+  "key": "vs-krystal-servermania",
+  "slug": "krystal-vs-servermania-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "cat": "Email Marketing",
+  "date": "2026-11-10",
+  "key": "best-email-marketing-2026-11",
+  "slug": "best-email-marketing-affiliate-programs-november-2026",
+  "thang": "2026-11",
+  "type": "best"
  }
 ]
