@@ -622,6 +622,8 @@ def dung(nguon, ra, so_dang):
         shutil.rmtree(ra)
     os.makedirs(ra)
     shutil.copytree(os.path.join(GOC, "assets"), os.path.join(ra, "assets"))
+    # trang Clickbooking (đặt suất tài trợ trên kênh YouTube) — file tĩnh, chép nguyên
+    shutil.copytree(os.path.join(GOC, "booking"), os.path.join(ra, "booking"))
     so_ver = sum(p["verified"] for p in ds)
     org = {"@context": "https://schema.org", "@type": "Organization", "name": TEN, "url": SITE_URL + "/", "logo": f"{SITE_URL}/assets/icon-512.png"}
 
