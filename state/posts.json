@@ -800,5 +800,37 @@
   "slug": "best-communication-affiliate-programs-november-2026",
   "thang": "2026-11",
   "type": "best"
+ },
+ {
+  "date": "2026-11-12",
+  "key": "review-rightblogger",
+  "prog": "rightblogger",
+  "slug": "rightblogger-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "invoice-ninja",
+  "b": "link-my-books",
+  "cat": "Finance",
+  "date": "2026-11-12",
+  "key": "vs-invoice-ninja-link-my-books",
+  "slug": "invoice-ninja-vs-link-my-books-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-12",
+  "key": "review-framer",
+  "prog": "framer",
+  "slug": "framer-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "dealcheck",
+  "b": "tiquiz",
+  "cat": "SaaS",
+  "date": "2026-11-12",
+  "key": "vs-dealcheck-tiquiz",
+  "slug": "dealcheck-vs-tiquiz-affiliate-program",
+  "type": "vs"
  }
 ]
