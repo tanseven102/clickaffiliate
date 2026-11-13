@@ -832,5 +832,37 @@
   "key": "vs-dealcheck-tiquiz",
   "slug": "dealcheck-vs-tiquiz-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-13",
+  "key": "review-marketing-miner",
+  "prog": "marketing-miner",
+  "slug": "marketing-miner-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "chamaileon",
+  "b": "mailerlite",
+  "cat": "Email Marketing",
+  "date": "2026-11-13",
+  "key": "vs-chamaileon-mailerlite",
+  "slug": "chamaileon-vs-mailerlite-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-13",
+  "key": "review-mdbootstrap",
+  "prog": "mdbootstrap",
+  "slug": "mdbootstrap-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "seobility",
+  "b": "iwrity",
+  "cat": "Marketing",
+  "date": "2026-11-13",
+  "key": "vs-seobility-iwrity",
+  "slug": "seobility-vs-iwrity-affiliate-program",
+  "type": "vs"
  }
 ]
