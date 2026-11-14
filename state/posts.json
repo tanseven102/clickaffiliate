@@ -864,5 +864,37 @@
   "key": "vs-seobility-iwrity",
   "slug": "seobility-vs-iwrity-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-14",
+  "key": "review-flexispy",
+  "prog": "flexispy",
+  "slug": "flexispy-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "flexispy",
+  "b": "cookieyes",
+  "cat": "Security",
+  "date": "2026-11-14",
+  "key": "vs-flexispy-cookieyes",
+  "slug": "flexispy-vs-cookieyes-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-14",
+  "key": "review-rask-ai",
+  "prog": "rask-ai",
+  "slug": "rask-ai-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "offorte",
+  "b": "saleshandy",
+  "cat": "Sales",
+  "date": "2026-11-14",
+  "key": "vs-offorte-saleshandy",
+  "slug": "offorte-vs-saleshandy-affiliate-program",
+  "type": "vs"
  }
 ]
