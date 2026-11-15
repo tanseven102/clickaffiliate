@@ -896,5 +896,37 @@
   "key": "vs-offorte-saleshandy",
   "slug": "offorte-vs-saleshandy-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-15",
+  "key": "review-springbolt-id",
+  "prog": "springbolt-id",
+  "slug": "springbolt-id-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "podia",
+  "b": "tablejourney",
+  "cat": "E-Commerce",
+  "date": "2026-11-15",
+  "key": "vs-podia-tablejourney",
+  "slug": "podia-vs-tablejourney-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-15",
+  "key": "review-babylovegrowth",
+  "prog": "babylovegrowth",
+  "slug": "babylovegrowth-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "framer",
+  "b": "sender",
+  "cat": "Design",
+  "date": "2026-11-15",
+  "key": "vs-framer-sender",
+  "slug": "framer-vs-sender-affiliate-program",
+  "type": "vs"
  }
 ]
