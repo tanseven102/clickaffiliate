@@ -928,5 +928,34 @@
   "key": "vs-framer-sender",
   "slug": "framer-vs-sender-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-16",
+  "key": "week-2026-47",
+  "slug": "new-affiliate-programs-week-47-2026",
+  "type": "week"
+ },
+ {
+  "date": "2026-11-16",
+  "key": "review-ghost",
+  "prog": "ghost",
+  "slug": "ghost-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "flowlu",
+  "b": "seerist",
+  "cat": "Business Operations",
+  "date": "2026-11-16",
+  "key": "vs-flowlu-seerist",
+  "slug": "flowlu-vs-seerist-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-16",
+  "key": "review-pagergpt",
+  "prog": "pagergpt",
+  "slug": "pagergpt-affiliate-program-review",
+  "type": "review"
  }
 ]
