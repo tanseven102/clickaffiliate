@@ -957,5 +957,37 @@
   "prog": "pagergpt",
   "slug": "pagergpt-affiliate-program-review",
   "type": "review"
+ },
+ {
+  "date": "2026-11-17",
+  "key": "review-ringcentral",
+  "prog": "ringcentral",
+  "slug": "ringcentral-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "nuelink",
+  "b": "postall",
+  "cat": "Social Media",
+  "date": "2026-11-17",
+  "key": "vs-nuelink-postall",
+  "slug": "nuelink-vs-postall-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-17",
+  "key": "review-rippling",
+  "prog": "rippling",
+  "slug": "rippling-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "automattic",
+  "b": "storychief",
+  "cat": "Content Management",
+  "date": "2026-11-17",
+  "key": "vs-automattic-storychief",
+  "slug": "automattic-vs-storychief-affiliate-program",
+  "type": "vs"
  }
 ]
