@@ -989,5 +989,37 @@
   "key": "vs-automattic-storychief",
   "slug": "automattic-vs-storychief-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-18",
+  "key": "review-citeflow",
+  "prog": "citeflow",
+  "slug": "citeflow-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "krot-io",
+  "b": "magmira",
+  "cat": "HR & Recruiting",
+  "date": "2026-11-18",
+  "key": "vs-krot-io-magmira",
+  "slug": "krot-io-vs-magmira-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-18",
+  "key": "review-eziclip",
+  "prog": "eziclip",
+  "slug": "eziclip-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "hubspot",
+  "b": "clearcrm",
+  "cat": "CRM",
+  "date": "2026-11-18",
+  "key": "vs-hubspot-clearcrm",
+  "slug": "hubspot-vs-clearcrm-affiliate-program",
+  "type": "vs"
  }
 ]
