@@ -1021,5 +1021,37 @@
   "key": "vs-hubspot-clearcrm",
   "slug": "hubspot-vs-clearcrm-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-19",
+  "key": "review-servermania",
+  "prog": "servermania",
+  "slug": "servermania-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "report-to-santa",
+  "b": "circle",
+  "cat": "Communication",
+  "date": "2026-11-19",
+  "key": "vs-report-to-santa-circle",
+  "slug": "report-to-santa-vs-circle-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-19",
+  "key": "review-surfer-seo",
+  "prog": "surfer-seo",
+  "slug": "surfer-seo-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "pricely",
+  "b": "swipe-again",
+  "cat": "Finance",
+  "date": "2026-11-19",
+  "key": "vs-pricely-swipe-again",
+  "slug": "pricely-vs-swipe-again-affiliate-program",
+  "type": "vs"
  }
 ]
