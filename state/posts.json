@@ -1053,5 +1053,37 @@
   "key": "vs-pricely-swipe-again",
   "slug": "pricely-vs-swipe-again-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-20",
+  "key": "review-vozqi",
+  "prog": "vozqi",
+  "slug": "vozqi-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "riley",
+  "b": "unitel-voice",
+  "cat": "Customer Support",
+  "date": "2026-11-20",
+  "key": "vs-riley-unitel-voice",
+  "slug": "riley-vs-unitel-voice-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-20",
+  "key": "review-123formbuilder",
+  "prog": "123formbuilder",
+  "slug": "123formbuilder-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "bloom",
+  "b": "ticket-tailor",
+  "cat": "SaaS",
+  "date": "2026-11-20",
+  "key": "vs-bloom-ticket-tailor",
+  "slug": "bloom-vs-ticket-tailor-affiliate-program",
+  "type": "vs"
  }
 ]
