@@ -1117,5 +1117,37 @@
   "key": "vs-eziclip-rightblogger",
   "slug": "eziclip-vs-rightblogger-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-22",
+  "key": "review-qr-lion",
+  "prog": "qr-lion",
+  "slug": "qr-lion-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "storepanes",
+  "b": "webydo",
+  "cat": "Design",
+  "date": "2026-11-22",
+  "key": "vs-storepanes-webydo",
+  "slug": "storepanes-vs-webydo-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-22",
+  "key": "review-storepanes",
+  "prog": "storepanes",
+  "slug": "storepanes-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "123formbuilder",
+  "b": "dext",
+  "cat": "Productivity",
+  "date": "2026-11-22",
+  "key": "vs-123formbuilder-dext",
+  "slug": "123formbuilder-vs-dext-affiliate-program",
+  "type": "vs"
  }
 ]
