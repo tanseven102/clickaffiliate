@@ -1149,5 +1149,34 @@
   "key": "vs-123formbuilder-dext",
   "slug": "123formbuilder-vs-dext-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-23",
+  "key": "week-2026-48",
+  "slug": "new-affiliate-programs-week-48-2026",
+  "type": "week"
+ },
+ {
+  "date": "2026-11-23",
+  "key": "review-fliki",
+  "prog": "fliki",
+  "slug": "fliki-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "css-hero",
+  "b": "mailersend",
+  "cat": "Developer Tools",
+  "date": "2026-11-23",
+  "key": "vs-css-hero-mailersend",
+  "slug": "css-hero-vs-mailersend-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-23",
+  "key": "review-fluf-connect",
+  "prog": "fluf-connect",
+  "slug": "fluf-connect-affiliate-program-review",
+  "type": "review"
  }
 ]
