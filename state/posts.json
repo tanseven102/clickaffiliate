@@ -1178,5 +1178,37 @@
   "prog": "fluf-connect",
   "slug": "fluf-connect-affiliate-program-review",
   "type": "review"
+ },
+ {
+  "date": "2026-11-24",
+  "key": "review-interserver",
+  "prog": "interserver",
+  "slug": "interserver-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "interserver",
+  "b": "wp-engine",
+  "cat": "Infrastructure",
+  "date": "2026-11-24",
+  "key": "vs-interserver-wp-engine",
+  "slug": "interserver-vs-wp-engine-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-24",
+  "key": "review-magiclight",
+  "prog": "magiclight",
+  "slug": "magiclight-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "streak-crm-for-gmail",
+  "b": "pumpgtm",
+  "cat": "Sales",
+  "date": "2026-11-24",
+  "key": "vs-streak-crm-for-gmail-pumpgtm",
+  "slug": "streak-crm-for-gmail-vs-pumpgtm-affiliate-program",
+  "type": "vs"
  }
 ]
