@@ -1210,5 +1210,37 @@
   "key": "vs-streak-crm-for-gmail-pumpgtm",
   "slug": "streak-crm-for-gmail-vs-pumpgtm-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-25",
+  "key": "review-pixverse",
+  "prog": "pixverse",
+  "slug": "pixverse-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "seed4me",
+  "b": "usercentrics",
+  "cat": "Security",
+  "date": "2026-11-25",
+  "key": "vs-seed4me-usercentrics",
+  "slug": "seed4me-vs-usercentrics-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-25",
+  "key": "review-sender",
+  "prog": "sender",
+  "slug": "sender-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "sellercenter",
+  "b": "pagefly",
+  "cat": "E-Commerce",
+  "date": "2026-11-25",
+  "key": "vs-sellercenter-pagefly",
+  "slug": "sellercenter-vs-pagefly-affiliate-program",
+  "type": "vs"
  }
 ]
