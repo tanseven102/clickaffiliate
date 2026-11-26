@@ -1242,5 +1242,37 @@
   "key": "vs-sellercenter-pagefly",
   "slug": "sellercenter-vs-pagefly-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-26",
+  "key": "review-provide-support",
+  "prog": "provide-support",
+  "slug": "provide-support-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "insightful",
+  "b": "usermaven",
+  "cat": "Analytics",
+  "date": "2026-11-26",
+  "key": "vs-insightful-usermaven",
+  "slug": "insightful-vs-usermaven-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-26",
+  "key": "review-storychief",
+  "prog": "storychief",
+  "slug": "storychief-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "jg-core",
+  "b": "rentaneo",
+  "cat": "Business Operations",
+  "date": "2026-11-26",
+  "key": "vs-jg-core-rentaneo",
+  "slug": "jg-core-vs-rentaneo-affiliate-program",
+  "type": "vs"
  }
 ]
