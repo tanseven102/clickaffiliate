@@ -1274,5 +1274,37 @@
   "key": "vs-jg-core-rentaneo",
   "slug": "jg-core-vs-rentaneo-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-27",
+  "key": "review-wp-engine",
+  "prog": "wp-engine",
+  "slug": "wp-engine-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "ki-websitebuilder-pro",
+  "b": "unchained-music",
+  "cat": "Content Management",
+  "date": "2026-11-27",
+  "key": "vs-ki-websitebuilder-pro-unchained-music",
+  "slug": "ki-websitebuilder-pro-vs-unchained-music-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-27",
+  "key": "review-aitable-ai",
+  "prog": "aitable-ai",
+  "slug": "aitable-ai-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "adp",
+  "b": "deel",
+  "cat": "HR & Recruiting",
+  "date": "2026-11-27",
+  "key": "vs-adp-deel",
+  "slug": "adp-vs-deel-affiliate-program",
+  "type": "vs"
  }
 ]
