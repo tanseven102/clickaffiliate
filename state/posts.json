@@ -1306,5 +1306,37 @@
   "key": "vs-adp-deel",
   "slug": "adp-vs-deel-affiliate-program",
   "type": "vs"
+ },
+ {
+  "date": "2026-11-28",
+  "key": "review-bika-ai",
+  "prog": "bika-ai",
+  "slug": "bika-ai-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "1of10",
+  "b": "ocoya",
+  "cat": "Social Media",
+  "date": "2026-11-28",
+  "key": "vs-1of10-ocoya",
+  "slug": "1of10-vs-ocoya-affiliate-program",
+  "type": "vs"
+ },
+ {
+  "date": "2026-11-28",
+  "key": "review-cookieyes",
+  "prog": "cookieyes",
+  "slug": "cookieyes-affiliate-program-review",
+  "type": "review"
+ },
+ {
+  "a": "omnisend",
+  "b": "sendpulse",
+  "cat": "Email Marketing",
+  "date": "2026-11-28",
+  "key": "vs-omnisend-sendpulse",
+  "slug": "omnisend-vs-sendpulse-affiliate-program",
+  "type": "vs"
  }
 ]
